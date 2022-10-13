@@ -115,7 +115,7 @@ const Footer = () => {
         </Link>
       </div>
       {/* Right Side */}
-      <div className='flex flex-col items-center lg:items-end text-lg font-mont text-darkpurple2'>
+      <div className='flex flex-col items-center lg:items-end text-lg font-mont text-pri'>
         <div className='flex flex-col items-center lg:items-end font-medium'>
           <p>© 2022 Shredding Sassy</p>
           <p>Bold by nature</p>
