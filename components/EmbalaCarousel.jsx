@@ -18,7 +18,7 @@ import useEmblaCarousel from 'embla-carousel-react'
 export const EmblaCarousel = () => {
   const [viewportRef, embla] = useEmblaCarousel({
     dragFree: true,
-    containScroll: "trimSnaps",
+    containScroll: true,
   });
 
   return (
