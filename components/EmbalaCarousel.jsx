@@ -12,19 +12,18 @@ import image9 from '../assets/9.png'
 import image10 from '../assets/10.png'
 import image11 from '../assets/11.png'
 import image12 from '../assets/12.png'
-
 import useEmblaCarousel from 'embla-carousel-react'
 
 export const EmblaCarousel = () => {
   const [viewportRef, embla] = useEmblaCarousel({
     dragFree: true,
-    containScroll: true,
+    containScroll: "trimSnaps",
   });
 
   return (
-    <div className="flex max-w-fit	">
-      <div className='mt-10 overflow-hidden ml-8 sm:ml-4 md:ml-12' ref={viewportRef}>
-        <div className="flex cursor-grab space-x-12">
+    <div className="flex w-full">
+      <div className='mt-10 overflow-hidden w-[100%]' ref={viewportRef}>
+        <div className="flex cursor-grab space-x-12 ml-8 sm:ml-4 md:ml-12 lg:mr-8">
           <div className="flex items-end shrink-0 mx-4">
             <Image
               src={image6}

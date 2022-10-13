@@ -16,7 +16,7 @@ const CarouselHolder = () => {
         </p>
       </div>
       {/* Carousel */}
-      <div className='flex w-full'>
+      <div className='flex w-full items-center justify-center'>
         <EmbalaCarousel />
       </div>
     </div>
