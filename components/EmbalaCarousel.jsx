@@ -24,10 +24,10 @@ export const EmblaCarousel = () => {
   return (
     <div className="embala flex overflow-hidden w-full">
       <div className='viewport mt-10' ref={viewportRef}>
-        <div className="flex cursor-grab items-start space-x-16 ml-12 sm:ml-4">
+        <div className="flex cursor-grab items-start space-x-12 ml-12 sm:ml-4 md:ml-12">
           <div className="flex items-end shrink-0 mx-4">
             <Image
-              src={image1}
+              src={image6}
               alt='Image 1'
               height={300}
               width={300}
@@ -45,7 +45,7 @@ export const EmblaCarousel = () => {
           </div>
           <div className="flex items-end shrink-0 mx-4">
             <Image
-              src={image3}
+              src={image10}
               alt='Image 3'
               height={300}
               width={300}
@@ -54,7 +54,7 @@ export const EmblaCarousel = () => {
           </div>
           <div className="flex items-end shrink-0 mx-4">
             <Image
-              src={image4}
+              src={image1}
               alt='Image 4'
               height={300}
               width={300}
@@ -72,7 +72,7 @@ export const EmblaCarousel = () => {
           </div>
           <div className="flex items-end shrink-0 mx-4">
             <Image
-              src={image6}
+              src={image9}
               alt='Image 6'
               height={300}
               width={300}
@@ -99,7 +99,7 @@ export const EmblaCarousel = () => {
           </div>
           <div className="flex items-end shrink-0 mx-4">
             <Image
-              src={image9}
+              src={image4}
               alt='Image 6'
               height={300}
               width={300}
@@ -108,7 +108,7 @@ export const EmblaCarousel = () => {
           </div>
           <div className="flex items-end shrink-0 mx-4">
             <Image
-              src={image10}
+              src={image3}
               alt='Image 6'
               height={300}
               width={300}
