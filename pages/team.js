@@ -230,10 +230,10 @@ const team = () => {
 
                   >
                     <Image
-                      src={twitter}
-                      alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      src={instagram}
+                      alt='Instagram Logo'
+                      height={30}
+                      width={30}
                     >
                     </Image>
                   </Link>
@@ -554,18 +554,7 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
-                  >
-                    <Image
-                      src={twitter}
-                      alt='Twitter Logo'
-                      height={20}
-                      width={25}
-                    >
-                    </Image>
-                  </Link>
+                  {/* Future Link Here */}
                 </div>
 
               </div>
@@ -601,18 +590,7 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
-                  >
-                    <Image
-                      src={twitter}
-                      alt='Twitter Logo'
-                      height={20}
-                      width={25}
-                    >
-                    </Image>
-                  </Link>
+                  {/* Future Link Here */}
                 </div>
 
               </div>

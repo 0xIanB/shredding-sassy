@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import EmbalaCarousel from './EmbalaCarousel'
 
 const CarouselHolder = () => {
   return (
@@ -13,6 +14,10 @@ const CarouselHolder = () => {
         <p className='text-md text-center text-pri font-medium p-2'>
         Our Sassy NFTs are contrived from over 150 unique, hand drawn traits with varying rarity.  Each one represents a DAO vote and membership to the <span className='underline font-semibold'>Shredding Sassy Social Club.</span> 
         </p>
+      </div>
+      {/* Carousel */}
+      <div className='flex w-full items-start'>
+        <EmbalaCarousel />
       </div>
     </div>
   )

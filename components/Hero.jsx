@@ -16,8 +16,8 @@ const Hero = () => {
         <Image
           src={mobileHero}
           alt='Mobile Hero'
-          height={720}
-          width={470}
+          height={800}
+          width={500}
         >
         </Image>
       </div>

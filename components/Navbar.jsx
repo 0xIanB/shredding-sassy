@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import headerImg from '../assets/logo.png'
@@ -11,8 +11,27 @@ import mobilenav from '../assets/navmobile.png'
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
 
+  const [scrollDirection, setScrollDirection] = useState(null);
+
+  useEffect(() => {
+    let lastScrollY = window.pageYOffset;
+
+    const updateScrollDirection = () => {
+      const scrollY = window.pageYOffset;
+      const direction = scrollY > lastScrollY ? "down" : "up";
+      if (direction !== scrollDirection && (scrollY - lastScrollY > 10 || scrollY - lastScrollY < -10)) {
+        setScrollDirection(direction);
+      }
+      lastScrollY = scrollY > 0 ? scrollY : 0;
+    };
+    window.addEventListener("scroll", updateScrollDirection); // add event listener
+    return () => {
+      window.removeEventListener("scroll", updateScrollDirection); // clean up
+    }
+  }, [scrollDirection]);
+
   return (
-    <div className='sticky z-50 flex items-start justify-between bg-white shadow-xl'>
+    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} h-24 z-50 flex items-start justify-between bg-white shadow-xl transition-all duration-500`}>
           {/* Sassy Logo Box */}
           <div className='hidden lg:inline-flex p-4 pt-5 shrink-0 hover:cursor-pointer'>
         <Link href='/'>    
