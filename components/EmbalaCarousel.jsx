@@ -23,7 +23,7 @@ export const EmblaCarousel = () => {
   return (
     <div className="flex w-full">
       <div className='mt-10 overflow-hidden w-[100%]' ref={viewportRef}>
-        <div className="flex cursor-grab space-x-12 ml-8 sm:ml-4 md:ml-12 lg:mr-8">
+        <div className="flex cursor-grab space-x-12 ml-4 md:ml-12 lg:mr-8">
           <div className="flex items-end shrink-0 mx-4">
             <Image
               src={image6}
