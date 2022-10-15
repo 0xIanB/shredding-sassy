@@ -1,5 +1,5 @@
 import React from 'react'
-import EmbalaCarousel from './EmbalaCarousel'
+import EmblaCarousel from './EmblaCarousel'
 
 const CarouselHolder = () => {
   return (
@@ -16,7 +16,7 @@ const CarouselHolder = () => {
       </div>
       {/* Carousel */}
       <div className='flex w-full items-center justify-center'>
-        <EmbalaCarousel />
+        <EmblaCarousel />
       </div>
     </div>
   )

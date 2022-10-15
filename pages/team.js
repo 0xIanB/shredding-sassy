@@ -50,9 +50,9 @@ const team = () => {
       <Navbar />
         
         {/* Header */}
-        <div className='flex flex-col md:flex-row px-4 mt-20 lg:-mb-[200px] justify-between'>
+        <div className='flex flex-col md:flex-row px-4 mt-20 justify-between'>
           {/* Left Side */}
-          <div className='flex flex-col md:w-1/2 space-y-8'>
+          <div className='flex flex-col lg:w-1/2 space-y-8'>
             {/* Title */}
               <div className='flex w-full justify-center lg:justify-start md:ml-6'>
                 <Image
@@ -65,13 +65,13 @@ const team = () => {
             
               </div>
             {/* Info */}
-            <div className='flex flex-col mx-6 md:ml-[65px] lg:ml-24 space-y-8 lg:mr-20 text-center md:text-left'>
+            <div className='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center lg:text-left'>
               <p className='text-md md:text-lg font-medium text-darkpurple2 '>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
               <p className='text-md md:text-lg font-medium text-darkpurple2'>Pioneering a new kind of brand that we build together.</p>
             </div>
           </div>
           {/* Right Side */}
-          <div className='hidden lg:inline-flex mr-20 items-center mt-18 lg:-mb-6'>
+          <div className='hidden lg:inline-flex mr-20 items-center mt-18 -mb-20'>
             {/* Sassy 1 */}
             <div className='-mr-[130px]'>
               <Image
@@ -96,15 +96,15 @@ const team = () => {
         </div>
         
         {/* Core Team */}
-        <div className='flex flex-col ml-14 md:ml-20 lg:ml-[110px] mt-20'>
+        <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start'>
         {/* Title */}
-        <div className='flex flex-col mb-10 lg:mt-20 text-center md:text-start mr-14 md:mr-0 '>
+        <div className='flex flex-col text-center sm:text-start mb-8'>
           <h1 className='font-bold text-3xl text-darkpurple2 '>Core Team</h1>
         </div> 
           {/* Team Cards */}
-          <div className='flex flex-row flex-wrap space-x-2 justify-center md:justify-start'>
+          <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[330px] pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -115,9 +115,8 @@ const team = () => {
                 >
                 </Image>
               </div>
-
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4 '>
+              <div className='flex flex-row items-center justify-between py-4'>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
@@ -131,9 +130,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-                    
+                  <a
+                    href='https://twitter.com/_odyssey6'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={twitter}
@@ -142,7 +142,7 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
@@ -152,7 +152,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -178,9 +178,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
+                  <a
+                    href='https://twitter.com/PepePeddler'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={twitter}
@@ -189,7 +190,7 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
@@ -199,8 +200,8 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
-              {/* Image */}
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>              
+            {/* Image */}
               <div>
                 <Image
                   src={olliesassy}
@@ -225,9 +226,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
+                  <a
+                    href='https://www.instagram.com/olliemx131'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -236,7 +238,7 @@ const team = () => {
                       width={30}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
@@ -246,8 +248,8 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
-              {/* Image */}
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>             
+             {/* Image */}
               <div>
                 <Image
                   src={raabsassy}
@@ -272,9 +274,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
+                  <a
+                    href='https://twitter.com/Raabsk1'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={twitter}
@@ -283,7 +286,7 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
@@ -293,7 +296,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -319,9 +322,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
+                  <a
+                    href='https://twitter.com/hellomstrfrnk'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={twitter}
@@ -330,7 +334,7 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
@@ -340,7 +344,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -366,9 +370,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
+                  <a
+                    href='https://twitter.com/jaybird_nft'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={twitter}
@@ -377,17 +382,17 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>A lifelong recreational skier with over 10 years experience in design, marketing and branding ecommerce businesses. In the crypto space since 2017 and and has been involved with community NFT art collections as both a creator and builder.</p>
+                <p>{"Find Jay making a friend on the chairlift or shredding fresh pow in Whistler, Canada. Or find him down the NFT rabbit hole as the co-host of the Web3 Academy podcast. Over 20 years working across disciplines - from branding, customer acquisition, tech, and strategy - he's guided digital products to scale to a global audience."}</p>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -413,9 +418,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
-
+                  <a
+                    href='https://twitter.com/t_gal11'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={twitter}
@@ -424,17 +430,17 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>Needs Completed </p>
+                <p>{"Tyler is a 'has been' snowboarder but now enjoys surfing, photography and a good beer every now and then. He's a web designer at ImpactDM specializing in web3 projects and has over 5 years of creative experience with building websites, graphic design and video editing. He's been involved in the crypto space since 2020."}</p>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -460,8 +466,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://twitter.com/IanWBoyle'
+                    rel='noreferrer'
+                    target='_blank'
 
                   >
                     <Image
@@ -471,17 +479,17 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>Needs completed</p>
+                <p>{"Ex-Counterintelligence agent, and Armed Forces Veteran. Has spent over a decade in surveillance, hacking, and cybersecurity. His focus is now on Smart Contracts, Web Development, and Blockchain Security. Is an active NFT collector, and DeFi protocol user."} </p>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -507,8 +515,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://twitter.com/n8amis1'
+                    rel='noreferrer'
+                    target='_blank'
 
                   >
                     <Image
@@ -518,7 +528,7 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
 
               </div>
@@ -528,7 +538,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -564,7 +574,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-12 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -603,16 +613,15 @@ const team = () => {
         </div>
 
         {/* Pros & Ambassadors */}
-        <div className='flex flex-col pl-14 lg:pl-[110px] mt-20'>
-          
-          {/* Title */}
-          <div>
-            <h1 className='font-bold text-3xl text-center md:text-start mr-14 lg:mr-0 text-darkpurple2 pb-10'>Pros & Ambassadors</h1>
-          </div>
-          {/* Team Cards */}
-          <div className='flex flex-row flex-wrap'>
+        <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start'>
+        {/* Title */}
+        <div className='flex flex-col text-center sm:text-start mb-8'>
+          <h1 className='font-bold text-3xl text-darkpurple2 '>Pros & Ambassadors</h1>
+        </div> 
+          {/* Pro Cards */}
+          <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -638,8 +647,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-7 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/bentudhope'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -648,12 +659,12 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -679,8 +690,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-7 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/garrettgeros22'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -689,12 +702,12 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -711,7 +724,7 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2 w-75%'>james barnes miller</h1>
+                    <h1 className='uppercase text-3xl font-bold text-darkpurple2 w-75%'>james barnes-miller</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -720,22 +733,24 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-[65px] cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/stubbergram'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={33}
-                      width={33}
+                      height={25}
+                      width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -761,8 +776,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-7 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/jonjoeboulter'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -771,12 +788,12 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -802,8 +819,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-[65px] cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/karelvangoor'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -812,12 +831,12 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -843,8 +862,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-7 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/grizzlygabel'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -853,12 +874,12 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -884,8 +905,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-7 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/elliott_sendy'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -894,12 +917,12 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -925,8 +948,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-7 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/doctburdick'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -935,12 +960,12 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -966,8 +991,10 @@ const team = () => {
                 </div>
                 {/* Right Side */}
                 <div className='flex pb-7 cursor-pointer'>
-                  <Link
-                    href='/'
+                  <a
+                    href='https://www.instagram.com/themountainmiller'
+                    rel='noreferrer'
+                    target='_blank'
                   >
                     <Image
                       src={instagram}
@@ -976,7 +1003,7 @@ const team = () => {
                       width={25}
                     >
                     </Image>
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -984,16 +1011,15 @@ const team = () => {
         </div>
         
         {/* Partners */}
-        <div className='flex flex-col pl-14 lg:pl-[110px] mt-20 mb-20'>
-          
-          {/* Title */}
-          <div>
-            <h1 className='font-bold text-3xl text-darkpurple2 pb-10 text-center md:text-start mr-14 lg:mr-0'>Partners</h1>
-          </div>
-          {/* Partner */}
-          <div className='flex flex-row flex-wrap'>
+        <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start'>
+        {/* Title */}
+        <div className='flex flex-col text-center sm:text-start mb-8'>
+          <h1 className='font-bold text-3xl text-darkpurple2 '>Partners</h1>
+        </div> 
+          {/* Partner Cards */}
+          <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[330px] pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -1006,7 +1032,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -1019,7 +1045,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -1032,7 +1058,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -1045,7 +1071,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -1058,7 +1084,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -1071,7 +1097,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
@@ -1084,7 +1110,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[330px]   pr-10 pb-10'>
+            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
