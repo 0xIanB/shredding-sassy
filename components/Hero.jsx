@@ -84,12 +84,12 @@ const Hero = () => {
           </div>
         </div>
         {/* Laying Sassy */}
-        <div className='hidden sm:inline-flex'>
+        <div className='hidden sm:inline-flex mt-12'>
           <Image
             src={animatedSassy}
             alt='Animated Sassy'
-            height={150}
-            width={275}
+            height={100}
+            width={200}
           >
           </Image>
         </div>

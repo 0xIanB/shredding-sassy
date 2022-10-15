@@ -48,19 +48,19 @@ const Navbar = () => {
       {/* Nav Links */}
       <div className='hidden justify-center lg:text-xl font-body items font-bold lg:inline-flex lg:p-7 lg:ml-12 lg:space-x-10 shrink-0'>
         <Link href='/sssc'>
-          <button className='linkBtn'>SSSC</button>
+          <button className='text-pri'>SSSC</button>
         </Link>
         <Link href='/team'>
-          <button className='linkBtn'>Team</button>
+          <button className='text-pri'>Team</button>
         </Link>
         <Link href='/trailmap'>
-          <button className='linkBtn'>Trail Map</button>
+          <button className='text-pri'>Trail Map</button>
         </Link>
         <Link href='/lore'>
-          <button className='linkBtn'>Lore</button>
+          <button className='text-pri'>Lore</button>
         </Link>
         <Link href='/shop'>
-          <button className='linkBtn'>Shop</button>
+          <button className='text-pri'>Shop</button>
         </Link>
       </div>
 
@@ -145,19 +145,19 @@ const Navbar = () => {
                 </div>
                 <div className='flex flex-col space-y-2'>
                   <Link href='/sssc'>
-                    <button className='linkBtn'>SSSC</button>
+                    <button className='text-pri'>SSSC</button>
                   </Link>
                   <Link href='/team'>
-                    <button className='linkBtn'>Team</button>
+                    <button className='text-pri'>Team</button>
                   </Link>
                   <Link href='/trailmap'>
-                    <button className='linkBtn'>Trail Map</button>
+                    <button className='text-pri'>Trail Map</button>
                   </Link>
                   <Link href='/lore'>
-                    <button className='linkBtn'>Lore</button>
+                    <button className='text-pri'>Lore</button>
                   </Link>
                   <Link href='/shop'>
-                    <button className='linkBtn'>Shop</button>
+                    <button className='text-pri'>Shop</button>
                   </Link>
                 </div>
                 
