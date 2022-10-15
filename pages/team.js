@@ -6,6 +6,9 @@ import shredders from '../assets/shredders.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/iglink.png'
 import josh from '../assets/josh.jpg'
+import raab from '../assets/raab.jpg'
+import ollie from '../assets/ollie.jpg'
+import jake from '../assets/jake.jpg'
 import joshsassy from '../assets/joshsassy.png'
 import jakesassy from '../assets/jakesassy.png'
 import olliesassy from '../assets/olliesassy.png'
@@ -62,7 +65,6 @@ const team = () => {
                   width={550}
                 >
                 </Image>
-            
               </div>
             {/* Info */}
             <div className='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center lg:text-left'>
@@ -106,10 +108,19 @@ const team = () => {
             {/* Card */}
             <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
-              <div>
+              <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={joshsassy}
                   alt='Josh Sassy'
+                  height={300}
+                  width={300}
+                >
+                </Image>
+              </div>
+              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+                <Image
+                  src={josh}
+                  alt='Josh'
                   height={300}
                   width={300}
                 >
@@ -154,10 +165,19 @@ const team = () => {
             {/* Card */}
             <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
-              <div>
+              <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={jakesassy}
                   alt='Jake Sassy'
+                  height={300}
+                  width={300}
+                >
+                </Image>
+              </div>
+              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+                <Image
+                  src={jake}
+                  alt='Jake'
                   height={300}
                   width={300}
                 >
@@ -202,10 +222,19 @@ const team = () => {
             {/* Card */}
             <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>              
             {/* Image */}
-              <div>
+              <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={olliesassy}
                   alt='Ollie Sassy'
+                  height={300}
+                  width={300}
+                >
+                </Image>
+              </div>
+              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+                <Image
+                  src={ollie}
+                  alt='Ollie'
                   height={300}
                   width={300}
                 >
@@ -250,10 +279,19 @@ const team = () => {
             {/* Card */}
             <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>             
              {/* Image */}
-              <div>
+              <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={raabsassy}
                   alt='Raab Sassy'
+                  height={300}
+                  width={300}
+                >
+                </Image>
+              </div>
+              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+                <Image
+                  src={raab}
+                  alt='Raab'
                   height={300}
                   width={300}
                 >
