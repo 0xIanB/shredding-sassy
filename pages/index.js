@@ -14,7 +14,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Shredding Sassy</title>
-        <meta name="description" content="Description Goes Here" />
+        <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />

@@ -56,9 +56,6 @@ const Navbar = () => {
         <Link href='/trailmap'>
           <button className='text-pri'>Trail Map</button>
         </Link>
-        <Link href='/lore'>
-          <button className='text-pri'>Lore</button>
-        </Link>
         <Link href='/shop'>
           <button className='text-pri'>Shop</button>
         </Link>
@@ -152,9 +149,6 @@ const Navbar = () => {
                   </Link>
                   <Link href='/trailmap'>
                     <button className='text-pri'>Trail Map</button>
-                  </Link>
-                  <Link href='/lore'>
-                    <button className='text-pri'>Lore</button>
                   </Link>
                   <Link href='/shop'>
                     <button className='text-pri'>Shop</button>
