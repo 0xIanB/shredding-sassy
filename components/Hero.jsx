@@ -166,7 +166,7 @@ const Hero = () => {
         </div>
         {/* S2 Div */}
         <div className='flex'>
-          <div className='absolute z-0 hover:z-20'>
+          <div className='absolute z-0 hover:z-20 ml-5'>
             <Image
               src={s2Sassy}
               alt='S2 Sassy'
@@ -182,7 +182,7 @@ const Hero = () => {
           </div>
         </div>
         {/* S3 Div */}
-        <div className='flex ml-6'>
+        <div className='flex ml-3'>
           <div className='absolute z-0 hover:z-20'>
             <Image
               src={s3Sassy}
