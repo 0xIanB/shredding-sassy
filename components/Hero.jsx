@@ -39,7 +39,7 @@ const Hero = () => {
           </div>
           {/* Info */}
           <div className='flex flex-col items-start -ml-6 mt-1'>
-            <p className='text-pri text-sm font-mont font-medium -mb-1'>The World of //</p>
+            <p className='text-pri text-sm font-mont font-medium -mb-1'>{"The World of //"}</p>
             <h1 className='text-pri text-sm font-bold font-mont'>META MOUNTAIN</h1>
           </div>
           {/* Discover Button */}
