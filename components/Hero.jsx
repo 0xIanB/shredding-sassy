@@ -22,15 +22,15 @@ const Hero = () => {
           <Image
             src={mobileHero}
             alt='Mobile Hero'
-            height={590}
+            height={750}
             width={390}
           >
           </Image>
         </div>
         {/* Mobile Button */}
-        <div className='flex flex-row bg-white pt-3 justify-center -mt-28 z-10 mx-6 '>
+        <div className='flex flex-row bg-white pt-3 justify-center -mt-28 z-10 mx-6  '>
           {/* Sassy */}
-          <div className='flex items-start -mt-[90px] -ml-12'>
+          <div className='flex items-start -mt-[90px] -ml-[65px]'>
             <Image
               src={mobileSassy}
               alt='Mobile Hero'
