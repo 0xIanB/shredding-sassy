@@ -22,7 +22,7 @@ const Hero = () => {
           <Image
             src={mobileHero}
             alt='Mobile Hero'
-            height={750}
+            height={650}
             width={390}
           >
           </Image>
