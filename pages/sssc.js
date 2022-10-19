@@ -5,7 +5,15 @@ import ssscsassy from '../assets/ssscsassy.png'
 import brownstroke from '../assets/ssscheader.png'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
-import { AiOutlinePlus } from 'react-icons/ai'
+import { AiOutlineMinus, AiOutlinePlus } from 'react-icons/ai'
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+  Box,
+} from '@chakra-ui/react'
 
 const sssc = () => {
   return (
@@ -52,161 +60,348 @@ const sssc = () => {
       </div>
 
       {/* Main Container */}
-      <div className='flex flex-col items-center lg:items-start justify-center md:flex-row flex-wrap lg:justify-evenly lg:mr-8 '>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>1</p>
-          </div>
-          {/* Title */}
-          <div className='flex mr-20 ml-4 sm:-ml-0 items-start sm:mr-[220px]'>
-            <p className='text-lg sm:text-2xl font-bold'>Discounts</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>2</p>
-          </div>
-          {/* Title */}
-          <div className='flex ml-4 sm:-ml-0 sm:mr-20'>
-            <p className='text-lg sm:text-2xl font-bold'>Access to pro athletes</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>3</p>
-          </div>
-          {/* Title */}
-          <div className='flex sm:-ml-0 sm:mr-36'>
-            <p className='text-lg sm:text-2xl font-bold'>Parties & Events</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>4</p>
-          </div>
-          {/* Title */}
-          <div className='flex sm:-ml-0 sm:mr-36'>
-            <p className='text-lg sm:text-2xl font-bold'>Community Trips</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>5</p>
-          </div>
-          {/* Title */}
-          <div className='flex ml-4 sm:-ml-2 sm:mr-24'>
-            <p className='text-lg sm:text-2xl font-bold'>Raffles & Giveaways</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>6</p>
-          </div>
-          {/* Title */}
-          <div className='flex mr-8 sm:-ml-1 sm:mr-44'>
-            <p className='text-lg sm:text-2xl font-bold'>The Directory</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>7</p>
-          </div>
-          {/* Title */}
-          <div className='flex ml-4 sm:-ml-0 sm:mr-28'>
-            <p className='text-lg sm:text-2xl font-bold'>AR & VR Experience</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>8</p>
-          </div>
-          {/* Title */}
-          <div className='flex ml-4 sm:-ml-1 sm:mr-16'>
-            <p className='text-lg sm:text-2xl font-bold'>Exclusive Merchandise</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-4 sm:px-6 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>9</p>
-          </div>
-          {/* Title */}
-          <div className='flex sm:-ml-0 mr-20 sm:mr-60'>
-            <p className='text-lg sm:text-2xl font-bold'>The App</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-        {/* Inner Container */}
-        <div className='flex flex-row text-pri border-4 border-pri w-[330px] sm:w-[600px] h-[100px] sm:h-[125px] items-center justify-between p-4 mb-10 lg:mb-20'>
-          {/* Number */}
-          <div className='flex ml-2 sm:ml-4 border-4 sm:border-4 border-pri px-3 sm:px-5 py-2 sm:py-4 rounded-full'>
-            <p className='text-lg sm:text-2xl font-bold'>10</p>
-          </div>
-          {/* Title */}
-          <div className='flex sm:-ml-0 mr-2 sm:mr-[140px]'>
-            <p className='text-lg sm:text-2xl font-bold'>Loyalty Rewards</p>
-          </div>
-          {/* Toggle */}
-          <div className='flex font-bold sm:mr-8 border-2 border-pri p-2 rounded-full cursor-pointer hover:bg-pri hover:text-white'>
-            <AiOutlinePlus size={25}/>
-          </div>
-        </div>
-
-      </div>
-
-      
+      <Accordion allowMultiple className='flex flex-row flex-wrap justify-evenly mx-4 lg:mx-0 lg:-ml-4'>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      1
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      1
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    Discounts
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      2
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      2
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    Access to pro athletes
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      3
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      3
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    Parties & Events
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      4
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      4
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    Community Trips
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      5
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      5
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    Raffles & Giveaways
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      6
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      6
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    The Directory
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      7
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      7
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    AR & VR Experiences
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      8
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      8
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    Exclusive Merchandise
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      9
+                    </div>
+                  ) : (
+                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                      9
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    The App
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+        <AccordionItem className='w-[600px] mb-10'>
+          {({ isExpanded }) => (
+            <>
+              <h2 className='text-pri font-bold text-xl'>
+                <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
+                {isExpanded ? (
+                    <div className='px-3 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                      10
+                    </div>
+                  ) : (
+                    <div className='px-3 py-2 border-4 border-pri rounded-full'>
+                      10
+                    </div>
+                  )}
+                  <Box className='ml-4' flex='1' textAlign='left'>
+                    Loyalty Rewards
+                  </Box>
+                  {isExpanded ? (
+                    <div className='p-2 border-2 bg-white border-white text-pri rounded-full'>
+                      <AiOutlineMinus fontSize='20px' />
+                    </div>
+                  ) : (
+                    <div className='p-2 border-2 border-pri rounded-full'>
+                      <AiOutlinePlus fontSize='20px' />
+                    </div>
+                  )}
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+              </AccordionPanel>
+            </>
+          )}
+        </AccordionItem>
+      </Accordion>
     <Footer />
   </div>
 )
