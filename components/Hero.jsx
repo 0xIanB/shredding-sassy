@@ -21,13 +21,13 @@ const Hero = () => {
           <Image
             src={mobileHero}
             alt='Mobile Hero'
-            height={700}
+            height={690}
             width={390}
           >
           </Image>
         </div>
         {/* Mobile Button */}
-        <div className='flex flex-row bg-white pt-3 justify-center -mt-32 z-10 mx-6'>
+        <div className='flex flex-row bg-white pt-3 justify-center -mt-36 z-10 mx-6'>
           {/* Sassy */}
           <div className='flex items-start -mt-[90px] -ml-[65px]'>
             <Image
