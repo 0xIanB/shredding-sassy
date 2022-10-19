@@ -13,7 +13,6 @@ const shop = () => {
       </Head>
       <Navbar />
       <div className='flex flex-col space-y-8 items-center text-center justify-center p-20'>
-        <h1 className='text-darkpurple2 font-bold text-4xl'>SHOP</h1>
         <p className='flex items-center text-darkpurple2 text-lg font-medium'>...COMING SOON</p>
       </div>
       <Footer />
