@@ -12,7 +12,6 @@ import yPurple from '../assets/yPurple.png'
 import mobileHero from '../assets/mobilehero.jpg'
 import mobileSassy from '../assets/mobileSassy.png'
 import shredding from '../assets/shredding.png'
-import { AiOutlineArrowDown } from 'react-icons'
 
 const Hero = () => {
   return (
@@ -22,13 +21,13 @@ const Hero = () => {
           <Image
             src={mobileHero}
             alt='Mobile Hero'
-            height={650}
+            height={700}
             width={390}
           >
           </Image>
         </div>
         {/* Mobile Button */}
-        <div className='flex flex-row bg-white pt-3 justify-center -mt-28 z-10 mx-6  '>
+        <div className='flex flex-row bg-white pt-3 justify-center -mt-32 z-10 mx-6'>
           {/* Sassy */}
           <div className='flex items-start -mt-[90px] -ml-[65px]'>
             <Image
