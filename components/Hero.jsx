@@ -16,21 +16,21 @@ import { AiOutlineArrowDown } from 'react-icons'
 
 const Hero = () => {
   return (
-    <div className='flex h-screen justify-center '>
+    <div className='flex h-screen justify-center'>
       <div className='flex flex-col w-full h-screen sm:hidden'>
         <div className='flex flex-col'>
           <Image
             src={mobileHero}
             alt='Mobile Hero'
-            height={800}
-            width={500}
+            height={590}
+            width={390}
           >
           </Image>
         </div>
         {/* Mobile Button */}
-        <div className='flex flex-row bg-white pt-3 justify-center -mt-24 z-10 mx-6 '>
+        <div className='flex flex-row bg-white pt-3 justify-center -mt-28 z-10 mx-6 '>
           {/* Sassy */}
-          <div className='flex items-start -mt-[85px] -ml-24'>
+          <div className='flex items-start -mt-[90px] -ml-12'>
             <Image
               src={mobileSassy}
               alt='Mobile Hero'
@@ -41,15 +41,15 @@ const Hero = () => {
           </div>
           {/* Info */}
           <div className='flex flex-col items-start -ml-6 mt-1'>
-            <p className='text-pri text-md font-mont font-medium -mb-1'>The World of //</p>
-            <h1 className='text-pri text-md font-bold font-mont tracking-widest'>META MOUNTAIN</h1>
+            <p className='text-pri text-sm font-mont font-medium -mb-1'>The World of //</p>
+            <h1 className='text-pri text-sm font-bold font-mont'>META MOUNTAIN</h1>
           </div>
           {/* Discover Button */}
           <div className='flex flex-row'>
             <a href="#welcome">
-              <button className='py-[9px] px-6 ml-4 mt-1 -mr-8 bg-ter text-white font-bold text-md font-mont hover:cursor-pointer flex flex-row'>
+              <button className='py-[9px] px-3 ml-4 mt-1 mr-2 bg-ter text-white font-bold text-sm font-mont hover:cursor-pointer flex flex-row'>
                 Discover 
-                <div className='animate-bounce ml-4'>
+                <div className='animate-bounce ml-1'>
                 ▼
                 </div>
               </button>
