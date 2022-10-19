@@ -10,7 +10,7 @@ const Welcome = () => {
   });
 
   return (
-    <div className='flex flex-col-reverse mb-40 mt-40 lg:mb-60 md:flex-row'>
+    <div id='welcome' className='flex flex-col-reverse mb-40 mt-40 lg:mb-60 md:flex-row'>
       {/* Text */}
       <div className='flex flex-col text-pri items-center lg:items-start justify-center'>
           <h1 className='font-bold font-body text-2xl lg:text-4xl lg:w-1/2 lg:pr-20 text-center lg:text-left lg:pl-24 py-8'>Welcome to Meta Mountain</h1>

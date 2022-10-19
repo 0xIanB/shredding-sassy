@@ -114,13 +114,14 @@ const Socials = () => {
           </div>
         </Link>
         {/* Manifesto */}
-        <Link 
-          href='/manifesto' 
+        <a 
+          href='https://medium.com/@shreddingsassy' 
           rel='noopener noreferrer'
+          target='_blank'
         >
           <div className={styles.shortBox}>
             <div>
-              Manifesto
+              Medium
             </div>
             <div className='flex items-center mt-4'>
             <Image
@@ -132,7 +133,7 @@ const Socials = () => {
               </Image>
             </div>
           </div>
-        </Link>
+        </a>
         {/* Trail Map */}
         <Link 
           href='/trailmap' 
@@ -200,9 +201,10 @@ const Socials = () => {
         </div>
         {/* Manifesto */}
         <div className={styles.bottomSetMobile}>
-        <Link 
-          href='/manifesto' 
+        <a 
+          href='https://medium.com/@shreddingsassy' 
           rel='noopener noreferrer'
+          target='_blank'
         >
           <div className={styles.squareBox}>
           <div className='mt-1'>
@@ -218,7 +220,7 @@ const Socials = () => {
               </Image>
             </div>
           </div>
-        </Link>
+        </a>
         {/* Trail Map */}
         <Link 
           href='/trailmap' 
