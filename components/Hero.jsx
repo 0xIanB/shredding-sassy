@@ -21,8 +21,6 @@ const Hero = () => {
           <Image
             src={mobileHero}
             alt='Mobile Hero'
-            height={690}
-            width={390}
           >
           </Image>
         </div>
@@ -48,8 +46,8 @@ const Hero = () => {
             <a href="#welcome">
               <button className='py-[9px] px-3 ml-4 mt-1 mr-2 bg-ter text-white font-bold text-sm font-mont hover:cursor-pointer flex flex-row'>
                 Discover 
-                <div className='animate-bounce ml-1'>
-                ▼
+                <div className='animate-bounce ml-2'>
+                ⬇
                 </div>
               </button>
             </a>
