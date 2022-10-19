@@ -208,7 +208,7 @@ const Socials = () => {
         >
           <div className={styles.squareBox}>
           <div className='mt-1'>
-              Manifesto
+              Medium
             </div>
             <div className='flex items-center'>
             <Image
