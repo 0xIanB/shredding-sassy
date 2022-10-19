@@ -25,7 +25,7 @@ const Hero = () => {
           </Image>
         </div>
         {/* Mobile Button */}
-        <div className='flex flex-row bg-white pt-3 justify-center -mt-36 z-10 mx-6'>
+        <div className='flex flex-row bg-white pt-3 justify-center -mt-28 z-10 mx-6'>
           {/* Sassy */}
           <div className='flex items-start -mt-[90px] -ml-[65px]'>
             <Image
@@ -44,9 +44,9 @@ const Hero = () => {
           {/* Discover Button */}
           <div className='flex flex-row'>
             <a href="#welcome">
-              <button className='py-[9px] px-3 ml-4 mt-1 mr-2 bg-ter text-white font-bold text-sm font-mont hover:cursor-pointer flex flex-row'>
+              <button className='py-[9px] px-3 ml-4 mt-1 mr-1 bg-ter text-white font-bold text-sm font-mont hover:cursor-pointer flex flex-row'>
                 Discover 
-                <div className='animate-bounce ml-2'>
+                <div className='animate-bounce ml-3'>
                 ⬇
                 </div>
               </button>
