@@ -12,6 +12,7 @@ import yPurple from '../assets/yPurple.png'
 import mobileHero from '../assets/mobilehero.jpg'
 import mobileSassy from '../assets/mobileSassy.png'
 import shredding from '../assets/shredding.png'
+import { ImArrowDown } from 'react-icons/im'
 
 const Hero = () => {
   return (
@@ -42,12 +43,12 @@ const Hero = () => {
             <h1 className='text-pri text-sm font-bold font-mont'>META MOUNTAIN</h1>
           </div>
           {/* Discover Button */}
-          <div className='flex flex-row'>
+          <div className='flex flex-row justify-center'>
             <a href="#welcome">
-              <button className='py-[9px] px-3 ml-4 mt-1 mr-1 bg-ter text-white font-bold text-sm font-mont hover:cursor-pointer flex flex-row'>
+              <button className='py-[9px] px-3 ml-4 mt-1 mr-1 bg-ter text-white font-bold text-sm font-mont hover:cursor-pointer flex flex-row justify-center items-center align-middle'>
                 Discover 
                 <div className='animate-bounce ml-3'>
-                🢃
+                  <ImArrowDown />
                 </div>
               </button>
             </a>
