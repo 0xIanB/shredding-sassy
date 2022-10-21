@@ -30,7 +30,7 @@ const CarouselHolder = () => {
       {/* Description */}
       <div className='flex items-start justify-center w-full lg:w-3/5'>
         <p className='text-md text-center text-pri font-medium p-2'>
-        Our Sassy NFTs are contrived from over 150 unique, hand drawn traits with varying rarity.  Each one represents a DAO vote and membership to the {" "}
+        Our Sassy NFTs are contrived from over 150 unique, hand drawn traits with varying rarity.  Each one represents a DAO vote and membership to the {" "} <br/>
           <span className='underline font-semibold'> 
           <Link 
             href='/sssc'
