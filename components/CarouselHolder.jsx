@@ -40,9 +40,9 @@ const CarouselHolder = () => {
         </p>
       </div>
       {/* Carousel */}
-      <div className="flex w-full" id='customcursor1'>
+      <div className="flex w-full">
       <div className='mt-10 overflow-hidden w-[100%]' ref={viewportRef}>
-        <div className="flex ml-14 sm:ml-8 md:ml-12">
+        <div className="flex ml-14 sm:ml-8 md:ml-12 cursor-grab">
           <div className="flex items-end shrink-0 pr-14">
             <Image
               src={image6}
