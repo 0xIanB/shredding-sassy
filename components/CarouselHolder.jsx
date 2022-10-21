@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import image1 from '../assets/1.png'
@@ -20,7 +21,7 @@ const CarouselHolder = () => {
     dragFree: true,
     containScroll: "trimSnaps",
   });
-
+  
   return (
     <div className='h-screen flex items-center flex-col justify-start p-8 sm:mt-10'>
       {/* Title */}
@@ -30,7 +31,7 @@ const CarouselHolder = () => {
       {/* Description */}
       <div className='flex items-start justify-center w-full lg:w-3/5'>
         <p className='text-md text-center text-pri font-medium p-2'>
-        Our Sassy NFTs are contrived from over 150 unique, hand drawn traits with varying rarity.  Each one represents a DAO vote and membership to the {" "} <br/>
+        Our Sassy NFTs are contrived from over 150 unique, hand drawn traits with varying rarity.  Each one represents a DAO vote and membership to the {" "}
           <span className='underline font-semibold'> 
           <Link 
             href='/sssc'
