@@ -1,5 +1,4 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
 import Link from 'next/link'
 import Image from 'next/image'
 import image1 from '../assets/1.png'
