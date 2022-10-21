@@ -19,10 +19,3 @@
     scroll-behavior: smooth;
   }
 }
-
-#customcursor1 {
-  cursor: url('../assets/dragme.png'), auto;
-}
-#customcursor2 {
-  cursor: url('../assets/scrollme.png'), auto;
-}
