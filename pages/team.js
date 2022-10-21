@@ -523,7 +523,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>{"Ex-Counterintelligence agent, and Armed Forces Veteran. Has spent over a decade in surveillance, hacking, and cybersecurity. His focus is now on Smart Contracts, Web Development, and Blockchain Security. Is an active NFT collector, and DeFi protocol user."} </p>
+                <p>{"Full Stack Blockchain Developer [EVM]."} </p>
               </div>
             </div>
             {/* Card */}
