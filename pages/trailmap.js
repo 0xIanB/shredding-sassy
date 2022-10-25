@@ -15,21 +15,28 @@ const trailmap = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div>
-        <div className='hidden lg:flex flex-col items-center text-center text-pri'>
-          <h1 className='font-bold font-mont text-4xl py-4'>Welcome to Meta Mountain</h1>
-          <p className='text-md font-medium pb-2'>Interact with the Trail Map by either using the buttons below & scrollbar or with your mouse & scroll wheel.</p>
-        </div>
-        <div className='lg:hidden flex-col items-center text-center text-pri'>
+      <div className='lg:hidden'>
+        <div className='flex-col items-center text-center text-pri'>
           <h1 className='font-bold font-mont text-2xl pt-4 pb-2 '>Welcome to Meta Mountain</h1>
           <p className='text-sm font-medium pb-4'>Interact with the Trail Map using pinch zoom and explore.</p>
+        </div>
+        <Image
+          src={trailMap}
+          alt='Trail Map'
+        >
+        </Image>
+      </div>
+      <div className='invisible lg:visible'>
+        <div className='flex flex-col items-center text-center text-pri'>
+          <h1 className='font-bold font-mont text-4xl py-4'>Welcome to Meta Mountain</h1>
+          <p className='text-md font-medium pb-2'>Interact with the Trail Map by either using the buttons below & scrollbar or with your mouse & scroll wheel.</p>
         </div>
         <TransformWrapper
             initialScale={1}
           >
             {({ zoomIn, zoomOut, resetTransform, ...rest }) => (
               <React.Fragment>
-                <div className="hidden lg:flex flex-row justify-center space-x-4 z-0 mt-2 mb-2">
+                <div className="flex flex-row justify-center space-x-4 z-0 mt-2 mb-2">
                   <button
                     className='bg-pri text-white py-2 px-4 rounded-sm text-mont font-semibold' 
                     onClick={() => zoomIn()}
