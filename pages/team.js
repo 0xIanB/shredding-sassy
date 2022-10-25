@@ -495,7 +495,7 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>ian</h1>
+                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>IΛN</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -505,7 +505,7 @@ const team = () => {
                 {/* Right Side */}
                 <div className='flex pb-8 cursor-pointer'>
                   <a
-                    href='https://twitter.com/IanWBoyle'
+                    href='https://twitter.com/0xIanB'
                     rel='noreferrer'
                     target='_blank'
 
@@ -523,7 +523,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>{"Full Stack Blockchain Developer [EVM]."} </p>
+                <p>{"Ethereum Virtual Machine (EVM) devleopment. Focus on smart contracts, digital identity, digitial assets, and cyber security."} </p>
               </div>
             </div>
             {/* Card */}
