@@ -8,7 +8,7 @@ import igImg from '../assets/igblue.png'
 import discordImg from '../assets/discord.png'
 
 const styles = {
-  container: 'flex flex-col space-y-8 lg:flex-row justify-between items-center p-8 border-t-2 border-[#D9D9D9]',
+  container: 'flex flex-col space-y-8 lg:flex-row justify-between items-center p-8 border-t-2 border-[#D9D9D9] z-20',
   socialLinks: 'flex items-center cursor-pointer',
   leftside: 'flex flex-col items-center justify-center space-x-4 lg:-ml-4',
 }

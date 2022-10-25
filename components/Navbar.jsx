@@ -46,7 +46,7 @@ const Navbar = () => {
       </div>
 
       {/* Nav Links */}
-      <div className='hidden justify-center lg:text-xl font-body items font-bold lg:inline-flex lg:p-7 ml-24 lg:space-x-10 shrink-0'>
+      <div className='hidden justify-center lg:text-xl font-body items font-bold lg:inline-flex lg:p-7 ml-36 lg:space-x-12 shrink-0'>
         <Link href='/sssc'>
           <button className='text-pri'>SSSC</button>
         </Link>
