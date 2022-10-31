@@ -45,7 +45,7 @@ const Hero = () => {
           {/* Discover Button */}
           <div className='flex flex-row justify-center'>
             <a href="#welcome">
-              <button className='py-[9px] px-3 ml-4 mt-1 mr-1 bg-ter text-white font-bold text-sm font-mont hover:cursor-pointer flex flex-row justify-center items-center align-middle'>
+              <button className='py-[9px] px-3 ml-4 mt-1 mr-1 bg-ter text-white font-bold text-xs font-mont hover:cursor-pointer flex flex-row justify-center items-center align-middle'>
                 Discover 
                 <div className='animate-bounce ml-3'>
                   <ImArrowDown />
