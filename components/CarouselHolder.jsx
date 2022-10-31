@@ -22,7 +22,7 @@ const CarouselHolder = () => {
   });
   
   return (
-    <div className='h-screen flex items-center flex-col justify-start px-8 mt-10'>
+    <div className='h-screen flex items-center flex-col justify-start px-8 mt-20'>
       {/* Title */}
       <div className='flex items-center justify-center'>
         <h1 className='font-bold text-pri text-2xl lg:text-4xl text-center p-2'>Digital collectible avatars living on the Ethereum blockchain</h1>
