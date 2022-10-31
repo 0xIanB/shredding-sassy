@@ -20,11 +20,11 @@ module.exports = {
       },
     },
     screens: {
-      xs: "750px",
-      sm: "850px",
-      md: "1060px",
-      lg: "1250px",
-      xl: "1700px",
+      sm: "640px",
+      md: "768px",
+      lg: "1024px",
+      xl: "1280px",
+      xxl: "1536px"
     },
   },
   plugins: [
