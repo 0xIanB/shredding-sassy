@@ -215,7 +215,7 @@ const Hero = () => {
         </div>
       </div>
         {/* Laying Sassy */}
-        <div className='hidden sm:inline-flex mt-12 lg:mt-20 mb-20'>
+        <div className='hidden sm:inline-flex mt-12 lg:mt-14 mb-20'>
           <Image
             src={animatedSassy}
             alt='Animated Sassy'
