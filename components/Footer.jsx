@@ -28,7 +28,7 @@ const Footer = () => {
           {/* Discord */}
           <div className={styles.socialLinks}>
             <a
-              href='#'
+              href='https://discord.gg/sassy'
               target='_blank'
               rel='noopener noreferrer'
             >

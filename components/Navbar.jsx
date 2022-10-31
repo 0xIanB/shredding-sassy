@@ -67,9 +67,10 @@ const Navbar = () => {
         <div className='flex flex-row items-center px-4 cursor-pointer space-x-4'>
           {/* Twitter */}
           <div className='flex items-center'>
-            <Link
+            <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <Image
                 src={twitterImg}
@@ -78,13 +79,14 @@ const Navbar = () => {
                 width={20}
               >
               </Image>
-            </Link>
+            </a>
           </div>
           {/* Medium */}
           <div className='flex items-center'> 
-            <Link 
+            <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
+              rel='noopener noreferrer'
             >
               <Image
                 src={mediumImg}
@@ -93,13 +95,14 @@ const Navbar = () => {
                 width={20}
               >
               </Image>
-            </Link>
+            </a>
           </div>
           {/* Instagram */}
           <div className='flex items-center'> 
-            <Link 
+            <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
+              rel='noopener noreferrer'
             >
               <Image
                 src={igImg}
@@ -108,12 +111,19 @@ const Navbar = () => {
                 width={22}
               >
               </Image>
-            </Link>
+            </a>
           </div>
         </div>
         {/* Discord Link Button */}
         <div className='flex'>
-          <button className='bg-[#5470C7] w-[250px] h-[50px] rounded-sm text-white font-semibold py-2 px-4'>Join Our Discord</button>
+          <a
+            href="https://discord.gg/sassy"
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button className='bg-[#5470C7] w-[250px] h-[50px] rounded-sm text-white font-semibold py-2 px-4'>Join Our Discord</button>  
+          </a>
+
         </div>
       </div>
 
