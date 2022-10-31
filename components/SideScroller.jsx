@@ -14,7 +14,7 @@ const SideScroller = () => {
       </div>
 
       {/* Right Side Scroller */}
-      <div className='flex flex-col lg:h-screen lg:w-full lg:overflow-y-scroll scrollbar-hide' id='customcursor2'>
+      <div className='flex flex-col lg:h-screen lg:w-full lg:overflow-y-scroll scrollbar-hide'>
         <div className='flex flex-col items-center justify-center lg:-mr-4'>
           {/* Image */}
           <div className='flex items-center lg:justify-center p-6 lg:p-0 lg:pb-4'>
@@ -53,7 +53,7 @@ const SideScroller = () => {
           <div className='flex flex-col items-center lg:items-start space-y-4 px-6 lg:px-0 py-6 lg:w-full'>
             {/* Title */}
             <div>
-              <h1 className='font-bold text-pri text-xl lg:text-2xl'>Building a sustainable business</h1>
+              <h1 className='font-bold text-pri text-center text-xl lg:text-2xl'>Building a sustainable business</h1>
             </div>
             {/* Info */}
             <div className='flex items-center text-center lg:text-left lg:items-start'>

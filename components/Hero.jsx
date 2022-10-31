@@ -28,7 +28,7 @@ const Hero = () => {
         {/* Mobile Button */}
         <div className='flex flex-row bg-white pt-3 justify-center -mt-28 z-10 mx-6'>
           {/* Sassy */}
-          <div className='flex items-start -mt-[90px] -ml-[65px]'>
+          <div className='flex items-start -mt-[90px] -ml-[58px]'>
             <Image
               src={mobileSassy}
               alt='Mobile Hero'
@@ -38,9 +38,9 @@ const Hero = () => {
             </Image>
           </div>
           {/* Info */}
-          <div className='flex flex-col items-start -ml-6 mt-1'>
-            <p className='text-pri text-sm font-mont font-medium -mb-1'>{"The World of //"}</p>
-            <h1 className='text-pri text-sm font-bold font-mont'>META MOUNTAIN</h1>
+          <div className='flex flex-col items-start -ml-6 mt-2'>
+            <p className='text-pri text-xs font-mont font-medium '>{"The World of //"}</p>
+            <h1 className='text-pri text-xs font-bold font-mont'>META MOUNTAIN</h1>
           </div>
           {/* Discover Button */}
           <div className='flex flex-row justify-center'>

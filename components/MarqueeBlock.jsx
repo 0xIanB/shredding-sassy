@@ -7,7 +7,7 @@ const styles = {
   marquee:'overflow-hidden',
   marqueetext: 'mx-1 lg:mx-2',
   textcontainer: 'flex flex-col text-center items-center justify-center w-auto py-12',
-  textbox: 'font-mont text-[20px] lg:text-[50px] text-[#230A43] font-bold lg:font-medium',
+  textbox: 'font-mont text-lg lg:text-[50px] text-[#230A43] font-bold lg:font-medium',
 }
 
 const MarqueeBlock = () => {
