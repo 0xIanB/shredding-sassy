@@ -15,6 +15,15 @@ const terms = () => {
       <div className='flex items-center text-center justify-center p-20'>
         <h1 className='text-pri font-bold text-4xl'>TERMS & CONDITIONS</h1>
       </div>
+      
+      <div className='flex'>
+        <h1>
+
+        </h1>
+        <p>
+
+        </p>
+      </div>
       <Footer />
     </div>
   )

@@ -7,7 +7,7 @@ import side4 from '../assets/side4.png'
 
 const SideScroller = () => {
   return (
-    <div className='flex flex-col mb-10 lg:mb-10 lg:flex-row xs:-mt-0 sm:-mt-80 lg:-mt-0'>
+    <div className='flex flex-col mb-10 lg:mb-10 lg:flex-row xs:-mt-0 sm:mt-10 lg:-mt-0'>
       {/* Left Side Static */}
       <div className='flex flex-col text-pri items-center lg:items-start justify-center'>
           <h1 className='font-bold font-body text-2xl lg:text-4xl w-full px-6 text-center lg:text-left lg:pl-24 py-8'>Shredding Sassy, a brand with a big vision</h1>

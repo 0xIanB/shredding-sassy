@@ -17,8 +17,8 @@ const Welcome = () => {
           <p className='text-md lg:text-xl font-medium text-center lg:text-start w-full md:w-3/4 items-center justify-center lg:justify-start lg:items-start lg:pl-24 px-8 lg:px-4'>{"Sassy's are a bunch of fun loving, adrenaline fueled Sasquatches that reside on Meta Mountain. A mysterious mountain with endless terrain and some of the gnarliest features in the world."}</p>
       </div>
       {/* Image */}
-      <div className='flex flex-row px-8 ml-8 md:ml-0 lg:px-0 items-center justify-center'>
-        <div ref={parallax.ref} className='flex absolute -ml-[220px] md:-ml-[400px] lg:-ml-[600px] z-20 w-[160px] h-[190px] md:w-[285px] md:h-[340px]'>
+      <div className='flex flex-row px-8 ml-8 lg:px-0 items-center justify-center'>
+        <div ref={parallax.ref} className='flex absolute z-20 -ml-[600px]'>
             <Image
               src={welcomesassy}
               alt='Sassy'
@@ -27,12 +27,12 @@ const Welcome = () => {
             >
             </Image>
           </div>
-          <div className='flex items-center -mr-6 lg:-mr-0 justify-center w-[300px] h-[400px] md:w-[500px] md:h-[600px] lg:w-[600px] lg:h-[700]'>
+          <div className='flex items-center -mr-6 lg:-mr-0 justify-center'>
             <Image
               src={welcome}
               alt='Sassy Welcome'
-              width={600}
-              height={700}
+              width={1500}
+              height={1500}
             >
             </Image>
           </div>

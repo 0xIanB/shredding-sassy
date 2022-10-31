@@ -17,7 +17,7 @@ import { ImArrowDown } from 'react-icons/im'
 const Hero = () => {
   return (
     <div className='flex justify-center'>
-      <div className='flex flex-col w-full  sm:hidden'>
+      <div className='flex flex-col w-full sm:hidden'>
         <div className='flex flex-col'>
           <Image
             src={mobileHero}
@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
       <div className='hidden sm:inline-flex flex-col items-center justify-center'>
         {/* Hero Logo */}
-        <div className='hidden mt-60 lg:mt-0 sm:inline-flex lg:hidden flex-row lg:w-[1000px] lg:h-[300px] '>
+        <div className='hidden mt-20 xl:mt-0 sm:inline-flex xl:hidden flex-row lg:w-[1000px] lg:h-[300px] '>
           <div className='static'>
             <Image
               src={shredding}
@@ -117,7 +117,7 @@ const Hero = () => {
           </div>
         </div>
       {/* Hero Image Hover Effect */}
-      <div className='hidden lg:inline-flex flex-row mt-10 lg:visible'>
+      <div className='hidden xl:inline-flex flex-row mt-10 xl:visible'>
         {/* Shredding Div */}
         <div>
           <div>
@@ -215,7 +215,7 @@ const Hero = () => {
         </div>
       </div>
         {/* Laying Sassy */}
-        <div className='hidden sm:inline-flex mt-12 mb-20'>
+        <div className='hidden sm:inline-flex mt-12 lg:mt-20 mb-20'>
           <Image
             src={animatedSassy}
             alt='Animated Sassy'
