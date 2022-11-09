@@ -17,7 +17,7 @@ const trailmap = () => {
       <Navbar />
       <div className='lg:hidden'>
         <div className='flex-col items-center text-center text-pri'>
-          <h1 className='font-bold font-mont text-2xl pt-4 pb-2 '>Welcome to Meta Mountain</h1>
+          <h1 className='font-bold font-mont text-pri text-2xl pt-4 pb-2 '>Welcome to Meta Mountain</h1>
           <p className='text-sm font-medium pb-4'>Interact with the Trail Map using pinch zoom and explore.</p>
         </div>
         <Image

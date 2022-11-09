@@ -90,7 +90,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>We have partnered with 20+ brands, retailers and service providers in the Ski & Snowboard space to provide amazing discounts, early access and special offers.</p> 
               </AccordionPanel>
             </>
           )}
@@ -124,7 +124,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>Exclusive access to pro athletes via AMA calls, presentations, meet-ups and events. Members will have the chance to ask questions, chat and meet in person.</p> 
               </AccordionPanel>
             </>
           )}
@@ -158,7 +158,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>Shredding Sassy will be organizing a number of events and parties around the world in the most fantastic locations. A lot of these will be exclusively for our members.</p> 
               </AccordionPanel>
             </>
           )}
@@ -192,7 +192,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>There will be Ski / Snowboard trips organized worldwide in the most jaw dropping, deep pow, winter wonderland locations. Bring a friend and meet some awesome new people within the community.</p> 
               </AccordionPanel>
             </>
           )}
@@ -226,7 +226,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>Every month we will be obtaining tickets to mountain sports events & competitions, lift passes, ski and snowboard equipment, WL spots for other NFT projects, discounts on merch and more. Members will be able to obtain raffle tickets using their SASSY points.</p> 
               </AccordionPanel>
             </>
           )}
@@ -260,7 +260,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>A database packed with the best locations, restaurants, hotels, tour guides, instructors, activities and more. Our aim is to provide clear, easy access to information when booking a trip. The directory will be built over time to cover all major mountain towns in the world.</p> 
               </AccordionPanel>
             </>
           )}
@@ -294,7 +294,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>With AR becoming more accessible we will be creating incredible experiences using this technology. Some ideas we have include: Treasure hunts on the mountain, getting your Sassy on skis or a snowboard carving in front of your eyes. We also have big plans that involve using ski/snowboard goggles…</p> 
               </AccordionPanel>
             </>
           )}
@@ -328,7 +328,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>A range of clothing and merchandise using the freshest designs and eco friendly, sustainable and recycled materials where possible. We intend on collaborating with amazing artists, pro athletes and top brands.</p> 
               </AccordionPanel>
             </>
           )}
@@ -362,7 +362,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>A mobile app will be developed for IOS and Android. We have many features planned for the app including: GPS for our competitions and games on the mountain, easily obtaining discount codes from our partners, access to the directory, calendar for events, ama calls and meetups.</p> 
               </AccordionPanel>
             </>
           )}
@@ -396,7 +396,7 @@ const sssc = () => {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                <p className='text-pri font-medium mt-8 mb-4'>We are in discussion with many top brands and retailers in the mountain sports space to provide amazing discounts and special offers.</p> 
+                <p className='text-pri font-medium mt-8 mb-4'>{"NFT holders will be able to ‘lodge’ their Shredding Sassy to accrue SASSY points as well as other loyalty rewards. The longer you have your Sassy ‘lodging’ the more rewards you get."}</p> 
               </AccordionPanel>
             </>
           )}

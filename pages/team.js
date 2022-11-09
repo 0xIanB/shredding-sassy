@@ -53,7 +53,7 @@ const team = () => {
       <Navbar />
         
         {/* Header */}
-        <div className='flex flex-col md:flex-row px-4 mt-20 justify-between'>
+        <div className='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'>
           {/* Left Side */}
           <div className='flex flex-col lg:w-1/2 space-y-8'>
             {/* Title */}
@@ -98,7 +98,7 @@ const team = () => {
         </div>
         
         {/* Core Team */}
-        <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start'>
+        <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start text-pri'>
         {/* Title */}
         <div className='flex flex-col text-center sm:text-start mb-8'>
           <h1 className='font-bold text-3xl text-darkpurple2 '>Core Team</h1>
