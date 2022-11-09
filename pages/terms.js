@@ -16,7 +16,7 @@ const terms = () => {
         <h1 className='font-bold font-mont text-pri text-2xl pt-4 pb-2 '>TERMS & CONDITIONS</h1>
       </div>
       
-      <div className='flex flex-col mx-20'>
+      <div className='flex flex-col mx-4 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           GENERAL TERMS AND CONDITIONS
         </h1>

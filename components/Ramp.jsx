@@ -4,9 +4,9 @@ import ramp from '../assets/ramp.png'
 
 const Ramp = () => {
   return (
-    <div className='flex flex-col pb-10 md:flex-row'>
+    <div className='flex flex-col  lg:flex-row'>
       {/* Image */}
-      <div className='flex items-center justify-center px-8 md:px-0'>
+      <div className='flex items-center justify-center px-8 lg:px-0'>
         <Image
           src={ramp}
           alt='Sassy Ramp'

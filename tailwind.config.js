@@ -10,7 +10,8 @@ module.exports = {
         white: '#F8F8F8',
         pri: '#230A43',
         sec: '#83603F',
-        ter: '#5470C7'
+        ter: '#5470C7',
+        hov: '#4B64B3'
       },
       fontFamily: {
         body: ["Open Sans"],

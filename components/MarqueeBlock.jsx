@@ -5,9 +5,11 @@ const styles = {
   container: 'flex flex-col items-center w-full z-10',
   marqueecontainer: 'text-[30px] lg:text-[60px] tracking-widest scroll-hidden text-gray-800/30 font-bold font-lond py-20',
   marquee:'overflow-hidden',
-  marqueetext: 'mx-1 lg:mx-2',
+  marqueetext: 'mx-1 lg:mx-2 mt-4',
   textcontainer: 'flex flex-col text-center justify-center py-14',
-  textbox: 'font-mont text-lg md:text-3xl lg:text-5xl xl:text-6xl text-[#230A43] font-bold lg:font-medium transition ease-in-out',
+  textbox: 'font-mont text-lg md:text-3xl lg:text-5xl text-[#230A43]',
+  textline: 'py-1 md:py-3',
+  spantext: 'underline font-medium'
 }
 
 const MarqueeBlock = () => {
@@ -34,8 +36,12 @@ const MarqueeBlock = () => {
         </div>
       </div>
       <div className={styles.textcontainer}>
-        <p className={styles.textbox}>
-          <span className='underline'>Web3</span> has the ability to unify a <br/> <span className='underline'>global community</span> 🌍 driven by a <br /> passion ❤️ for <span className='underline'> extreme sports</span> 💀 <br /> and <span className='underline'> good times</span>. 🤙</p>
+        <div className={styles.textbox}>
+          <p className={styles.textline}><span className={styles.spantext}>Web3</span> has the ability to unify a </p>
+          <p className={styles.textline}><span className={styles.spantext}>global community</span> 🌍 driven by a </p>
+          <p className={styles.textline}>passion ❤️ for <span className={styles.spantext}> extreme sports</span> 💀 </p>
+          <p className={styles.textline}>and <span className={styles.spantext}> good times</span>. 🤙</p>
+        </div>
       </div>
     </div>
   )

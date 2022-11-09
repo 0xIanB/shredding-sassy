@@ -121,7 +121,7 @@ const Navbar = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='bg-[#5470C7] w-[250px] h-[50px] rounded-sm text-white font-semibold py-2 px-4'>Join Our Discord</button>  
+            <button className='bg-[#5470C7] w-[250px] h-[50px] rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
           </a>
 
         </div>

@@ -137,7 +137,7 @@ const Hero = () => {
             >
             </Image>
           </div>
-          <div className='z-10 hover:z-[-100] opacity-80 invisible lg:visible'>
+          <div className='z-10 hover:z-[-100] invisible lg:visible'>
           <Image
               src={sPurple}
               alt='S Purple'
@@ -154,7 +154,7 @@ const Hero = () => {
             >
             </Image>
           </div>
-          <div className='z-10 hover:z-[-100] opacity-80 invisible lg:visible'>
+          <div className='z-10 hover:z-[-100] invisible lg:visible'>
           <Image
               src={aPurple}
               alt='A Purple'
@@ -171,7 +171,7 @@ const Hero = () => {
             >
             </Image>
           </div>
-          <div className='z-10 hover:z-[-100] opacity-80 invisible lg:visible ml-5'>
+          <div className='z-10 hover:z-[-100] invisible lg:visible ml-5'>
           <Image
               src={sPurple}
               alt='S Purple'
@@ -188,7 +188,7 @@ const Hero = () => {
             >
             </Image>
           </div>
-          <div className='z-10 hover:z-[-100] opacity-80 invisible lg:visible'>
+          <div className='z-10 hover:z-[-100] invisible lg:visible'>
           <Image
               src={sPurple}
               alt='S Purple'
@@ -205,7 +205,7 @@ const Hero = () => {
             >
             </Image>
           </div>
-          <div className='z-10 hover:z-[-100] opacity-80 invisible lg:visible'>
+          <div className='z-10 hover:z-[-100] invisible lg:visible'>
           <Image
               src={yPurple}
               alt='Y Purple'

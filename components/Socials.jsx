@@ -13,9 +13,9 @@ const styles = {
   topSetMobile: 'flex flex-col lg:hidden lg:flex-row font-body items-center font-bold text-sec text-md space-y-4 lg:space-y-0 lg:space-x-8',
   bottomSet: 'flex flex-col hidden lg:inline-flex lg:flex-row items-center font-body font-bold text-sec text-3xl space-y-4 lg:space-y-0 lg:space-x-9',
   bottomSetMobile: 'flex flex-row lg:hidden items-center font-body font-bold text-sec text-md space-x-5 justify-center',
-  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-sec p-4 lg:p-8 w-[320px] h-[110px] lg:w-[550px] lg:h-[130px]',
+  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-sec p-4 lg:p-8 w-[320px] h-[110px] lg:w-[550px] lg:h-[130px] hover:bg-sec hover:text-white',
   longBoxMobile: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-sec py-4 pl-6 lg:p-8 w-[260px] h-[110px] lg:w-[550px] lg:h-[130px] ',
-  shortBox: 'flex flex-row items-center justify-between border-[3px] border-sec p-8 w-[320px] h-[110px] lg:w-[353px] lg:h-[130px] cursor-pointer',
+  shortBox: 'flex flex-row items-center justify-between border-[3px] border-sec p-8 w-[320px] h-[110px] lg:w-[353px] lg:h-[130px] cursor-pointer hover:bg-sec hover:text-white',
   squareBox:'flex flex-col lg:hidden items-center justify-center border-[3px] border-sec w-[120px] h-[150px] px-2'
 }
 

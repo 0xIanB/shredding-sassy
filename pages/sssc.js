@@ -26,11 +26,11 @@ const sssc = () => {
     <Navbar />
       
       {/* Header */}
-      <div className='flex flex-col xl:flex-row px-4 mt-20 justify-center items-center xl:justify-between mb-20 lg:mb-8'>
+      <div className='flex flex-col xl:flex-row px-4 mt-20 justify-center items-center xl:justify-between mb-20 lg:mb-16'>
         {/* Left Side */}
-        <div className='flex flex-col w-3/4 space-y-8'>
+        <div className='flex flex-col w-full lg:w-3/4 space-y-8'>
           {/* Title */}
-            <div className='flex w-full ml-1 xl:ml-0 justify-center xl:justify-start '>
+            <div className='flex w-full justify-center xl:justify-start '>
               <Image
                 src={brownstroke}
                 alt='Team Shredders'
@@ -43,12 +43,12 @@ const sssc = () => {
           <div className='flex flex-col space-y-8 text-center xl:text-start xl:ml-20'>
             <p className='text-md xl:text-lg font-medium text-pri'>By holding a Shredding Sassy NFT you will become a fully fledged member of the Shredding Sassy Social Club. </p>
             <p className='text-md xl:text-lg font-medium text-pri'>This is our community. Where like minded individuals will be part of a collective, where we feel included and welcome. Sharing stories, photos and videos. Discussing ideas, arranging meetups and planning trips. </p>
-            <p className='text-md lg:text-lg font-medium text-pri'>Being a member of the SSSC comes with many perks and benefits: </p>
+            <p className='text-md lg:text-lg font-medium text-pri'>Being a member of the SSSC comes with many perks and benefits. </p>
           </div>
         </div>
 
         {/* Right Side */}
-        <div className='hidden xl:inline-flex items-center md:-mb-16 lg:mr-40'>
+        <div className='hidden xl:inline-flex items-center md:-mb-32 lg:mr-40'>
           <Image
             src={ssscsassy}
             alt='Left Sassy'
@@ -60,7 +60,7 @@ const sssc = () => {
       </div>
 
       {/* Main Container */}
-      <Accordion allowMultiple className='flex flex-row flex-wrap justify-evenly mx-4 xl:mx-0 xl:-ml-4'>
+      <Accordion allowMultiple className='flex flex-row flex-wrap justify-evenly mx-4 xl:mx-0 xl:-ml-4 mb-20'>
         <AccordionItem className='w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
