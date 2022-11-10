@@ -117,7 +117,7 @@ const Navbar = () => {
       {/* Hamburger Icon */}
       <div
         onClick={handleNav}
-        className='lg:hidden text-pri p-4'
+        className='lg:hidden text-pri p-4 '
       >
         <AiOutlineMenu size={25} />
       </div>
@@ -157,7 +157,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='py-4'>
-              <p className='w-[85%] md:w-[90%] py-4 font-semibold text-white'>
+              <p className='w-[85%] md:w-[90%] py-4 font-semibold text-white pb-20'>
               Join us on Meta Mountain 🏔️, <br/>Interfusing Extreme Sports & Web3 
               </p>
             </div>
@@ -165,7 +165,7 @@ const Navbar = () => {
           <div className='flex flex-row justify-between'>
           {/* Mobile Links */}
           <div className='py-4 flex flex-col'>
-            <ul className='uppercase space-y-4'>
+            <ul className='uppercase space-y-6'>
               <Link href='/'>
                 <li onClick={() => setNav(false)} className='py-1 pl-3 text-sm border-white border-2 w-[74%] rounded-md text-white tracking-widest font-bold'>
                   Home
