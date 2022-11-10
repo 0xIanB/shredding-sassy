@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import headerImg from '../assets/logo.png'
+import logoWhite from '../assets/logoWhite.png'
 import mobileSassy from '../assets/mobileSassy.png'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { FaTwitter, FaMediumM, FaInstagram } from 'react-icons/fa'
@@ -116,7 +117,7 @@ const Navbar = () => {
       {/* Hamburger Icon */}
       <div
         onClick={handleNav}
-        className='lg:hidden text-pri p-4 ml-40'
+        className='lg:hidden text-pri p-4'
       >
         <AiOutlineMenu size={25} />
       </div>
@@ -132,7 +133,7 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? 'fixed right-0 top-0 w-full h-screen bg-white p-4  ease-in duration-300'
+              ? 'fixed right-0 top-0 w-full h-screen bg-pri p-4  ease-in duration-300'
               : 'fixed right-[-100%] top-0 p-4 ease-in duration-300'
           }
         >
@@ -141,7 +142,7 @@ const Navbar = () => {
               <Link href='/'>
                 <a>
                   <Image
-                    src={headerImg}
+                    src={logoWhite}
                     alt='Shredding Sassy Logo'
                     height={50}
                     width={200}
@@ -150,13 +151,13 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='text-pri p-3 cursor-pointer'
+                className='text-white p-3 cursor-pointer'
               >
                 <AiOutlineClose size={25}/>
               </div>
             </div>
             <div className='py-4'>
-              <p className='w-[85%] md:w-[90%] py-4 font-semibold'>
+              <p className='w-[85%] md:w-[90%] py-4 font-semibold text-white'>
               Join us on Meta Mountain 🏔️, <br/>Interfusing Extreme Sports & Web3 
               </p>
             </div>
@@ -166,27 +167,27 @@ const Navbar = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase space-y-4'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-1 pl-3 text-sm border-pri border-2 w-[74%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='py-1 pl-3 text-sm border-white border-2 w-[74%] rounded-md text-white tracking-widest font-bold'>
                   Home
                 </li>
               </Link>
               <Link href='/sssc'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[70%] rounded-md text-white tracking-widest font-semibold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold'>
                   SSSC
                 </li>
               </Link>
               <Link href='/team'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[75%] rounded-md text-white tracking-widest font-semibold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[75%] rounded-md text-pri tracking-widest font-semibold'>
                   Team
                 </li>
               </Link>
               <Link href='/trailmap'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[110%] rounded-md text-white tracking-widest font-semibold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-semibold'>
                   Trail Map
                 </li>
               </Link>
               <Link href='/shop'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[76%] rounded-md text-white tracking-widest font-semibold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[76%] rounded-md text-pri tracking-widest font-semibold'>
                   Shop
                 </li>
               </Link>
