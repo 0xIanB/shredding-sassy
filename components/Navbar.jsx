@@ -151,7 +151,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='text-white p-3 cursor-pointer'
+                className='text-white p-2 cursor-pointer'
               >
                 <AiOutlineClose size={25}/>
               </div>
@@ -194,12 +194,12 @@ const Navbar = () => {
             </ul>
           </div>
           {/* Sassy Image */}
-          <div className='-mr-20'>
+          <div className='-mr-14'>
           <Image
             src={mobileSassy}
             alt='Sassy'
-            width={400}
-            height={400}
+            width={300}
+            height={300}
           />
           </div>
           </div>
