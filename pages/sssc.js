@@ -14,6 +14,12 @@ import {
   AccordionIcon,
   Box,
 } from '@chakra-ui/react'
+import miniSassy1 from '../assets/miniSassy1.png'
+import miniSassy2 from '../assets/miniSassy2.png'
+import miniSassy3 from '../assets/miniSassy3.png'
+import miniSassy4 from '../assets/miniSassy4.png'
+import miniSassy5 from '../assets/miniSassy5.png'
+import miniSassy6 from '../assets/miniSassy6.png'
 
 const sssc = () => {
   return (
@@ -26,9 +32,9 @@ const sssc = () => {
     <Navbar />
       
       {/* Header */}
-      <div className='flex flex-col xl:flex-row px-4 mt-20 justify-center items-center xl:justify-between mb-20 lg:mb-16'>
+      <div className='flex flex-col xl:flex-row px-4 mt-20 justify-center items-center xl:justify-between mb-10 lg:mb-6 shrink-0'>
         {/* Left Side */}
-        <div className='flex flex-col w-full lg:w-3/4 space-y-8'>
+        <div className='flex flex-col w-[90%] md:w-3/4 space-y-8'>
           {/* Title */}
             <div className='flex w-full justify-center xl:justify-start '>
               <Image
@@ -40,7 +46,7 @@ const sssc = () => {
               </Image>
             </div>
           {/* Info */}
-          <div className='flex flex-col space-y-8 text-center lg:text-start lg:ml-20 justify-center w-full lg:w-[75%]'>
+          <div className='flex flex-col space-y-8 text-center xl:text-start lg:ml-20 justify-center w-full p-2 lg:w-[75%]'>
             <p className='text-md xl:text-lg font-medium text-pri'>By holding a Shredding Sassy NFT you will become a fully fledged member of the Shredding Sassy Social Club. </p>
             <p className='text-md xl:text-lg font-medium text-pri'>This is our community. Where like minded individuals will be part of a collective, where we feel included and welcome. Sharing stories, photos and videos. Discussing ideas, arranging meetups and planning trips. </p>
             <p className='text-md lg:text-lg font-medium text-pri'>Being a member of the SSSC comes with many perks and benefits. </p>
@@ -61,7 +67,9 @@ const sssc = () => {
 
       {/* Main Container */}
       <Accordion allowMultiple className='flex flex-row flex-wrap justify-evenly mx-4 xl:mx-0 xl:-ml-4 mb-20'>
-        <AccordionItem className='w-[600px] mb-10'>
+        {/* Item 1 */}
+        <div className='flex flex-col mt-10'>
+        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -95,7 +103,10 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>            
+        {/* Item 2 */}
+        <div className='flex flex-col mt-10'>
+        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -129,7 +140,18 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>
+        {/* Item 3 */}
+        <div className='flex flex-col -mt-8'>
+          <div className='flex justify-end -mb-2 mr-24'>
+            <Image 
+              src={miniSassy1}
+              alt='Mini Sassy 1'
+              height={80}
+              width={80}
+            />           
+          </div>
+          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -163,7 +185,10 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>            
+        {/* Item 4 */}
+        <div className='flex flex-col mt-10'>
+        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -197,7 +222,10 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>
+        {/* Item 5 */}
+        <div className='flex flex-col mt-10'>
+        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -231,7 +259,18 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>
+        {/* Item 6 */}
+        <div className='flex flex-col -mt-8'>
+          <div className='flex justify-center -mb-2'>
+            <Image 
+              src={miniSassy2}
+              alt='Mini Sassy 2'
+              height={80}
+              width={80}
+            />           
+          </div>
+          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -265,7 +304,18 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>
+        {/* Item 7 */}
+        <div className='flex flex-col -mt-8'>
+          <div className='flex justify-end -mb-2'>
+            <Image 
+              src={miniSassy3}
+              alt='Mini Sassy 3'
+              height={80}
+              width={80}
+            />           
+          </div>
+          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -299,7 +349,18 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>
+        {/* Item 8 */}
+        <div className='flex flex-col -mt-8'>
+          <div className='flex justify-start -mb-2'>
+            <Image 
+              src={miniSassy4}
+              alt='Mini Sassy 4'
+              height={80}
+              width={80}
+            />           
+          </div>
+          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -333,7 +394,18 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>
+        {/* Item 9 */}
+        <div className='flex flex-col -mt-8'>
+          <div className='flex justify-start -mb-2 ml-40'>
+            <Image 
+              src={miniSassy5}
+              alt='Mini Sassy 5'
+              height={80}
+              width={80}
+            />           
+          </div>
+          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -367,7 +439,18 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
-        <AccordionItem className='w-[600px] mb-10'>
+        </div>
+        {/* Item 10 */}
+        <div className='flex flex-col -mt-8'>
+          <div className='flex justify-end -mb-2 mr-20 '>
+            <Image 
+              src={miniSassy6}
+              alt='Mini Sassy6'
+              height={80}
+              width={80}
+            />           
+          </div>
+          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -401,6 +484,10 @@ const sssc = () => {
             </>
           )}
         </AccordionItem>
+        </div>
+
+
+
       </Accordion>
     <Footer />
   </div>
