@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar'
 
 const terms = () => {
   return (
-    <div className='h-screen'>
+    <div className='h-screen text-pri'>
       <Head>
         <title>Shredding Sassy | T&C</title>
         <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />

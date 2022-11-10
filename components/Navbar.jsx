@@ -40,8 +40,9 @@ const Navbar = () => {
   }, [scrollDirection]);
 
   return (
-    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} flex flex-row justify-between h-[75px] z-50 items-center bg-white shadow-xl transition-all duration-500`}>
-      {/* Sassy Logo Box */}
+    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} flex flex-row justify-between h-[75px] w-full z-50 items-center bg-white shadow-xl transition-all duration-500`}>
+      <div className='flex justify-between w-full h-full items-center'>
+        {/* Sassy Logo Box */}
       <div className={styles.logoContainer}>
         <Link href='/'>    
           <Image
@@ -114,6 +115,8 @@ const Navbar = () => {
           </a>
         </div>
       </div>
+      </div>
+      
       {/* Hamburger Icon */}
       <div
         onClick={handleNav}
@@ -151,7 +154,7 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='text-white p-2 cursor-pointer'
+                className='text-white -mt-2 cursor-pointer'
               >
                 <AiOutlineClose size={25}/>
               </div>
