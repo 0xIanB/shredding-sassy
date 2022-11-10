@@ -106,14 +106,14 @@ const team = () => {
           {/* Team Cards */}
           <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={joshsassy}
                   alt='Josh Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -121,8 +121,8 @@ const team = () => {
                 <Image
                   src={josh}
                   alt='Josh'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -163,14 +163,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={jakesassy}
                   alt='Jake Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -178,8 +178,8 @@ const team = () => {
                 <Image
                   src={jake}
                   alt='Jake'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -220,14 +220,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>              
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>              
             {/* Image */}
               <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={olliesassy}
                   alt='Ollie Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -235,8 +235,8 @@ const team = () => {
                 <Image
                   src={ollie}
                   alt='Ollie'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -277,14 +277,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>             
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>             
              {/* Image */}
               <div className='z-10 hover:z-[-100]'>
                 <Image
                   src={raabsassy}
                   alt='Raab Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -292,8 +292,8 @@ const team = () => {
                 <Image
                   src={raab}
                   alt='Raab'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -334,14 +334,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={franksassy}
                   alt='Frank Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -382,14 +382,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={jaysassy}
                   alt='Jay Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -430,14 +430,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={tylersassy}
                   alt='Tyler Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -478,14 +478,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={iansassy}
                   alt='Ian Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -527,14 +527,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={natesassy}
                   alt='Nate Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -576,14 +576,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={toondsassy}
                   alt='Toond Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -612,14 +612,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={ragensassy}
                   alt='Ragen Sassy'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -659,14 +659,14 @@ const team = () => {
           {/* Pro Cards */}
           <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={ben}
                   alt='Ben'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -702,14 +702,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={garrett}
                   alt='Garrett'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -745,14 +745,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={james}
                   alt='James'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -788,14 +788,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={jonjoe}
                   alt='JonJoe'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -831,14 +831,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={karel}
                   alt='Karel'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -874,14 +874,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={keith}
                   alt='Keith'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -917,14 +917,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={noah}
                   alt='Noah'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -960,14 +960,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={tyler}
                   alt='Tyler'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -1003,14 +1003,14 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={zach}
                   alt='Zach'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
@@ -1057,105 +1057,105 @@ const team = () => {
           {/* Partner Cards */}
           <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={absolute}
                   alt='Absolute-Snow'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={dynastar}
                   alt='DynaStar'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={faction}
                   alt='Faction'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={panda}
                   alt='Panda Optics'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={shaggys}
                   alt='Shaggys'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={shred}
                   alt='Shred'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={skibro}
                   alt='SkiBro'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[300px] sm:mr-8 mb-10 shrink-0'>
+            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
               {/* Image */}
               <div>
                 <Image
                   src={snowrock}
                   alt='SnowRock'
-                  height={300}
-                  width={300}
+                  height={280}
+                  width={280}
                 >
                 </Image>
               </div>
