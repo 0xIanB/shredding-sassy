@@ -138,7 +138,7 @@ const Navbar = () => {
           }
         >
           <div>
-            <div className='flex w-full items-center justify-between'>
+            <div className='flex w-full items-center justify-between pb-4'>
               <Link href='/'>
                 <a>
                   <Image
@@ -157,7 +157,7 @@ const Navbar = () => {
               </div>
             </div>
             <div className='py-4'>
-              <p className='w-[85%] md:w-[90%] py-4 font-semibold text-white pb-20'>
+              <p className='w-[85%] md:w-[90%] py-4 font-semibold text-white pb-4'>
               Join us on Meta Mountain 🏔️, <br/>Interfusing Extreme Sports & Web3 
               </p>
             </div>
@@ -167,44 +167,44 @@ const Navbar = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase space-y-6'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-1 pl-3 text-sm border-white border-2 w-[74%] rounded-md text-white tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='py-1 pl-2 text-sm border-white border-2 w-[74%] rounded-md text-white tracking-widest font-bold'>
                   Home
                 </li>
               </Link>
               <Link href='/sssc'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold'>
                   SSSC
                 </li>
               </Link>
               <Link href='/team'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[75%] rounded-md text-pri tracking-widest font-semibold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[75%] rounded-md text-pri tracking-widest font-bold'>
                   Team
                 </li>
               </Link>
               <Link href='/trailmap'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-semibold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[120%] rounded-md text-pri tracking-widest font-bold'>
                   Trail Map
                 </li>
               </Link>
               <Link href='/shop'>
-                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-white w-[76%] rounded-md text-pri tracking-widest font-semibold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[76%] rounded-md text-pri tracking-widest font-bold'>
                   Shop
                 </li>
               </Link>
             </ul>
           </div>
           {/* Sassy Image */}
-          <div className='-mr-14'>
+          <div className='-mr-28'>
           <Image
             src={mobileSassy}
             alt='Sassy'
-            width={300}
-            height={300}
+            width={400}
+            height={400}
           />
           </div>
           </div>
         {/* Social Icons */}
-        <div className='flex items-center cursor-pointer space-x-8 mt-40 p-2'>
+        <div className='flex items-center cursor-pointer space-x-8 mt-12 p-2'>
           {/* Twitter */}
           <div className={styles.socialIcons}>
             <a
