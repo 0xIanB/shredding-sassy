@@ -204,7 +204,7 @@ const Navbar = () => {
           </div>
           </div>
         {/* Social Icons */}
-        <div className='flex items-center cursor-pointer space-x-8 mt-12 p-2'>
+        <div className='flex items-center cursor-pointer space-x-8 mt-20 p-2'>
           {/* Twitter */}
           <div className={styles.socialIcons}>
             <a
