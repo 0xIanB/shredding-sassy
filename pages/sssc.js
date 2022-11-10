@@ -40,7 +40,7 @@ const sssc = () => {
               </Image>
             </div>
           {/* Info */}
-          <div className='flex flex-col space-y-8 text-center xl:text-start xl:ml-20'>
+          <div className='flex flex-col space-y-8 text-center lg:text-start lg:ml-20 justify-center w-full lg:w-[75%]'>
             <p className='text-md xl:text-lg font-medium text-pri'>By holding a Shredding Sassy NFT you will become a fully fledged member of the Shredding Sassy Social Club. </p>
             <p className='text-md xl:text-lg font-medium text-pri'>This is our community. Where like minded individuals will be part of a collective, where we feel included and welcome. Sharing stories, photos and videos. Discussing ideas, arranging meetups and planning trips. </p>
             <p className='text-md lg:text-lg font-medium text-pri'>Being a member of the SSSC comes with many perks and benefits. </p>

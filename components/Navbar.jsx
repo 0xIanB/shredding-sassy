@@ -2,16 +2,24 @@ import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link';
 import headerImg from '../assets/logo.png'
-import twitterImg from '../assets/twitter.png'
-import mediumImg from '../assets/medium.png'
-import igImg from '../assets/igblue.png'
+import mobileSassy from '../assets/mobileSassy.png'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import mobilenav from '../assets/navmobile.png'
+import { FaTwitter, FaMediumM, FaInstagram } from 'react-icons/fa'
+
+const styles = {
+  logoContainer: 'flex p-4 shrink-0 hover:cursor-pointer',
+  navLinkContainer: 'hidden lg:flex justify-center text-xl font-body items font-bold shrink-0',
+  linkAnimate: 'text-pri mr-8 hover-underline-animation',
+  socialIcons: 'flex items-center text-[#5470C7] hover:text-hov'
+}
 
 const Navbar = () => {
-  const [toggle, setToggle] = useState(false)
-
+  const [nav, setNav] = useState(false);
   const [scrollDirection, setScrollDirection] = useState(null);
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
 
   useEffect(() => {
     let lastScrollY = window.pageYOffset;
@@ -24,93 +32,73 @@ const Navbar = () => {
       }
       lastScrollY = scrollY > 0 ? scrollY : 0;
     };
-    window.addEventListener("scroll", updateScrollDirection); // add event listener
+      window.addEventListener("scroll", updateScrollDirection); // add event listener
     return () => {
       window.removeEventListener("scroll", updateScrollDirection); // clean up
     }
   }, [scrollDirection]);
 
   return (
-    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} h-24 z-50 flex items-start justify-between bg-white shadow-xl transition-all duration-500`}>
-          {/* Sassy Logo Box */}
-          <div className='hidden lg:inline-flex p-4 pt-5 shrink-0 hover:cursor-pointer'>
+    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} h-full w-full z-50 flex justify-between items-center bg-white shadow-xl transition-all duration-500`}>
+      {/* Sassy Logo Box */}
+      <div className={styles.logoContainer}>
         <Link href='/'>    
-        <Image
-          src={headerImg}
-          alt='Shredding Sassy Logo'
-          height={50}
-          width={200}
-        >
-        </Image>
+          <Image
+            src={headerImg}
+            alt='Shredding Sassy Logo'
+            height={50}
+            width={200}
+          >
+          </Image>
         </Link>
       </div>
-
       {/* Nav Links */}
-      <div className='hidden justify-center lg:text-xl font-body items font-bold lg:inline-flex lg:p-7 ml-36 lg:space-x-12 shrink-0'>
+      <div className={styles.navLinkContainer}>
         <Link href='/sssc'>
-          <button className='text-pri'>SSSC</button>
+          <button className={styles.linkAnimate}>SSSC</button>
         </Link>
         <Link href='/team'>
-          <button className='text-pri'>Team</button>
+          <button className={styles.linkAnimate}>Team</button>
         </Link>
         <Link href='/trailmap'>
-          <button className='text-pri'>Trail Map</button>
+          <button className={styles.linkAnimate}>Trail Map</button>
         </Link>
         <Link href='/shop'>
-          <button className='text-pri'>Shop</button>
+          <button className={styles.linkAnimate}>Shop</button>
         </Link>
       </div>
-
       {/* Socials Links */}
-      <div className='flex-row hidden lg:inline-flex justify-between items-center p-4 shrink-0'>
+      <div className='hidden lg:flex items-center p-4'>
         {/* Social Icons */}
-        <div className='flex flex-row items-center px-4 cursor-pointer space-x-4'>
+        <div className='flex items-center px-4 cursor-pointer space-x-4'>
           {/* Twitter */}
-          <div className='flex items-center'>
+          <div className={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Image
-                src={twitterImg}
-                alt='Twitter Logo'
-                height={18}
-                width={20}
-              >
-              </Image>
+              <FaTwitter size={25}/>
             </a>
           </div>
           {/* Medium */}
-          <div className='flex items-center'> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Image
-                src={mediumImg}
-                alt='Medium Logo'
-                height={18}
-                width={20}
-              >
-              </Image>
+              <FaMediumM size={25}/> 
             </a>
           </div>
           {/* Instagram */}
-          <div className='flex items-center'> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
               rel='noopener noreferrer'
             >
-              <Image
-                src={igImg}
-                alt='Instagram Logo'
-                height={22}
-                width={22}
-              >
-              </Image>
+              <FaInstagram size={25} />
             </a>
           </div>
         </div>
@@ -123,57 +111,130 @@ const Navbar = () => {
           >
             <button className='bg-[#5470C7] w-[250px] h-[50px] rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
           </a>
-
         </div>
+      </div>
+      {/* Hamburger Icon */}
+      <div
+        onClick={handleNav}
+        className='lg:hidden text-pri p-4 ml-40'
+      >
+        <AiOutlineMenu size={25} />
       </div>
 
       {/* Mobile Menu */}
-      <div className='lg:hidden flex items-center w-full justify-between h-[85px] pl-2 pr-8'>
-        <div className='flex items-center justify-center mt-8'>
-          <Link href='/'>
-            <Image
-              src={mobilenav}
-              alt='Mobile Nav'
-              height={75}
-              width={90}
-            >
-            </Image>
-          </Link>
-
-        </div>
-        <div className='flex'>
-          {toggle && (
-            <div>
-              <div className='flex flex-col -mr-[32px] -mb-[190px] text-xl font-body font-bold space-y-2 bg-white w-[250px] p-8 rounded-lg shadow-xl'>
-                <div className='flex items-end justify-end pb-2 '>
-                  <AiOutlineClose 
-                    size={25} 
-                    onClick={() => setToggle(false)} />
-                </div>
-                <div className='flex flex-col space-y-2'>
-                  <Link href='/sssc'>
-                    <button className='text-pri'>SSSC</button>
-                  </Link>
-                  <Link href='/team'>
-                    <button className='text-pri'>Team</button>
-                  </Link>
-                  <Link href='/trailmap'>
-                    <button className='text-pri'>Trail Map</button>
-                  </Link>
-                  <Link href='/shop'>
-                    <button className='text-pri'>Shop</button>
-                  </Link>
-                </div>
-                
+      {/* Overlay */}
+      <div
+        className={
+          nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen' : ''
+        }
+      >
+        {/* Side Drawer Menu */}
+        <div
+          className={
+            nav
+              ? 'fixed right-0 top-0 w-full h-screen bg-white p-4  ease-in duration-300'
+              : 'fixed right-[-100%] top-0 p-4 ease-in duration-300'
+          }
+        >
+          <div>
+            <div className='flex w-full items-center justify-between'>
+              <Link href='/'>
+                <a>
+                  <Image
+                    src={headerImg}
+                    alt='Shredding Sassy Logo'
+                    height={50}
+                    width={200}
+                  />
+                </a>
+              </Link>
+              <div
+                onClick={handleNav}
+                className='text-pri p-3 cursor-pointer'
+              >
+                <AiOutlineClose size={25}/>
               </div>
             </div>
-          ) || (
-            <div className='transition ease-in-out'>
-              <AiOutlineMenu 
-                size={25} 
-                onClick={() => setToggle(true)}/>
+            <div className='py-4'>
+              <p className='w-[85%] md:w-[90%] py-4 font-semibold'>
+              Join us on Meta Mountain 🏔️, <br/>Interfusing Extreme Sports & Web3 
+              </p>
             </div>
-          )}
+          </div>
+          <div className='flex flex-row justify-between'>
+          {/* Mobile Links */}
+          <div className='py-4 flex flex-col'>
+            <ul className='uppercase space-y-4'>
+              <Link href='/'>
+                <li onClick={() => setNav(false)} className='py-1 pl-3 text-sm border-pri border-2 w-[74%] rounded-md text-pri tracking-widest font-bold'>
+                  Home
+                </li>
+              </Link>
+              <Link href='/sssc'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[70%] rounded-md text-white tracking-widest font-semibold'>
+                  SSSC
+                </li>
+              </Link>
+              <Link href='/team'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[75%] rounded-md text-white tracking-widest font-semibold'>
+                  Team
+                </li>
+              </Link>
+              <Link href='/trailmap'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[110%] rounded-md text-white tracking-widest font-semibold'>
+                  Trail Map
+                </li>
+              </Link>
+              <Link href='/shop'>
+                <li onClick={() => setNav(false)} className='p-1 pl-4 text-sm bg-pri w-[76%] rounded-md text-white tracking-widest font-semibold'>
+                  Shop
+                </li>
+              </Link>
+            </ul>
+          </div>
+          {/* Sassy Image */}
+          <div className='-mr-20'>
+          <Image
+            src={mobileSassy}
+            alt='Sassy'
+            width={400}
+            height={400}
+          />
+          </div>
+          </div>
+        {/* Social Icons */}
+        <div className='flex items-center cursor-pointer space-x-8 mt-14 p-2'>
+          {/* Twitter */}
+          <div className={styles.socialIcons}>
+            <a
+              href='https://twitter.com/ShreddingSassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaTwitter size={25}/>
+            </a>
+          </div>
+          {/* Medium */}
+          <div className={styles.socialIcons}> 
+            <a 
+              href='https://medium.com/@shreddingsassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaMediumM size={25}/> 
+            </a>
+          </div>
+          {/* Instagram */}
+          <div className={styles.socialIcons}> 
+            <a 
+              href='https://www.instagram.com/shreddingsassy/' 
+              target='_blank'  
+              rel='noopener noreferrer'
+            >
+              <FaInstagram size={25} />
+            </a>
+          </div>
+          </div>
         </div>
       </div>
     </div>

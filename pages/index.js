@@ -11,7 +11,7 @@ import Footer from '../components/Footer'
 
 export default function Home() {
   return (
-    <div>
+    <div id='home'>
       <Head>
         <title>Shredding Sassy</title>
         <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />

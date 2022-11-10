@@ -12,7 +12,7 @@ const shop = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className='flex flex-col space-y-8 items-center text-center justify-center p-20'>
+      <div className='flex flex-col space-y-8 items-center text-center justify-center p-40'>
         <p className='font-bold font-mont text-pri text-2xl pt-4 pb-2 '>...COMING SOON</p>
       </div>
       <Footer />

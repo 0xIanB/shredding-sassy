@@ -68,7 +68,7 @@ const team = () => {
               </div>
             {/* Info */}
             <div className='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center lg:text-left'>
-              <p className='text-md md:text-lg font-medium text-darkpurple2 '>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
+              <p className='text-md md:text-lg font-medium text-pri '>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
               <p className='text-md md:text-lg font-medium text-darkpurple2'>Pioneering a new kind of brand that we build together.</p>
             </div>
           </div>
