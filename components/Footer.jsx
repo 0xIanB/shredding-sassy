@@ -2,15 +2,13 @@ import React from 'react'
 import Image from 'next/image'
 import footerImg from '../assets/logo.png'
 import Link from 'next/link';
-import twitterImg from '../assets/twitter.png'
-import mediumImg from '../assets/medium.png'
-import igImg from '../assets/igblue.png'
-import discordImg from '../assets/discord.png'
+import { FaTwitter, FaMediumM, FaInstagram, FaDiscord } from 'react-icons/fa'
 
 const styles = {
   container: 'flex flex-col space-y-8 lg:flex-row justify-between items-center p-8 border-t-2 border-[#D9D9D9] z-20',
   socialLinks: 'flex items-center cursor-pointer',
   leftside: 'flex flex-col items-center justify-center space-x-4 lg:-ml-4',
+  socialIcons: 'flex items-center text-[#5470C7] hover:text-hov'
 }
 
 const Footer = () => {
@@ -23,70 +21,46 @@ const Footer = () => {
           <iframe src="https://www.aerial.is/nft/embed?address=0x3e88721fa41d5e102d54b4a04e550222efdd234d">
           </iframe>
         </div>
-        {/* Socials Icons */}
+        {/* Social Icons */}
         <div className='flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14'>
           {/* Discord */}
-          <div className={styles.socialLinks}>
-            <a
-              href='https://discord.gg/sassy'
-              target='_blank'
-              rel='noopener noreferrer'
-            >
-              <Image
-                src={discordImg}
-                alt='Discord Logo'
-                height={23}
-                width={29}
-              >
-              </Image>
-            </a>
-          </div>
-          {/* Twitter */}
-          <div className={styles.socialLinks}>
+          <div className={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Image
-                src={twitterImg}
-                alt='Twitter Logo'
-                height={23}
-                width={28}
-              >
-              </Image>
+              <FaDiscord size={25}/>
+            </a>
+          </div>
+          {/* Twitter */}
+          <div className={styles.socialIcons}>
+            <a
+              href='https://twitter.com/ShreddingSassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaTwitter size={25}/>
             </a>
           </div>
           {/* Medium */}
-          <div className={styles.socialLinks}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
               rel='noopener noreferrer'
             >
-              <Image
-                src={mediumImg}
-                alt='Medium Logo'
-                height={23}
-                width={27}
-              >
-              </Image>
+              <FaMediumM size={25}/> 
             </a>
           </div>
           {/* Instagram */}
-          <div className={styles.socialLinks}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
               rel='noopener noreferrer'
             >
-              <Image
-                src={igImg}
-                alt='Instagram Logo'
-                height={27}
-                width={27}
-              >
-              </Image>
+              <FaInstagram size={25} />
             </a>
           </div>
         </div>

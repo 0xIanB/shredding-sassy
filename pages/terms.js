@@ -33,7 +33,7 @@ const terms = () => {
           {'Our website is our proprietary property and all source code, databases, functionality, software, website designs, audio, video, text, and graphics on the website (collectively, the “Content”) and the trademarks, service marks, and logos contained therein (the “Marks”) are owned or controlled by us or licensed to us, and are protected by copyright and trademark laws and various other intellectual property rights. The Content and the Marks are provided on the Site “AS IS” for your information and personal use only. Except as expressly provided in these Terms or under an applicable license on our website, no part of the website and no Content or Marks may be copied, reproduced, aggregated, republished, uploaded, posted, publicly displayed, encoded, translated, transmitted, distributed, sold, licensed, or otherwise exploited for any commercial purpose, without our express prior written permission. Provided that you are eligible, you are granted a limited license to access and use the website solely for your personal, non-commercial use. We reserve all rights in and to the website, the Content, and the Marks.'}
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10'>
+      <div className='flex flex-col mx-4 mt-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           DIGITAL ASSETS
         </h1>
@@ -44,7 +44,7 @@ const terms = () => {
           {'Unless otherwise stated by us, you will be solely responsible to pay any and all income, capital gains, sales, use, value-added and other taxes, duties, and assessments now or hereafter claimed or imposed by any governmental authority (collectively, “Taxes”) associated with Digital Assets purchased or otherwise received by you (including, without limitation, any taxes that may become payable as the result of your ownership, transfer, purchase, receipt or sale of a Company NFT). With respect to Digital Assets released by us prior to September 15, 2022, you understand and acknowledge that we will only recognize such Digital Assets on the Proof of Stake Ethereum chain (with chainID of 1) as subject to the applicable license on our website and eligible to participate in activities of the Company which are tied to ownership of our Digital Assets. In the event that there are any further changes to the operating rules of the underlying software protocol of a relevant blockchain network that results in two different branches of the relevant blockchain network, the parties acknowledge and agree that the Company may, in its sole discretion, decide whether or not to support (or cease supporting) the Company NFTs on either branch of the forked software protocol entirely. You acknowledge and agree that we assume no liability, obligation, or responsibility whatsoever in respect to the operation of underlying software protocols or an unsupported branch of a forked software protocol, including but not limited to, any viable Proof of Work Ethereum Fork, and you acknowledge and assume the risk of the same.'}
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10'>
+      <div className='flex flex-col mx-4 mt-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           REPRESENTATIONS AND WARRANTIES
         </h1>
@@ -52,7 +52,7 @@ const terms = () => {
           {"By using the website, you represent and warrant that: (1) you have the legal capacity and you agree to comply with these Terms; (2) you are not a minor in the jurisdiction in which you reside; (3) you will not access the website through automated or non-human means, whether through a bot, script, or otherwise; (4) you will not use the Site for any illegal or unauthorized purpose; (5) you are not a national or resident of any country subject to U.S. sanctions or similar restrictions (currently, Cuba, Iran, Syria, North Korea, and the following regions of Ukraine: Crimea, Donetsk and Luhansk) and you are not on the U.S. Treasury Department’s list of Specially Designated Nationals or other sanctions lists; and (6) your use of the website will not violate any applicable law or regulation."}
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10'>
+      <div className='flex flex-col mx-4 mt-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           COVENANTS AND RESTRICTIONS
         </h1>
@@ -63,7 +63,7 @@ const terms = () => {
           {"We are not permitted to engage in any transactions with any person, entity, or country prohibited by any applicable export control and sanctions laws and regulations of the United States and any other applicable governmental authority, including without limitation, the U.S. Export Administration Regulations and U.S. sanctions regulations (“Export Control and Sanctions Laws”), including, without limitation, the prohibition against transactions with: (i) a national or resident of any country subject to U.S. sanctions or similar restrictions (currently, Cuba, Iran, Syria, North Korea, and the following regions of Ukraine: Crimea, Donetsk and Luhansk) or (ii) anyone on the U.S. Treasury Department’s list of Specially Designated Nationals or other sanctions lists. You are not permitted to purchase any Company Products or engage in any other transactions with us through the website or otherwise if any of the foregoing restrictions apply. In the event that you breach this provision, we reserve the right to the fullest extent possible to cancel any transaction or pursue other measures to comply with Export Control and Sanctions Laws."}
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10'>
+      <div className='flex flex-col mx-4 mt-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           PRIVACY
         </h1>
@@ -74,7 +74,7 @@ const terms = () => {
           {"Nevertheless, no security measures are failsafe and we cannot guarantee the security of your personal information. You are advised that there are inherent security risks in transmitting data, such as emails, addresses or other personal information, via the website, because it is impossible to safeguard completely against unauthorized access by third-parties. Company shall not be held liable for any damages incurred as a consequence of such security risks or for any related acts of omission on our part."}
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10'>
+      <div className='flex flex-col mx-4 mt-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           ASSUMPTION OF RISK, DISCLAIMERS AND LIMITATION OF LIABILITY
         </h1>
@@ -97,7 +97,7 @@ const terms = () => {
           Notwithstanding the foregoing, in the event that Company is found liable in respect of any loss, damage or cause of action (whether contractual, extra-contractual or otherwise) arising out of or in connection with (i) these Terms or any of the features or functionalities of the website or its content, or your use or inability of use thereof, Company’s liability shall not exceed the amount paid for use thereof or access thereto; or (ii) any product sold through the site, Company’s liability shall be strictly limited to the sale price of that product.
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10'>
+      <div className='flex flex-col mx-4 mt-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           INDEMNIFICATION
         </h1>
@@ -105,7 +105,7 @@ const terms = () => {
           {"To the fullest extent permitted by applicable law, you agree to indemnify, defend and hold harmless the Company and its affiliates and its and their Representatives (collectively, the “Indemnitees”), from and against all actual or alleged third party claims, damages, awards, judgments, losses, liabilities, obligations, penalties, interest, fees, expenses (including, without limitation, attorneys' fees and expenses) and costs (including, without limitation, court costs, costs of settlement and costs of pursuing indemnification and insurance), of every kind and nature whatsoever, whether known or unknown, foreseen or unforeseen, matured or unmatured, or suspected or unsuspected, in law or equity, whether in tort, contract or otherwise (collectively, “Claims”), including, but not limited to, damages to property or personal injury, that are caused by, arise out of or are related to (i) your use or misuse of the website, the Content, or the Company Products, (ii) your violation of these Terms, or (c) your violation of the rights of a third party, including another user of the website. You agree to promptly notify the Company of any third party Claims and cooperate with the applicable Indemnitee in defending such Claims. You further agree that the Indemnitees shall have the right to control of the defense or settlement of any third-party Claims."}
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10'>
+      <div className='flex flex-col mx-4 mt-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           GOVERNING LAW AND DISPUTE RESOLUTION
         </h1>
@@ -113,7 +113,7 @@ const terms = () => {
           {`These Terms will be governed by Delaware law, regardless of the conflict of law provisions thereof and regardless of where you live or from where you access or use the website or order products therefrom. As a condition of using the website, you and we agree that any and all disputes, claims and causes of action (collectively, "Claims") arising out of or connected with the website (except for small claims court Claims, if applicable) shall be resolved exclusively by binding arbitration under the rules of the American Arbitration Association ("AAA"), including the Supplementary Procedures for Consumer-Related Disputes, for full and final settlement of such Claim applying the Federal Arbitration Act and other federal arbitration laws. YOU UNDERSTAND AND AGREE THAT YOU ARE WAIVING YOUR RIGHT TO SUE OR GO TO COURT TO ASSERT OR DEFEND YOUR RIGHTS UNDER THESE TERMS. YOU AND WE ALSO AGREE THAT (A) ANY CLAIMS WILL BE RESOLVED INDIVIDUALLY NOT AS A PLAINTIFF OR CLASS REPRESENTATIVE, MEMBER OF OTHERWISE ON BEHALF OF OTHERS IN ANY PURPOSED CLASS, COLLECTIVE, OR REPRESENTATIVE PROCEEDING AND NOT THROUGH ANY CLASS ACTION, (B) IF A CLAIM PROCEEDS IN COURT ANYWAY, WE BOTH WAIVE ANY RIGHT TO A JURY TRIAL; AND (C) EITHER YOU OR WE MAY SEEK A COURT INJUNCTION REGARDING INTELLECTUAL PROPERTY INFRINGEMENT. ARBITRATION DOES NOT INVOLVE A JUDGE OR JURY. Although court review of an arbitration award may be limited, an arbitrator is empowered to award the same damages and relief as a court, including injunctive relief or statutory damages. Notwithstanding the foregoing, either party may seek temporary or emergency equitable relief to enforce its rights in any court of competent jurisdiction.`}
         </p>
       </div>
-      <div className='flex flex-col mx-20 mt-10 mb-10'>
+      <div className='flex flex-col mx-4 mt-10 mb-10 md:mx-20 lg:mx-40'>
         <h1 className='font-bold font-body p-2 text-lg'>
           MISCELLANEOUS
         </h1>

@@ -44,7 +44,7 @@ import Navbar from '../components/Navbar'
 
 const team = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col text-pri font-body'>
       <Head>
         <title>Shredding Sassy | Team</title>        
         <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />

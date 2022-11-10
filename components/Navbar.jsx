@@ -9,7 +9,7 @@ import { FaTwitter, FaMediumM, FaInstagram } from 'react-icons/fa'
 
 const styles = {
   logoContainer: 'flex p-4 shrink-0 hover:cursor-pointer',
-  navLinkContainer: 'hidden lg:flex justify-center text-xl font-body items font-bold shrink-0',
+  navLinkContainer: 'hidden lg:flex text-xl font-body font-bold shrink-0',
   linkAnimate: 'text-pri mr-8 hover-underline-animation',
   socialIcons: 'flex items-center text-[#5470C7] hover:text-hov'
 }
@@ -40,7 +40,7 @@ const Navbar = () => {
   }, [scrollDirection]);
 
   return (
-    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} h-full w-full z-50 flex justify-between items-center bg-white shadow-xl transition-all duration-500`}>
+    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} flex flex-row justify-between h-[75px] z-50 items-center bg-white shadow-xl transition-all duration-500`}>
       {/* Sassy Logo Box */}
       <div className={styles.logoContainer}>
         <Link href='/'>    
@@ -104,13 +104,13 @@ const Navbar = () => {
           </div>
         </div>
         {/* Discord Link Button */}
-        <div className='flex'>
+        <div className='flex shrink-0'>
           <a
             href="https://discord.gg/sassy"
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='bg-[#5470C7] w-[250px] h-[50px] rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
+            <button className='bg-[#5470C7] w-full h-[50px] rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
           </a>
         </div>
       </div>
@@ -134,7 +134,7 @@ const Navbar = () => {
           className={
             nav
               ? 'fixed right-0 top-0 w-full h-screen bg-pri p-4  ease-in duration-300'
-              : 'fixed right-[-100%] top-0 p-4 ease-in duration-300'
+              : 'fixed right-[-125%] top-0 p-4 ease-in duration-300'
           }
         >
           <div>
@@ -167,39 +167,39 @@ const Navbar = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase space-y-6'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-1 pl-2 text-sm border-white border-2 w-[74%] rounded-md text-white tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='py-1 pl-2 text-sm border-white border-2 w-[65%] rounded-md text-white tracking-widest font-bold'>
                   Home
                 </li>
               </Link>
               <Link href='/sssc'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[60%] rounded-md text-pri tracking-widest font-bold'>
                   SSSC
                 </li>
               </Link>
               <Link href='/team'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[75%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold'>
                   Team
                 </li>
               </Link>
               <Link href='/trailmap'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[120%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-bold'>
                   Trail Map
                 </li>
               </Link>
               <Link href='/shop'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[76%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold'>
                   Shop
                 </li>
               </Link>
             </ul>
           </div>
           {/* Sassy Image */}
-          <div className='-mr-28'>
+          <div className='-mr-24'>
           <Image
             src={mobileSassy}
             alt='Sassy'
-            width={400}
-            height={400}
+            width={350}
+            height={350}
           />
           </div>
           </div>

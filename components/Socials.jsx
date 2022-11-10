@@ -9,14 +9,14 @@ import trailSassy from '../assets/trailsassy.png'
 
 const styles = {
   container: 'flex flex-col w-full mx-auto justify-center items-center space-y-4 px-8 lg:space-y-8 py-20 lg:py-40 z-0',
-  topSet: 'flex flex-col hidden lg:inline-flex md:flex-row font-body items-center font-bold text-sec text-3xl space-y-4 lg:space-y-0 lg:space-x-8',
-  topSetMobile: 'flex flex-col lg:hidden lg:flex-row font-body items-center font-bold text-sec text-md space-y-4 lg:space-y-0 lg:space-x-8',
-  bottomSet: 'flex flex-col hidden lg:inline-flex lg:flex-row items-center font-body font-bold text-sec text-3xl space-y-4 lg:space-y-0 lg:space-x-9',
-  bottomSetMobile: 'flex flex-row lg:hidden items-center font-body font-bold text-sec text-md space-x-5 justify-center',
-  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-sec p-4 lg:p-8 w-[320px] h-[110px] lg:w-[550px] lg:h-[130px] hover:bg-sec hover:text-white',
-  longBoxMobile: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-sec py-4 pl-6 lg:p-8 w-[260px] h-[110px] lg:w-[550px] lg:h-[130px] ',
-  shortBox: 'flex flex-row items-center justify-between border-[3px] border-sec p-8 w-[320px] h-[110px] lg:w-[353px] lg:h-[130px] cursor-pointer hover:bg-sec hover:text-white',
-  squareBox:'flex flex-col lg:hidden items-center justify-center border-[3px] border-sec w-[120px] h-[150px] px-2'
+  topSet: 'hidden md:flex flex-col lg:flex-row font-body items-center font-bold text-sec text-2xl -mb-4 lg:-mb-0 ',
+  topSetMobile:'flex flex-col md:hidden font-body items-center font-bold text-sec text-md',
+  bottomSet: 'hidden md:flex md:flex-col lg:flex-row items-center font-body font-bold text-sec text-2xl',
+  bottomSetMobile: 'flex flex-row md:hidden items-center font-body font-bold text-sec text-md justify-center',
+  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-sec w-[450px] h-[130px] p-4 hover:bg-sec hover:text-white mx-2 mb-4 lg:mb-0',
+  longBoxMobile: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-sec py-4 pl-6 lg:p-8 w-[265px] h-[110px] lg:w-[550px] lg:h-[130px] ',
+  shortBox: 'flex flex-row items-center justify-between border-[3px] border-sec p-4 w-[450px] h-[130px] lg:w-[295px] lg:h-[130px] cursor-pointer hover:bg-sec hover:text-white mx-2 mb-4 lg:mb-0',
+  squareBox:'flex flex-col lg:hidden items-center justify-center border-[3px] border-sec w-[120px] h-[150px] px-3 mx-3'
 }
 
 const Socials = () => {
