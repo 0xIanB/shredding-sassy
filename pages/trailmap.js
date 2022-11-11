@@ -23,6 +23,7 @@ const trailmap = () => {
           <Image
             src={trailMap}
             alt='Trail Map'
+
           >
           </Image>
         </div>
