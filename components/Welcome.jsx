@@ -66,7 +66,7 @@ const Welcome = () => {
       </div>
       {/* Mobile Image */}
       <div className='md:hidden flex flex-row items-center justify-center lg:p-0 ml-14'>
-        <div ref={parallax3.ref} className='flex absolute z-20 -ml-[250px] shadow-2xl'>
+        <div ref={parallax3.ref} className='flex absolute z-20 -ml-[220px] shadow-2xl'>
             <Image
               src={welcomesassy}
               alt='Sassy'
@@ -75,7 +75,7 @@ const Welcome = () => {
             >
             </Image>
           </div>
-          <div className='flex items-center -mr-6 lg:-mr-0 justify-center shrink-0'>
+          <div className='flex items-center lg:-mr-0 justify-center shrink-0'>
             <Image
               src={welcome}
               alt='Sassy Welcome'
