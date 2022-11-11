@@ -9,7 +9,7 @@ import { FaTwitter, FaMediumM, FaInstagram } from 'react-icons/fa'
 
 const styles = {
   logoContainer: 'flex p-4 shrink-0 hover:cursor-pointer',
-  navLinkContainer: 'hidden lg:flex text-xl font-body font-bold shrink-0',
+  navLinkContainer: 'hidden lg:flex text-xl font-body font-bold shrink-0 ml-14',
   linkAnimate: 'text-pri mr-8 hover-underline-animation',
   socialIcons: 'flex items-center text-[#5470C7] hover:text-hov'
 }
