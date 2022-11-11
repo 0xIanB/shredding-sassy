@@ -47,14 +47,13 @@ const Hero = () => {
         </div>
       </div>
         {/* Hero Logo */}
-        <div className='hidden sm:flex '>
+        <div className='hidden sm:flex lg:-mt-8'>
           <div>
             <Image
               src={hero}
               alt='Shredding'
-              width={1200}
+              width={1250}
               height={700}
-      
             >
             </Image>
           </div>
