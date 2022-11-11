@@ -1,17 +1,8 @@
 import React from 'react'
 import Image from 'next/image'
-import animatedSassy from '../assets/animatedsassy.gif'
-import s1Sassy from '../assets/s1Sassy.png'
-import s2Sassy from '../assets/s2Sassy.png'
-import s3Sassy from '../assets/s3Sassy.png'
-import aSassy from '../assets/aSassy.png'
-import ySassy from '../assets/ySassy.png'
-import sPurple from '../assets/sPurple.png'
-import aPurple from '../assets/aPurple.png'
-import yPurple from '../assets/yPurple.png'
+import hero from '../assets/hero.png'
 import mobileHero from '../assets/mobilehero.jpg'
 import mobileSassy from '../assets/mobileSassy.png'
-import shredding from '../assets/shredding.png'
 import { ImArrowDown } from 'react-icons/im'
 
 const Hero = () => {
@@ -55,197 +46,18 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='hidden sm:inline-flex flex-col items-center justify-center'>
         {/* Hero Logo */}
-        <div className='hidden mt-20 xl:mt-0 sm:inline-flex xl:hidden flex-row lg:w-[1000px] lg:h-[300px] px-8 '>
-          <div className='static'>
-            <Image
-              src={shredding}
-              alt='Shredding'
-            >
-            </Image>
-          </div>
-          {/* S1 Div */}
-          <div className='relative'>
-            <div className='z-0'>
-              <Image
-                src={s1Sassy}
-                alt='S1 Sassy'
-              >
-              </Image>
-            </div>
-          </div>
-          {/* A Div */}
-          <div className='relative'>
-            <div className='z-0'>
-              <Image
-                src={aSassy}
-                alt='A Sassy'
-              >
-              </Image>
-            </div>
-          </div>
-          {/* S2 Div */}
-          <div className='relative'>
-            <div className='z-0'>
-              <Image
-                src={s2Sassy}
-                alt='S2 Sassy'
-              >
-              </Image>
-            </div>
-          </div>
-          {/* S3 Div */}
-          <div className='relative'>
-            <div className='z-0'>
-              <Image
-                src={s3Sassy}
-                alt='S3 Sassy'
-              >
-              </Image>
-            </div>
-          </div>
-          {/* Y Div */}
-          <div className='relative'>
-            <div className='z-0'>
-              <Image
-                src={ySassy}
-                alt='Y Sassy'
-              >
-              </Image>
-            </div>
-          </div>
-        </div>
-      {/* Hero Image Hover Effect */}
-      <div className='hidden xl:inline-flex flex-row mt-32 xl:visible'>
-        {/* Shredding Div */}
-        <div>
+        <div className='hidden sm:flex '>
           <div>
             <Image
-              src={shredding}
-              alt='S1 Sassy'
-              height={290}
-              width={70}
+              src={hero}
+              alt='Shredding'
+              width={1200}
+              height={700}
+      
             >
             </Image>
           </div>
-        </div>
-        {/* S1 Div */}
-        <div className='flex'>
-          <div className='absolute z-0 hover:z-20'>
-            <Image
-              src={s1Sassy}
-              alt='S1 Sassy'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-          <div className='z-10 hover:z-[-100] invisible lg:visible'>
-          <Image
-              src={sPurple}
-              alt='S Purple'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-        </div>
-        {/* A Div */}
-        <div className='flex'>
-          <div className='absolute z-0 hover:z-20'>
-            <Image
-              src={aSassy}
-              alt='A Sassy'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-          <div className='z-10 hover:z-[-100] invisible lg:visible'>
-          <Image
-              src={aPurple}
-              alt='A Purple'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-        </div>
-        {/* S2 Div */}
-        <div className='flex'>
-          <div className='absolute z-0 hover:z-20 ml-5'>
-            <Image
-              src={s2Sassy}
-              alt='S2 Sassy'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-          <div className='z-10 hover:z-[-100] invisible lg:visible ml-5'>
-          <Image
-              src={sPurple}
-              alt='S Purple'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-        </div>
-        {/* S3 Div */}
-        <div className='flex ml-3'>
-          <div className='absolute z-0 hover:z-20'>
-            <Image
-              src={s3Sassy}
-              alt='S3 Sassy'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-          <div className='z-10 hover:z-[-100] invisible lg:visible'>
-          <Image
-              src={sPurple}
-              alt='S Purple'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-        </div>
-        {/* Y Div */}
-        <div className='flex ml-1'>
-          <div className='absolute z-0 hover:z-20'>
-            <Image
-              src={ySassy}
-              alt='Y Sassy'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-          <div className='z-10 hover:z-[-100] invisible lg:visible'>
-          <Image
-              src={yPurple}
-              alt='Y Purple'
-              width={160}
-              height={290}
-            >
-            </Image>
-          </div>
-        </div>
-      </div>
-        {/* Laying Sassy */}
-        <div className='hidden sm:inline-flex mt-12 lg:mt-14 mb-20'>
-          <Image
-            src={animatedSassy}
-            alt='Animated Sassy'
-            height={100}
-            width={200}
-          >
-          </Image>
-        </div>
       </div>
     </div>
   )
