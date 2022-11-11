@@ -20,6 +20,10 @@ import miniSassy3 from '../assets/miniSassy3.png'
 import miniSassy4 from '../assets/miniSassy4.png'
 import miniSassy5 from '../assets/miniSassy5.png'
 import miniSassy6 from '../assets/miniSassy6.png'
+import miniSassy7 from '../assets/miniSassy7.png'
+import miniSassy8 from '../assets/miniSassy8.png'
+import miniSassy9 from '../assets/miniSassy9.png'
+import miniSassy10 from '../assets/miniSassy10.png'
 
 const sssc = () => {
   return (
@@ -66,9 +70,17 @@ const sssc = () => {
       </div>
 
       {/* Main Container */}
-      <Accordion allowMultiple className='flex flex-row flex-wrap justify-evenly mx-4 xl:mx-0 xl:-ml-4 mb-20'>
+      <Accordion allowMultiple className='flex flex-row flex-wrap  justify-evenly mx-4 xl:mx-0 xl:-ml-4 mb-20'>
         {/* Item 1 */}
-        <div className='flex flex-col mt-10'>
+        <div className='flex flex-col -mt-8'>
+        <div className='flex justify-end -mb-2 xl:invisible'>
+            <Image 
+              src={miniSassy7}
+              alt='Mini Sassy 7'
+              height={80}
+              width={80}
+            />           
+          </div>
         <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
@@ -105,7 +117,15 @@ const sssc = () => {
         </AccordionItem>
         </div>            
         {/* Item 2 */}
-        <div className='flex flex-col mt-10'>
+        <div className='flex flex-col -mt-8'>
+        <div className='flex justify-start -mb-2 xl:invisible'>
+            <Image 
+              src={miniSassy10}
+              alt='Mini Sassy 10'
+              height={80}
+              width={80}
+            />           
+          </div>
         <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
@@ -187,7 +207,15 @@ const sssc = () => {
         </AccordionItem>
         </div>            
         {/* Item 4 */}
-        <div className='flex flex-col mt-10'>
+        <div className='flex flex-col -mt-8'>
+        <div className='flex justify-end -mb-2 mr-10 '>
+            <Image 
+              src={miniSassy9}
+              alt='Mini Sassy 9'
+              height={80}
+              width={80}
+            />           
+          </div>
         <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
@@ -224,7 +252,15 @@ const sssc = () => {
         </AccordionItem>
         </div>
         {/* Item 5 */}
-        <div className='flex flex-col mt-10'>
+        <div className='flex flex-col -mt-8'>
+        <div className='flex justify-start -mb-2 mr-20 '>
+            <Image 
+              src={miniSassy8}
+              alt='Mini Sassy 8'
+              height={80}
+              width={80}
+            />           
+          </div>
         <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
@@ -307,7 +343,7 @@ const sssc = () => {
         </div>
         {/* Item 7 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-end -mb-2'>
+          <div className='flex justify-start lg:justify-end -mb-2'>
             <Image 
               src={miniSassy3}
               alt='Mini Sassy 3'
@@ -352,7 +388,7 @@ const sssc = () => {
         </div>
         {/* Item 8 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-start -mb-2'>
+          <div className='flex justify-end lg:justify-start -mb-2'>
             <Image 
               src={miniSassy4}
               alt='Mini Sassy 4'

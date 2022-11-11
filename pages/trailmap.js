@@ -17,7 +17,8 @@ const trailmap = () => {
       <Navbar />
       <div className=''>
         <div className='flex-col items-center text-center text-pri'>
-        <h1 className='font-bold font-mont text-2xl md:text-4xl py-10'>Welcome to Meta Mountain</h1>
+        <h1 className='font-bold font-mont text-2xl md:text-4xl pt-10 lg:py-10'>Welcome to Meta Mountain</h1>
+        <p className='lg:hidden py-4 text-pri font-mont font-medium'>Pinch To Zoom and Explore!</p>
         </div>
         <div className='pb-20'>
           <Image
