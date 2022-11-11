@@ -161,7 +161,7 @@ const Navbar = () => {
             </div>
             <div className='py-4'>
               <p className='w-[85%] md:w-[90%] py-4 font-semibold text-white pb-4'>
-              Join us on Meta Mountain 🏔️, <br/>Interfusing Extreme Sports & Web3 
+              The World of // META MOUNTAIN 🏔️ 
               </p>
             </div>
           </div>
@@ -170,27 +170,27 @@ const Navbar = () => {
           <div className='py-4 flex flex-col'>
             <ul className='uppercase space-y-6'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='py-1 pl-2 text-sm border-white border-2 w-[65%] rounded-md text-white tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Home
                 </li>
               </Link>
               <Link href='/sssc'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[60%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[60%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   SSSC
                 </li>
               </Link>
               <Link href='/team'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Team
                 </li>
               </Link>
               <Link href='/trailmap'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Trail Map
                 </li>
               </Link>
               <Link href='/shop'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Shop
                 </li>
               </Link>

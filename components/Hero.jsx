@@ -57,7 +57,7 @@ const Hero = () => {
       </div>
       <div className='hidden sm:inline-flex flex-col items-center justify-center'>
         {/* Hero Logo */}
-        <div className='hidden mt-20 xl:mt-0 sm:inline-flex xl:hidden flex-row lg:w-[1000px] lg:h-[300px] '>
+        <div className='hidden mt-20 xl:mt-0 sm:inline-flex xl:hidden flex-row lg:w-[1000px] lg:h-[300px] px-8 '>
           <div className='static'>
             <Image
               src={shredding}
@@ -117,13 +117,15 @@ const Hero = () => {
           </div>
         </div>
       {/* Hero Image Hover Effect */}
-      <div className='hidden xl:inline-flex flex-row mt-10 xl:visible'>
+      <div className='hidden xl:inline-flex flex-row mt-20 xl:visible'>
         {/* Shredding Div */}
         <div>
           <div>
             <Image
               src={shredding}
               alt='S1 Sassy'
+              height={350}
+              width={75}
             >
             </Image>
           </div>
@@ -134,6 +136,8 @@ const Hero = () => {
             <Image
               src={s1Sassy}
               alt='S1 Sassy'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -141,6 +145,8 @@ const Hero = () => {
           <Image
               src={sPurple}
               alt='S Purple'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -151,6 +157,8 @@ const Hero = () => {
             <Image
               src={aSassy}
               alt='A Sassy'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -158,6 +166,8 @@ const Hero = () => {
           <Image
               src={aPurple}
               alt='A Purple'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -168,6 +178,8 @@ const Hero = () => {
             <Image
               src={s2Sassy}
               alt='S2 Sassy'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -175,6 +187,8 @@ const Hero = () => {
           <Image
               src={sPurple}
               alt='S Purple'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -185,6 +199,8 @@ const Hero = () => {
             <Image
               src={s3Sassy}
               alt='S3 Sassy'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -192,6 +208,8 @@ const Hero = () => {
           <Image
               src={sPurple}
               alt='S Purple'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -202,6 +220,8 @@ const Hero = () => {
             <Image
               src={ySassy}
               alt='Y Sassy'
+              width={200}
+              height={350}
             >
             </Image>
           </div>
@@ -209,6 +229,8 @@ const Hero = () => {
           <Image
               src={yPurple}
               alt='Y Purple'
+              width={200}
+              height={350}
             >
             </Image>
           </div>

@@ -54,7 +54,7 @@ const sssc = () => {
         </div>
 
         {/* Right Side */}
-        <div className='hidden xl:inline-flex items-center md:-mb-32 lg:mr-40'>
+        <div className='hidden xl:inline-flex items-center md:-mb-[150px] lg:mr-40'>
           <Image
             src={ssscsassy}
             alt='Left Sassy'
