@@ -69,7 +69,7 @@ const sssc = () => {
       <Accordion allowMultiple className='flex flex-row flex-wrap justify-evenly mx-4 xl:mx-0 xl:-ml-4 mb-20'>
         {/* Item 1 */}
         <div className='flex flex-col mt-10'>
-        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+        <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -106,7 +106,7 @@ const sssc = () => {
         </div>            
         {/* Item 2 */}
         <div className='flex flex-col mt-10'>
-        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+        <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -151,7 +151,7 @@ const sssc = () => {
               width={80}
             />           
           </div>
-          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+          <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -188,7 +188,7 @@ const sssc = () => {
         </div>            
         {/* Item 4 */}
         <div className='flex flex-col mt-10'>
-        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+        <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -225,7 +225,7 @@ const sssc = () => {
         </div>
         {/* Item 5 */}
         <div className='flex flex-col mt-10'>
-        <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+        <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -270,7 +270,7 @@ const sssc = () => {
               width={80}
             />           
           </div>
-          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+          <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -315,7 +315,7 @@ const sssc = () => {
               width={80}
             />           
           </div>
-          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+          <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -360,7 +360,7 @@ const sssc = () => {
               width={80}
             />           
           </div>
-          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+          <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -405,7 +405,7 @@ const sssc = () => {
               width={80}
             />           
           </div>
-          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+          <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>
@@ -450,7 +450,7 @@ const sssc = () => {
               width={80}
             />           
           </div>
-          <AccordionItem className='w-[400px] md:w-[500px] lg:w-[600px] mb-10'>
+          <AccordionItem className='w-[350px] md:w-[500px] lg:w-[600px] mb-10'>
           {({ isExpanded }) => (
             <>
               <h2 className='text-pri font-bold text-xl'>

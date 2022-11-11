@@ -10,7 +10,7 @@ const SideScroller = () => {
     <div className='flex flex-col mb-10 lg:mb-10 lg:flex-row mt-8'>
       {/* Left Side Static */}
       <div className='flex flex-col text-pri items-center lg:items-start justify-center'>
-          <h1 className='font-bold font-body text-2xl lg:text-4xl w-[65%] md:w-full px-6 text-center lg:text-left lg:pl-24 lg:w-[78%] py-8'>Shredding Sassy, a brand with a big vision</h1>
+          <h1 className='font-bold font-body text-2xl lg:text-4xl w-[55%] md:w-full px-6 text-center lg:text-left lg:pl-24 lg:w-[78%] py-8'>Shredding Sassy, a brand with a big vision</h1>
       </div>
 
       {/* Right Side Scroller */}

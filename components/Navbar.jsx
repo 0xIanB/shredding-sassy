@@ -194,6 +194,15 @@ const Navbar = () => {
                   Shop
                 </li>
               </Link>
+              <Link
+                href="https://discord.gg/sassy"
+                target='_blank'
+                rel='noopener noreferrer'
+              >
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[95%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                  Discord
+                </li>
+              </Link>
             </ul>
           </div>
           {/* Sassy Image */}
@@ -207,7 +216,7 @@ const Navbar = () => {
           </div>
           </div>
         {/* Social Icons */}
-        <div className='flex items-center cursor-pointer space-x-8 mt-20 p-2'>
+        <div className='flex items-center cursor-pointer space-x-8 p-2'>
           {/* Twitter */}
           <div className={styles.socialIcons}>
             <a
