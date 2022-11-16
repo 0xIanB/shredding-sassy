@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { FaTwitter, FaMediumM, FaInstagram, FaDiscord } from 'react-icons/fa'
 
 const styles = {
-  container: 'flex flex-col space-y-8 lg:flex-row justify-between items-center p-8 border-t-2 border-[#D9D9D9] z-20',
+  container: 'flex flex-col space-y-8 lg:flex-row justify-between items-center p-8 z-20',
   socialLinks: 'flex items-center cursor-pointer',
   leftside: 'flex flex-col items-center justify-center space-x-4 lg:-ml-4',
   socialIcons: 'flex items-center text-[#5470C7] hover:text-hov'

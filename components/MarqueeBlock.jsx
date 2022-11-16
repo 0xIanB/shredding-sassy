@@ -6,10 +6,6 @@ const styles = {
   marqueecontainer: 'text-[30px] lg:text-[60px] tracking-widest scroll-hidden text-gray-800/30 font-bold font-lond py-20',
   marquee:'overflow-hidden',
   marqueetext: 'mx-1 lg:mx-2 mt-4',
-  textcontainer: 'flex flex-col text-center justify-center py-14',
-  textbox: 'font-mont text-lg md:text-3xl lg:text-5xl text-[#230A43]',
-  textline: 'py-1 md:py-3',
-  spantext: 'underline font-medium'
 }
 
 const MarqueeBlock = () => {
@@ -33,14 +29,6 @@ const MarqueeBlock = () => {
             <h1 className={styles.marqueetext}>
               {" SHRED TOGETHER ◦ PUSH YOUR LIMITS ◦ GO BIG OR GO HOME ◦ READY FOR THAT ADRENALINE ◦ HYPE FROM FRIENDS EQUALS BIGGER SENDS ◦ MOUNTAINS ARE CALLING ◦ JUST SEND IT ◦ GET STOKED ◦ STAY SASSY ◦ GRAVITY GETS ME DOWN ◦ "}</h1>
           </Marquee>
-        </div>
-      </div>
-      <div className={styles.textcontainer}>
-        <div className={styles.textbox}>
-          <p className={styles.textline}><span className={styles.spantext}>Web3</span> has the ability to unify a </p>
-          <p className={styles.textline}><span className={styles.spantext}>global community</span> 🌍 driven by a </p>
-          <p className={styles.textline}>passion ❤️ for <span className={styles.spantext}> extreme sports</span> 💀 </p>
-          <p className={styles.textline}>and <span className={styles.spantext}> good times</span>. 🤙</p>
         </div>
       </div>
     </div>

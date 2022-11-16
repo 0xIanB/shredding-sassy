@@ -40,7 +40,7 @@ const Navbar = () => {
   }, [scrollDirection]);
 
   return (
-    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} flex flex-row justify-between h-[75px] w-full z-50 items-center bg-white shadow-xl transition-all duration-500`}>
+    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} flex flex-row justify-between h-[75px] w-full z-50 items-center bg-white transition-all duration-500`}>
       <div className='flex justify-between w-full h-full items-center'>
         {/* Sassy Logo Box */}
       <div className={styles.logoContainer}>
@@ -159,13 +159,8 @@ const Navbar = () => {
                 <AiOutlineClose size={25}/>
               </div>
             </div>
-            <div className='py-4'>
-              <p className='w-[85%] md:w-[90%] py-4 font-semibold text-white pb-4'>
-              The World of // META MOUNTAIN 🏔️ 
-              </p>
-            </div>
           </div>
-          <div className='flex flex-row justify-between'>
+          <div className='flex flex-row justify-between py-6'>
           {/* Mobile Links */}
           <div className='py-4 flex flex-col'>
             <ul className='uppercase space-y-6'>
