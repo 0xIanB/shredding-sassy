@@ -13,6 +13,10 @@ import image9 from '../assets/9.png'
 import image10 from '../assets/10.png'
 import image11 from '../assets/11.png'
 import image12 from '../assets/12.png'
+import image13 from '../assets/13.png'
+import image14 from '../assets/14.png'
+import image15 from '../assets/15.png'
+import image16 from '../assets/16.png'
 import arrows from '../assets/arrows.png'
 import useEmblaCarousel from 'embla-carousel-react'
 
@@ -46,7 +50,7 @@ const CarouselHolder = () => {
         <div className="flex ml-14 sm:ml-8 md:ml-8 lg:ml-12 cursor-grab">
           <div className="flex items-end shrink-0 pr-14">
             <Image
-              src={image6}
+              src={image1}
               alt='Image 1'
               height={300}
               width={300}
@@ -64,7 +68,7 @@ const CarouselHolder = () => {
           </div>
           <div className="flex items-end shrink-0 pr-14">
             <Image
-              src={image10}
+              src={image3}
               alt='Image 3'
               height={300}
               width={300}
@@ -73,7 +77,7 @@ const CarouselHolder = () => {
           </div>
           <div className="flex items-end shrink-0 pr-14">
             <Image
-              src={image1}
+              src={image4}
               alt='Image 4'
               height={300}
               width={300}
@@ -91,7 +95,7 @@ const CarouselHolder = () => {
           </div>
           <div className="flex items-end shrink-0 pr-14">
             <Image
-              src={image9}
+              src={image6}
               alt='Image 6'
               height={300}
               width={300}
@@ -110,7 +114,7 @@ const CarouselHolder = () => {
           <div className="flex items-end shrink-0 pr-14">
             <Image
               src={image8}
-              alt='Image 6'
+              alt='Image 8'
               height={300}
               width={300}
             >
@@ -118,8 +122,8 @@ const CarouselHolder = () => {
           </div>
           <div className="flex items-end shrink-0 pr-14">
             <Image
-              src={image4}
-              alt='Image 6'
+              src={image9}
+              alt='Image 9'
               height={300}
               width={300}
             >
@@ -127,8 +131,8 @@ const CarouselHolder = () => {
           </div>
           <div className="flex items-end shrink-0 pr-14">
             <Image
-              src={image3}
-              alt='Image 6'
+              src={image10}
+              alt='Image 10'
               height={300}
               width={300}
             >
@@ -137,7 +141,7 @@ const CarouselHolder = () => {
           <div className="flex items-end shrink-0 pr-14">
             <Image
               src={image11}
-              alt='Image 6'
+              alt='Image 11'
               height={300}
               width={300}
             >
@@ -146,7 +150,43 @@ const CarouselHolder = () => {
           <div className="flex items-end shrink-0 pr-14">
             <Image
               src={image12}
-              alt='Image 6'
+              alt='Image 12'
+              height={300}
+              width={300}
+            >
+            </Image>
+          </div>
+          <div className="flex items-end shrink-0 pr-14">
+            <Image
+              src={image13}
+              alt='Image 13'
+              height={300}
+              width={300}
+            >
+            </Image>
+          </div>
+          <div className="flex items-end shrink-0 pr-14">
+            <Image
+              src={image14}
+              alt='Image 14'
+              height={300}
+              width={300}
+            >
+            </Image>
+          </div>
+          <div className="flex items-end shrink-0 pr-14">
+            <Image
+              src={image15}
+              alt='Image 15'
+              height={300}
+              width={300}
+            >
+            </Image>
+          </div>
+          <div className="flex items-end shrink-0 pr-14">
+            <Image
+              src={image16}
+              alt='Image 16'
               height={300}
               width={300}
             >

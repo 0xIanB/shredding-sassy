@@ -4,10 +4,11 @@ import Hero from '../components/Hero'
 import Welcome from '../components/Welcome'
 import Ramp from '../components/Ramp'
 import CarouselHolder from '../components/CarouselHolder'
-import SideScroller from '../components/SideScroller'
-import MarqueeBlock from '../components/MarqueeBlock'
+import Vision from '../components/Vision'
+import Marq from '../components/Marq'
 import Socials from '../components/Socials'
 import Footer from '../components/Footer'
+import TextBlock from '../components/TextBlock'
 
 export default function Home() {
   return (
@@ -23,9 +24,10 @@ export default function Home() {
       <Welcome />
       <Ramp />
       <CarouselHolder />
-      <SideScroller />
-      <MarqueeBlock />
+      <Vision />
+      <Marq />
       <Socials />
+      <TextBlock />
       <Footer />
     </div>
   )

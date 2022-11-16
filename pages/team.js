@@ -1,7 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import Link from 'next/link'
 import shredders from '../assets/shredders.png'
 import twitter from '../assets/twitter.png'
 import instagram from '../assets/iglink.png'
@@ -53,16 +52,16 @@ const team = () => {
       <Navbar />
         
         {/* Header */}
-        <div className='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'>
+        <div className='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'> 
           {/* Left Side */}
           <div className='flex flex-col lg:w-1/2 space-y-8'>
             {/* Title */}
-              <div className='flex w-full justify-center lg:justify-start md:ml-6'>
+              <div className='flex justify-center lg:justify-start shrink-0'>
                 <Image
                   src={shredders}
                   alt='Team Shredders'
+                  width={700}
                   height={100}
-                  width={550}
                 >
                 </Image>
               </div>
@@ -98,7 +97,7 @@ const team = () => {
         </div>
         
         {/* Core Team */}
-        <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start text-pri'>
+        <div className='flex flex-col flex-4 mx-20 mt-8 lg:ml-24 items-center lg:items-start text-pri'>
         {/* Title */}
         <div className='flex flex-col text-center sm:text-start mb-8'>
           <h1 className='font-bold text-3xl text-darkpurple2 '>Core Team</h1>
