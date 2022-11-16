@@ -40,6 +40,7 @@ import skibro from '../assets/skibro.png'
 import snowrock from '../assets/snowrock.png'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
+import PartnerMarquee from '../components/PartnerMarquee'
 
 const team = () => {
   return (
@@ -1046,120 +1047,14 @@ const team = () => {
             </div>
           </div>
         </div>
-        
         {/* Partners */}
         <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start'>
         {/* Title */}
         <div className='flex flex-col text-center sm:text-start mb-8'>
-          <h1 className='font-bold text-3xl text-darkpurple2 '>Partners</h1>
+          <h1 className='font-bold text-3xl text-pri '>Partners</h1>
         </div> 
           {/* Partner Cards */}
-          <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={absolute}
-                  alt='Absolute-Snow'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={dynastar}
-                  alt='DynaStar'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={faction}
-                  alt='Faction'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={panda}
-                  alt='Panda Optics'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={shaggys}
-                  alt='Shaggys'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={shred}
-                  alt='Shred'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={skibro}
-                  alt='SkiBro'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-            {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
-              {/* Image */}
-              <div>
-                <Image
-                  src={snowrock}
-                  alt='SnowRock'
-                  height={280}
-                  width={280}
-                >
-                </Image>
-              </div>
-            </div>
-          </div>
+          <PartnerMarquee />
         </div>
       <Footer />
     </div>

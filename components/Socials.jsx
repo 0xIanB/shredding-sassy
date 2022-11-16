@@ -8,14 +8,14 @@ import manifestoSassy from '../assets/manifestosassy.png'
 import trailSassy from '../assets/trailsassy.png'
 
 const styles = {
-  container: 'flex flex-col w-full mx-auto justify-center items-center space-y-4 px-8 lg:space-y-8 lg:py-10 z-0',
+  container: 'flex flex-col w-auto mx-auto justify-center items-center space-y-4 px-8 lg:space-y-8 lg:py-10 z-0',
   topSet: 'hidden md:flex flex-col lg:flex-row font-body items-center font-bold text-pri text-2xl -mb-4 lg:-mb-0 ',
   topSetMobile:'flex flex-col md:hidden font-body items-center font-bold text-pri text-md',
   bottomSet: 'hidden md:flex md:flex-col lg:flex-row items-center font-body font-bold text-pri text-2xl',
   bottomSetMobile: 'flex flex-row md:hidden items-center font-body font-bold text-pri text-md justify-center',
-  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-pri w-[450px] h-[130px] p-4 hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
+  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-pri w-[450px] h-[130px] xxl:w-[700px] p-4 hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
   longBoxMobile: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-pri py-4 pl-6 lg:p-8 w-[265px] h-[110px] lg:w-[550px] lg:h-[130px] ',
-  shortBox: 'flex flex-row items-center justify-between border-[3px] border-pri p-4 w-[450px] h-[130px] lg:w-[295px] lg:h-[130px] cursor-pointer hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
+  shortBox: 'flex flex-row items-center justify-between border-[3px] border-pri p-4 w-[450px] h-[130px] lg:w-[295px] lg:h-[130px] xxl:w-[461px] cursor-pointer hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
   squareBox:'flex flex-col lg:hidden items-center justify-center border-[3px] border-pri w-[120px] h-[150px] px-3 mx-3',
 }
 
