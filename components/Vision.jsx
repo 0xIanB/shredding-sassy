@@ -10,7 +10,7 @@ const styles = {
   imageBox: 'px-4 lg:px-0 lg:w-[80%]',
   infoContainer: 'flex flex-col px-4 lg:px-0 lg:w-[80%] items-center lg:items-start text-pri',
   infoHeader: 'text-xl lg:text-2xl font-body font-bold py-4',
-  infoDescription: 'text-md lg:text-lg font-medium text-center lg:text-start'
+  infoDescription: 'text-md lg:text-lg font-medium text-center lg:text-start pb-8'
 }
 
 const Vision = () => {
