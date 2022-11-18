@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import ramp from '../assets/ramp.png'
 
-const Ramp = () => {
+const Future = () => {
   return (
     <div className='flex flex-col lg:flex-row'>
       {/* Image */}
@@ -10,8 +10,8 @@ const Ramp = () => {
         <Image
           src={ramp}
           alt='Sassy Ramp'
-          width={1200}
-          height={1400}
+          width={1350}
+          height={1425}
         >
         </Image>
       </div>
@@ -24,4 +24,4 @@ const Ramp = () => {
   )
 }
 
-export default Ramp
+export default Future

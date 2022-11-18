@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import Welcome from '../components/Welcome'
-import Ramp from '../components/Ramp'
+import Future from '../components/Future'
 import CarouselHolder from '../components/CarouselHolder'
 import Vision from '../components/Vision'
 import Marq from '../components/Marq'
@@ -22,7 +22,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Welcome />
-      <Ramp />
+      <Future />
       <CarouselHolder />
       <Vision />
       <Marq />
