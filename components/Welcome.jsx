@@ -83,7 +83,7 @@ const Welcome = () => {
               src={welcome}
               alt='Sassy Welcome'
               width={300}
-              height={300}
+              height={350}
             >
             </Image>
           </div>
