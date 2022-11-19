@@ -13,33 +13,42 @@ const styles = {
   topSetMobile:'flex flex-col md:hidden font-body items-center font-bold text-pri text-md',
   bottomSet: 'hidden md:flex md:flex-col lg:flex-row items-center font-body font-bold text-pri text-2xl',
   bottomSetMobile: 'flex flex-row md:hidden items-center font-body font-bold text-pri text-md justify-center',
-  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-pri w-[450px] h-[130px] xxl:w-[700px] p-4 hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
+  longBox: 'flex flex-row cursor-pointer items-center justify-between border-[3px] 2xl:border-[6px] border-pri w-[450px] h-[130px] 2xl:w-[900px] 2xl:h-[260px] p-4 hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
   longBoxMobile: 'flex flex-row cursor-pointer items-center justify-between border-[3px] border-pri py-4 pl-6 lg:p-8 w-[265px] h-[110px] lg:w-[550px] lg:h-[130px] ',
-  shortBox: 'flex flex-row items-center justify-between border-[3px] border-pri p-4 w-[450px] h-[130px] lg:w-[295px] lg:h-[130px] xxl:w-[461px] cursor-pointer hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
+  shortBox: 'flex flex-row items-center justify-between border-[3px] 2xl:border-[6px] border-pri p-4 w-[450px] h-[130px] lg:w-[295px] lg:h-[130px] 2xl:h-[260px] 2xl:w-[595px] cursor-pointer hover:bg-pri hover:text-white mx-2 mb-4 lg:mb-0',
   squareBox:'flex flex-col lg:hidden items-center justify-center border-[3px] border-pri w-[120px] h-[150px] px-3 mx-3',
 }
 
 const Socials = () => {
   return (
-    <div className={styles.container}>
+    <div class={styles.container}>
       {/* Top */}
-      <div className={styles.topSet}>
+      <div class={styles.topSet}>
         {/* Twitter */}
         <a 
           target='_blank'
           href='https://twitter.com/ShreddingSassy' 
           rel='noopener noreferrer'
         >
-          <div className={styles.longBox}>
-            <div>
+          <div class={styles.longBox}>
+            <div class='2xl:text-5xl'>
               Twitter
             </div>
-            <div className='flex items-center mt-2'>
+            <div class='flex items-center mt-2 2xl:hidden'>
               <Image
                 src={twitterSassy}
                 alt='Twitter Sassy'
                 height={130}
                 width={130}
+              >
+              </Image>
+            </div>
+            <div class='hidden 2xl:flex items-center mt-2'>
+              <Image
+                src={twitterSassy}
+                alt='Twitter Sassy'
+                height={260}
+                width={260}
               >
               </Image>
             </div>
@@ -51,11 +60,11 @@ const Socials = () => {
           href='#' 
           rel='noopener noreferrer'
         >
-          <div className={styles.longBox}>
-            <div>
+          <div class={styles.longBox}>
+            <div class='2xl:text-5xl'>
               Discord
             </div>
-            <div className='flex items-center'>
+            <div class='flex items-center 2xl:hidden'>
               <Image
                   src={discordSassy}
                   alt='Discord Sassy'
@@ -64,22 +73,31 @@ const Socials = () => {
                 >
                 </Image>
             </div>
+            <div class='hidden 2xl:flex items-center'>
+              <Image
+                  src={discordSassy}
+                  alt='Discord Sassy'
+                  height={260}
+                  width={260}
+                >
+                </Image>
+            </div>
           </div>
         </a>
       </div>
       {/* Top Mobile */}
-      <div className={styles.topSetMobile}>
+      <div class={styles.topSetMobile}>
         {/* Twitter */}
         <a 
           target='_blank'
           href='https://twitter.com/ShreddingSassy' 
           rel='noopener noreferrer'
         >
-          <div className={styles.longBoxMobile}>
-            <div>
+          <div class={styles.longBoxMobile}>
+            <div class='2xl:text-5xl'>
               Twitter
             </div>
-            <div className='flex items-center mt-2'>
+            <div class='flex items-center mt-2'>
               <Image
                 src={twitterSassy}
                 alt='Twitter Sassy'
@@ -92,22 +110,31 @@ const Socials = () => {
         </a>
       </div>
       {/* Bottom */}
-      <div className={styles.bottomSet}>
+      <div class={styles.bottomSet}>
         {/* Shop */}
         <Link 
           href='/shop' 
           rel='noopener noreferrer'
         >
-          <div className={styles.shortBox}>
-            <div>
+          <div class={styles.shortBox}>
+            <div class='2xl:text-5xl'>
               Shop
             </div>
-            <div className='flex items-center mt-4'>
+            <div class='flex items-center mt-4 2xl:hidden'>
               <Image
                 src={shopSassy}
                 alt='Shop Sassy'
                 height={130}
                 width={130}
+              >
+              </Image>
+            </div>
+            <div class='hidden 2xl:flex items-center mt-4'>
+              <Image
+                src={shopSassy}
+                alt='Shop Sassy'
+                height={260}
+                width={260}
               >
               </Image>
             </div>
@@ -119,16 +146,25 @@ const Socials = () => {
           rel='noopener noreferrer'
           target='_blank'
         >
-          <div className={styles.shortBox}>
-            <div>
+          <div class={styles.shortBox}>
+            <div class='2xl:text-5xl'>
               Medium
             </div>
-            <div className='flex items-center mt-4'>
+            <div class='flex items-center mt-4 2xl:hidden'>
             <Image
                 src={manifestoSassy}
                 alt='Manifesto Sassy'
                 height={130}
                 width={130}
+              >
+              </Image>
+            </div>
+            <div class='hidden 2xl:flex items-center mt-4'>
+            <Image
+                src={manifestoSassy}
+                alt='Manifesto Sassy'
+                height={260}
+                width={260}
               >
               </Image>
             </div>
@@ -139,11 +175,11 @@ const Socials = () => {
           href='/trailmap' 
           rel='noopener noreferrer'
         >
-          <div className={styles.shortBox}>
-            <div>
+          <div class={styles.shortBox}>
+            <div class='2xl:text-5xl'>
               Trail Map
             </div>
-            <div className='flex items-center mt-4'>
+            <div class='flex items-center mt-4 2xl:hidden'>
               <Image
                 src={trailSassy}
                 alt='Twitter Sassy'
@@ -152,22 +188,31 @@ const Socials = () => {
               >
               </Image>
             </div>
+            <div class='hidden 2xl:flex items-center mt-4'>
+              <Image
+                src={trailSassy}
+                alt='Twitter Sassy'
+                height={260}
+                width={260}
+              >
+              </Image>
+            </div>
           </div>
         </Link>
       </div>
       {/* Bottom Mobile */}
-      <div className={styles.bottomSetMobile}>
+      <div class={styles.bottomSetMobile}>
          {/* Discord */}
           <a 
           target='_blank'
           href='#' 
           rel='noopener noreferrer'
           >
-          <div className={styles.squareBox}>
-            <div className=''>
+          <div class={styles.squareBox}>
+            <div class=''>
               Discord
             </div>
-            <div className='flex items-center -mt-2'>
+            <div class='flex items-center -mt-2'>
               <Image
                   src={discordSassy}
                   alt='Discord Sassy'
@@ -183,11 +228,11 @@ const Socials = () => {
           href='/shop' 
           rel='noopener noreferrer'
         >
-          <div className={styles.squareBox}>
-            <div className='mt-1'>
+          <div class={styles.squareBox}>
+            <div class='mt-1'>
               Shop
             </div>
-            <div className='flex items-center'>
+            <div class='flex items-center'>
               <Image
                 src={shopSassy}
                 alt='Shop Sassy'
@@ -200,17 +245,17 @@ const Socials = () => {
         </Link>
         </div>
         {/* Manifesto */}
-        <div className={styles.bottomSetMobile}>
+        <div class={styles.bottomSetMobile}>
         <a 
           href='https://medium.com/@shreddingsassy' 
           rel='noopener noreferrer'
           target='_blank'
         >
-          <div className={styles.squareBox}>
-          <div className='mt-1'>
+          <div class={styles.squareBox}>
+          <div class='mt-1'>
               Medium
             </div>
-            <div className='flex items-center'>
+            <div class='flex items-center'>
             <Image
                 src={manifestoSassy}
                 alt='Manifesto Sassy'
@@ -226,11 +271,11 @@ const Socials = () => {
           href='/trailmap' 
           rel='noopener noreferrer'
         >
-          <div className={styles.squareBox}>
-            <div className='mt-1'>
+          <div class={styles.squareBox}>
+            <div class='mt-1'>
               Trail Map
             </div>
-            <div className='flex items-center'>
+            <div class='flex items-center'>
               <Image
                 src={trailSassy}
                 alt='Twitter Sassy'

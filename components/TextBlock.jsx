@@ -1,8 +1,8 @@
 import React from 'react'
 
 const styles = {
-  textcontainer: 'flex flex-col text-center justify-center pt-20 pb-10 lg:py-20 w-auto',
-  textbox: 'flex flex-col font-mont text-xl md:text-3xl lg:text-4xl xl:text-5xl text-[#230A43]',
+  textcontainer: 'flex flex-col text-center justify-center pt-20 pb-10 lg:py-20 2xl:py-28 w-auto',
+  textbox: 'flex flex-col font-mont text-xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-7xl text-[#230A43]',
   textline: 'py-1 md:py-3',
   spantext: 'underline font-medium'
 }

@@ -10,8 +10,8 @@ const Future = () => {
         <Image
           src={ramp}
           alt='Sassy Ramp'
-          width={1150}
-          height={1350}
+          width={1200}
+          height={1200}
         >
         </Image>
       </div>

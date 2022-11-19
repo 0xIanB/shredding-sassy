@@ -1,7 +1,6 @@
-import React,{ Component } from 'react'
+import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
-import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import trailMap from '../assets/trailmap.png'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
@@ -24,7 +23,6 @@ const trailmap = () => {
           <Image
             src={trailMap}
             alt='Trail Map'
-
           >
           </Image>
         </div>

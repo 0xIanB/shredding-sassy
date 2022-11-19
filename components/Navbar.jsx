@@ -8,10 +8,11 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { FaTwitter, FaMediumM, FaInstagram } from 'react-icons/fa'
 
 const styles = {
-  logoContainer: 'flex p-4 shrink-0 hover:cursor-pointer',
-  navLinkContainer: 'hidden lg:flex text-xl font-body font-bold shrink-0 ml-14',
-  linkAnimate: 'text-pri mr-8 hover-underline-animation',
-  socialIcons: 'flex items-center text-[#5470C7] hover:text-hov'
+  logoContainer: 'flex p-4 shrink-0 hover:cursor-pointer 2xl:hidden',
+  logoContainerWide: 'flex p-4 shrink-0 hover:cursor-pointer hidden 2xl:flex',
+  navLinkContainer: 'hidden lg:flex text-xl 2xl:text-5xl font-body font-bold shrink-0 ml-14',
+  linkAnimate: 'text-pri mr-6 2xl:mr-12 hover-underline-animation',
+  socialIcons: 'flex items-center text-[#5470C7] hover:text-hover 2xl:p-2'
 }
 
 const Navbar = () => {
@@ -40,10 +41,10 @@ const Navbar = () => {
   }, [scrollDirection]);
 
   return (
-    <div className={`sticky ${ scrollDirection === "down" ? "-top-24" : "top-0"} flex flex-row justify-between h-[75px] w-full z-50 items-center bg-white transition-all duration-500`}>
-      <div className='flex justify-between w-full h-full items-center'>
-        {/* Sassy Logo Box */}
-      <div className={styles.logoContainer}>
+    <div class={`sticky ${ scrollDirection === "down" ? "-top-24 2xl:-top-40" : "top-0"} flex flex-row justify-between h-[75px] 2xl:h-[150px] w-full z-50 items-center bg-white transition-all duration-500`}>
+      <div class='flex justify-between w-full h-full items-center'>
+      {/* Sassy Logo */}
+      <div class={styles.logoContainer}>
         <Link href='/'>    
           <Image
             src={headerImg}
@@ -54,27 +55,42 @@ const Navbar = () => {
           </Image>
         </Link>
       </div>
+      {/* Sassy Logo Wide */}
+      <div class={styles.logoContainerWide}>
+        <Link href='/'>    
+          <Image
+            src={headerImg}
+            alt='Shredding Sassy Logo'
+            height={100}
+            width={400}
+          >
+          </Image>
+        </Link>
+      </div>
       {/* Nav Links */}
-      <div className={styles.navLinkContainer}>
+      <div class={styles.navLinkContainer}>
         <Link href='/sssc'>
-          <button className={styles.linkAnimate}>SSSC</button>
+          <button class={styles.linkAnimate}>SSSC</button>
         </Link>
         <Link href='/team'>
-          <button className={styles.linkAnimate}>Team</button>
+          <button class={styles.linkAnimate}>Team</button>
         </Link>
         <Link href='/trailmap'>
-          <button className={styles.linkAnimate}>Trail Map</button>
+          <button class={styles.linkAnimate}>Trail Map</button>
         </Link>
         <Link href='/shop'>
-          <button className={styles.linkAnimate}>Shop</button>
+          <button class={styles.linkAnimate}>Shop</button>
+        </Link>
+        <Link href='/faw'>
+          <button class={styles.linkAnimate}>FAQ</button>
         </Link>
       </div>
       {/* Socials Links */}
-      <div className='hidden lg:flex items-center p-4'>
+      <div class='hidden lg:flex 2xl:hidden items-center p-4'>
         {/* Social Icons */}
-        <div className='flex items-center px-4 cursor-pointer space-x-4'>
+        <div class='flex items-center px-4 cursor-pointer space-x-4'>
           {/* Twitter */}
-          <div className={styles.socialIcons}>
+          <div class={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
@@ -84,7 +100,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Medium */}
-          <div className={styles.socialIcons}> 
+          <div class={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
@@ -94,7 +110,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Instagram */}
-          <div className={styles.socialIcons}> 
+          <div class={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
@@ -105,13 +121,59 @@ const Navbar = () => {
           </div>
         </div>
         {/* Discord Link Button */}
-        <div className='flex shrink-0'>
+        <div class='flex shrink-0'>
           <a
             href="https://discord.gg/sassy"
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button className='bg-[#5470C7] w-full h-[50px] rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
+            <button class='bg-[#5470C7] w-full h-[50px] 2xl:h-[100px] rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
+          </a>
+        </div>
+      </div>
+      {/* Socials Links Wide */}
+      <div class='hidden 2xl:flex items-center p-4'>
+        {/* Social Icons */}
+        <div class='flex items-center px-4 cursor-pointer space-x-4'>
+          {/* Twitter */}
+          <div class={styles.socialIcons}>
+            <a
+              href='https://twitter.com/ShreddingSassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaTwitter size={50}/>
+            </a>
+          </div>
+          {/* Medium */}
+          <div class={styles.socialIcons}> 
+            <a 
+              href='https://medium.com/@shreddingsassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaMediumM size={50}/> 
+            </a>
+          </div>
+          {/* Instagram */}
+          <div class={styles.socialIcons}> 
+            <a 
+              href='https://www.instagram.com/shreddingsassy/' 
+              target='_blank'  
+              rel='noopener noreferrer'
+            >
+              <FaInstagram size={50} />
+            </a>
+          </div>
+        </div>
+        {/* Discord Link Button */}
+        <div class='flex shrink-0'>
+          <a
+            href="https://discord.gg/sassy"
+            target='_blank'
+            rel='noopener noreferrer'
+          >
+            <button class='bg-[#5470C7] w-full h-[50px] 2xl:h-[100px] text-3xl rounded-sm text-white font-semibold py-2 px-10 hover:bg-hov'>Join Our Discord</button>  
           </a>
         </div>
       </div>
@@ -120,7 +182,7 @@ const Navbar = () => {
       {/* Hamburger Icon */}
       <div
         onClick={handleNav}
-        className='lg:hidden text-pri p-4 '
+        class='lg:hidden text-pri p-4 '
       >
         <AiOutlineMenu size={25} />
       </div>
@@ -128,20 +190,20 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {/* Overlay */}
       <div
-        className={
+        class={
           nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen' : ''
         }
       >
         {/* Side Drawer Menu */}
         <div
-          className={
+          class={
             nav
               ? 'fixed right-0 top-0 w-full h-screen bg-pri p-4  ease-in duration-300'
               : 'fixed right-[-125%] top-0 p-4 ease-in duration-300'
           }
         >
           <div>
-            <div className='flex w-full items-center justify-between pb-4'>
+            <div class='flex w-full items-center justify-between pb-4'>
               <Link href='/'>
                 <a>
                   <Image
@@ -154,38 +216,38 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                className='text-white -mt-2 cursor-pointer'
+                class='text-white -mt-2 cursor-pointer'
               >
                 <AiOutlineClose size={25}/>
               </div>
             </div>
           </div>
-          <div className='flex flex-row justify-between py-6'>
+          <div class='flex flex-row justify-between py-6'>
           {/* Mobile Links */}
-          <div className='py-4 flex flex-col'>
-            <ul className='uppercase space-y-6'>
+          <div class='py-4 flex flex-col'>
+            <ul class='uppercase space-y-6'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Home
                 </li>
               </Link>
               <Link href='/sssc'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[60%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[60%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   SSSC
                 </li>
               </Link>
               <Link href='/team'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Team
                 </li>
               </Link>
               <Link href='/trailmap'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Trail Map
                 </li>
               </Link>
               <Link href='/shop'>
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Shop
                 </li>
               </Link>
@@ -194,14 +256,14 @@ const Navbar = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[95%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[95%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Discord
                 </li>
               </Link>
             </ul>
           </div>
           {/* Sassy Image */}
-          <div className='-mr-24'>
+          <div class='-mr-24'>
           <Image
             src={mobileSassy}
             alt='Sassy'
@@ -211,9 +273,9 @@ const Navbar = () => {
           </div>
           </div>
         {/* Social Icons */}
-        <div className='flex items-center cursor-pointer space-x-8 p-2'>
+        <div class='flex items-center cursor-pointer space-x-8 p-2'>
           {/* Twitter */}
-          <div className={styles.socialIcons}>
+          <div class={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
@@ -223,7 +285,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Medium */}
-          <div className={styles.socialIcons}> 
+          <div class={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
@@ -233,7 +295,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Instagram */}
-          <div className={styles.socialIcons}> 
+          <div class={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  

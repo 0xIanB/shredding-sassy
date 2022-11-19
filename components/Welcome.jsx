@@ -22,12 +22,12 @@ const Welcome = () => {
     <div id='welcome' className='flex flex-col-reverse mb-20 mt-32 md:mt-16 lg:mt-[25px] lg:mb-40 lg:flex-row'>
       {/* Text */}
       <div className='flex flex-col text-pri items-center lg:items-start justify-center shrink'>
-          <h1 className='font-bold font-body text-2xl md:text-3xl lg:text-4xl lg:w-[52%] lg:pr-20 text-center lg:text-left lg:pl-24 py-8 px-2'>Welcome to Meta Mountain</h1>
-          <p className='text-md xl:text-lg font-medium text-center lg:text-start md:w-[90%] lg:w-[60%] items-center justify-center lg:justify-start lg:items-start lg:pl-24 px-8 lg:px-4 -mt-4'>{"Sassy's are a bunch of fun loving, adrenaline fueled Sasquatches that reside on Meta Mountain. A mysterious mountain with endless terrain and some of the gnarliest features in the world."}</p>
+          <h1 className='font-bold font-body text-2xl md:text-3xl lg:text-4xl xxl:text-6xl lg:w-[45%] xxl:pr-0 text-center lg:text-left lg:pl-24 py-8 px-2'>Welcome to Meta Mountain</h1>
+          <p className='text-md xl:text-lg xxl:text-2xl font-medium text-center lg:text-start md:w-[90%] lg:w-[60%] xxl:w-[40%] items-center justify-center lg:justify-start lg:items-start lg:pl-24 px-8 lg:px-4 -mt-4'>{"Sassy's are a bunch of fun loving, adrenaline fueled Sasquatches that reside on Meta Mountain. A mysterious mountain with endless terrain and some of the gnarliest features in the world."}</p>
       </div>
       {/* Desktop Image */}
       <div className='hidden lg:flex xxl:hidden flex-row items-center justify-center p-8 lg:p-0'>
-        <div ref={parallax1.ref} className='flex absolute z-20 lg:-ml-[500px] shadow-2xl'>
+        <div ref={parallax1.ref} className='flex absolute z-20 lg:-ml-[600px] shadow-2xl'>
             <Image
               src={welcomesassy}
               alt='Sassy'
@@ -41,7 +41,7 @@ const Welcome = () => {
               src={welcome}
               alt='Sassy Welcome'
               width={1200}
-              height={1350}
+              height={1200}
             >
             </Image>
           </div>
@@ -90,7 +90,7 @@ const Welcome = () => {
       </div>
       {/* Widscreen */}
       <div className='hidden xxl:flex flex-row items-center justify-center p-8 lg:p-0'>
-        <div ref={parallax4.ref} className='flex absolute z-20 lg:-ml-[1000px] shadow-2xl'>
+        <div ref={parallax4.ref} className='flex absolute z-20 lg:-ml-[1300px] shadow-2xl'>
             <Image
               src={welcomesassy}
               alt='Sassy'

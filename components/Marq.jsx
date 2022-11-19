@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee"
 
 const styles = {
   container: 'flex flex-col items-center w-full z-10',
-  marqueecontainer: 'text-[30px] lg:text-[60px] tracking-widest scroll-hidden text-gray-800/30 font-bold font-lond py-20',
+  marqueecontainer: 'text-[30px] lg:text-[60px] 2xl:text-[100px] tracking-widest scroll-hidden text-gray-800/30 font-bold font-lond py-20',
   marquee:'overflow-hidden',
   marqueetext: 'mx-1 lg:mx-2 mt-4',
 }
