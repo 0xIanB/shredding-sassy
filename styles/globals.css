@@ -41,7 +41,15 @@
   }
 
   .shopStyle {
-    font-size: clamp(30px, 3vw, 80px)
+    font-size: clamp(30px, 2vw, 60px)
+  }
+
+  .trailMapHeader {
+    font-size: clamp(30px, 2vw, 60px)
+  }
+
+  .trailMapStyle {
+    font-size: clamp(20px, 2vw, 40px)
   }
 
   .marqueeTextStyle {

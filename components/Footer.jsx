@@ -26,7 +26,7 @@ const Footer = () => {
           {/* Discord */}
           <div className={styles.socialIcons}>
             <a
-              href='https://twitter.com/ShreddingSassy'
+              href='https://discord.gg/sassy'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -69,7 +69,7 @@ const Footer = () => {
           {/* Discord */}
           <div className={styles.socialIcons}>
             <a
-              href='https://twitter.com/ShreddingSassy'
+              href='https://discord.gg/sassy'
               target='_blank'
               rel='noopener noreferrer'
             >
@@ -148,10 +148,10 @@ const Footer = () => {
           <p class='footerTextStyle'>© 2022 Shredding Sassy</p>
           <p class='footerTextStyle'>Bold by nature</p>
         </div>
-        <div className='footerTextStyle flex lg:py-2 2xl:py-6 font-semibold cursor-pointer'>
+        <div className='flex lg:py-2 2xl:py-6 font-semibold cursor-pointer'>
           <Link href='/terms'
           >
-          <p>Terms & Conditions</p>  
+          <p class='footerTextStyle'>Terms & Conditions</p>  
           </Link>
         </div>
       </div>

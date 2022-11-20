@@ -14,11 +14,11 @@ const trailmap = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className='flex flex-col justify-center items-center h-full w-full'>
-        <div className='flex-col items-center text-center text-pri'>
-        <h1 className='font-bold font-mont text-2xl md:text-4xl pt-10 lg:py-10'>Welcome to Meta Mountain</h1>
+      <div class='flex flex-col justify-center items-center h-full w-full'>
+        <div class='flex-col items-center text-center text-pri'>
+        <h2 class='trailMapHeader font-bold font-mont py-10 '>The Trail Map</h2>
         </div>
-        <div className='flex justify-center items-center pb-20 w-[25%]'>
+        <div class='flex justify-center items-center pb-20 w-[60%] lg:w-[30%]'>
           <Image
             src={trailMap}
             alt='Trail Map'
@@ -26,10 +26,9 @@ const trailmap = () => {
           </Image>
         </div>
         <a href="https://shredding-sassy.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftrailmap.239ea497.png&w=3840&q=75" download="Trail Map">
-        <p>Click To Download</p>
+        <p class='trailMapStyle text-pri font-mont animate-bounce font-medium'>Click To Explore Meta Mountain</p>
         </a>
       </div>
-      <Footer />
     </div>
   )
 }

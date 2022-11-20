@@ -1,6 +1,5 @@
 import React from 'react'
 import Head from 'next/head'
-import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 const shop = () => {
@@ -12,10 +11,9 @@ const shop = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className='flex flex-col items-center text-center justify-center h-screen'>
-        <p className='shopStyle font-bold font-mont text-pri pt-4 pb-2 '>...COMING SOON</p>
+      <div class='flex flex-col items-center text-center justify-center py-56'>
+        <p class='shopStyle font-bold font-mont text-pri pt-4 pb-2 '>...COMING SOON</p>
       </div>
-      <Footer />
     </div>
   )
 }
