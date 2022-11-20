@@ -33,7 +33,7 @@
   }
 
   .discordStyle {
-    height: clamp(40px, 3vw, 75px);
+    height: clamp(40px, 3vw, 70px);
     font-size: clamp(15px, 1vw, 30px)
   }
 
