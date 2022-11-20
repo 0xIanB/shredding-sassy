@@ -23,8 +23,14 @@
     font-size: clamp(20px, 3vw, 50px)
   }
 
-  .buttonStyle {
-    font-size: clamp(10px, 2vw, 50px)
+  .navLinkButtonStyle {
+    font-size: clamp(10px, 1vw, 50px)
+  }
+  .blockStyle {
+    font-size: clamp(20px, 3vw, 100px)
+  }
+  .marqueeStyle {
+    font-size: clamp(20px, 3vw, 100px)
   }
   
   .hover-underline-animation {
