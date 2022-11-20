@@ -14,17 +14,20 @@ const trailmap = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className=''>
+      <div className='flex flex-col justify-center items-center h-full w-full'>
         <div className='flex-col items-center text-center text-pri'>
         <h1 className='font-bold font-mont text-2xl md:text-4xl pt-10 lg:py-10'>Welcome to Meta Mountain</h1>
         </div>
-        <div className='flex justify-center items-center pb-20 w-[50%]'>
+        <div className='flex justify-center items-center pb-20 w-[25%]'>
           <Image
             src={trailMap}
             alt='Trail Map'
           >
           </Image>
         </div>
+        <a href="assets/trailmap.png" download="Trail Map">
+        <p>Click To Download</p>
+        </a>
       </div>
       <Footer />
     </div>
