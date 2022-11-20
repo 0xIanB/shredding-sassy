@@ -18,6 +18,14 @@
   * {
     scroll-behavior: smooth;
   }
+
+  h2 {
+    font-size: clamp(20px, 3vw, 50px)
+  }
+
+  .buttonStyle {
+    font-size: clamp(10px, 2vw, 50px)
+  }
   
   .hover-underline-animation {
     position: relative;

@@ -19,8 +19,8 @@ const Vision = () => {
       {/* Main Container */}
       <div class='flex flex-col lg:flex-row justify-between'>
         {/* Left Side */}
-        <div class='relative'>
-          <h1 class='text-pri font-body font-bold text-4xl w-full'>Shredding Sassy, a brand with a big vision</h1>
+        <div class='text-center px-28 pb-8'>
+          <h1 class='text-pri font-body font-bold text-3xl w-full '>Shredding Sassy, a brand with a big vision</h1>
         </div>
         {/* Right Side */}
         <div>
@@ -80,7 +80,7 @@ const Vision = () => {
             </div>
             {/* Text */}
             <div class={styles.infoContainer}>
-              <h1 class={styles.infoHeader}>{`Protecting our future`}</h1>
+              <h2 class='font-body font-bold py-4'>{`Protecting our future`}</h2>
               <p class={styles.infoDescription}>{`A big part of our mission involves sustainability and protecting our environment. We will be working with a number of amazing charities, donating funds and organizing clean up initiatives as well as tracking and offsetting our carbon footprint.`}</p>
             </div>
           </div>

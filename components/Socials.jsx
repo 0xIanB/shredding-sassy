@@ -8,7 +8,7 @@ import manifestoSassy from '../assets/manifestosassy.png'
 import trailSassy from '../assets/trailsassy.png'
 
 const styles = {
-  container: 'flex flex-col w-auto mx-auto justify-center items-center space-y-4 px-8 lg:space-y-8 lg:py-10 z-0',
+  container: 'flex flex-col w-auto mx-auto justify-center items-center space-y-4 px-8 lg:space-y-8 lg:py-10 2xl:py-20 z-0',
   topSet: 'hidden md:flex flex-col lg:flex-row font-body items-center font-bold text-pri text-2xl -mb-4 lg:-mb-0 ',
   topSetMobile:'flex flex-col md:hidden font-body items-center font-bold text-pri text-md',
   bottomSet: 'hidden md:flex md:flex-col lg:flex-row items-center font-body font-bold text-pri text-2xl',

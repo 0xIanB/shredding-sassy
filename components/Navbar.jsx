@@ -10,7 +10,7 @@ import { FaTwitter, FaMediumM, FaInstagram } from 'react-icons/fa'
 const styles = {
   logoContainer: 'flex p-4 shrink-0 hover:cursor-pointer 2xl:hidden',
   logoContainerWide: 'flex p-4 shrink-0 hover:cursor-pointer hidden 2xl:flex',
-  navLinkContainer: 'hidden lg:flex text-xl 2xl:text-5xl font-body font-bold shrink-0 ml-14',
+  navLinkContainer: 'hidden lg:flex text-xl 2xl:text-4xl font-body font-bold shrink-0 ml-14',
   linkAnimate: 'text-pri mr-6 2xl:mr-12 hover-underline-animation',
   socialIcons: 'flex items-center text-[#5470C7] hover:text-hover 2xl:p-2'
 }
@@ -70,19 +70,19 @@ const Navbar = () => {
       {/* Nav Links */}
       <div class={styles.navLinkContainer}>
         <Link href='/sssc'>
-          <button class={styles.linkAnimate}>SSSC</button>
+          <button class={`buttonStyle ${styles.linkAnimate}`}>SSSC</button>
         </Link>
         <Link href='/team'>
-          <button class={styles.linkAnimate}>Team</button>
+          <button class={`buttonStyle ${styles.linkAnimate}`}>Team</button>
         </Link>
         <Link href='/trailmap'>
-          <button class={styles.linkAnimate}>Trail Map</button>
+          <button class={`buttonStyle ${styles.linkAnimate}`}>Trail Map</button>
         </Link>
         <Link href='/shop'>
-          <button class={styles.linkAnimate}>Shop</button>
+          <button class={`buttonStyle ${styles.linkAnimate}`}>Shop</button>
         </Link>
         <Link href='/faw'>
-          <button class={styles.linkAnimate}>FAQ</button>
+          <button class={`buttonStyle ${styles.linkAnimate}`}>FAQ</button>
         </Link>
       </div>
       {/* Socials Links */}
