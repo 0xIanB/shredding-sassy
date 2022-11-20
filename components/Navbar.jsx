@@ -70,16 +70,16 @@ const Navbar = () => {
       {/* Nav Links */}
       <div class={styles.navLinkContainer}>
         <Link href='/sssc'>
-          <button class={`buttonStyle ${styles.linkAnimate}`}>SSSC</button>
+          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>SSSC</button>
         </Link>
         <Link href='/team'>
-          <button class={`buttonStyle ${styles.linkAnimate}`}>Team</button>
+          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Team</button>
         </Link>
         <Link href='/trailmap'>
-          <button class={`buttonStyle ${styles.linkAnimate}`}>Trail Map</button>
+          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Trail Map</button>
         </Link>
         <Link href='/shop'>
-          <button class={`buttonStyle ${styles.linkAnimate}`}>Shop</button>
+          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Shop</button>
         </Link>
         <Link href='/faw'>
           <button class={`buttonStyle ${styles.linkAnimate}`}>FAQ</button>
