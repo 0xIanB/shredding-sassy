@@ -37,6 +37,11 @@
     font-size: clamp(15px, 1vw, 30px)
   }
 
+  .navLogoStyle {
+    height: clamp(75px, 5vw, 150px);
+    width: clamp(225px, 15vw, 550px);
+  }
+
   .navLinkButtonStyle {
     font-size: clamp(20px, 1.5vw, 50px)
   }

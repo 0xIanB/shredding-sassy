@@ -8,7 +8,7 @@ import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import { FaTwitter, FaMediumM, FaInstagram } from 'react-icons/fa'
 
 const styles = {
-  logoContainer: 'flex p-4 shrink-0 hover:cursor-pointer 2xl:hidden',
+  logoContainer: 'flex p-4 hover:cursor-pointer ',
   logoContainerWide: 'flex p-4 shrink-0 hover:cursor-pointer hidden 2xl:flex',
   navLinkContainer: 'hidden lg:flex text-xl 2xl:text-4xl font-body font-bold shrink-0 ml-14',
   linkAnimate: 'text-pri mr-6 2xl:mr-12 hover-underline-animation',
@@ -44,25 +44,12 @@ const Navbar = () => {
     <div class={`sticky ${ scrollDirection === "down" ? "-top-24 2xl:-top-40" : "top-0"} flex flex-row justify-between h-[75px] 2xl:h-[150px] w-full z-50 items-center bg-white transition-all duration-500`}>
       <div class='flex justify-between w-full h-full items-center'>
       {/* Sassy Logo */}
-      <div class={styles.logoContainer}>
+      <div class={`navLogoStyle ${styles.logoContainer}`}>
         <Link href='/'>    
           <Image
             src={headerImg}
             alt='Shredding Sassy Logo'
-            height={50}
-            width={200}
-          >
-          </Image>
-        </Link>
-      </div>
-      {/* Sassy Logo Wide */}
-      <div class={styles.logoContainerWide}>
-        <Link href='/'>    
-          <Image
-            src={headerImg}
-            alt='Shredding Sassy Logo'
-            height={75}
-            width={300}
+            objectFit='fill'
           >
           </Image>
         </Link>

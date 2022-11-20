@@ -21,8 +21,8 @@ import erna from '../assets/erna.png'
 
 const styles = {
   container: 'flex flex-col items-center w-full z-10 cursor-pointer',
-  marqueecontainer: 'scroll-hidden w-full',
-  marquee:'hidden lg:flex 2xl:hidden overflow-hidden pb-20',
+  marqueecontainer: 'scroll-hidden',
+  marquee:'hidden lg:flex 2xl:hidden pb-20',
   marqueeMobile:'overflow-hidden pb-20 lg:hidden',
   marqueeWide:'hidden 2xl:flex overflow-hidden pb-20',
   imageBox: 'flex items-center border-[4px] 2xl:border-[6.5px] border-black mr-10 cursor-pointer'
@@ -34,7 +34,7 @@ const PartnerMarquee = () => {
     <div className={styles.marqueecontainer}>
       {/* Desktop */}
       <div className={styles.marquee}>
-        <Marquee gradientWidth='0' speed={70} pauseOnHover={true}>
+        <Marquee gradientWidth='0' speed={50} pauseOnHover={true}>
           <div class={styles.imageBox}>
             <Image
               src={absolute}
@@ -47,6 +47,14 @@ const PartnerMarquee = () => {
             <Image
               src={dynastar}
               alt='Dynastar'
+              height={250}
+              width={250}
+            />
+          </div>        
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
               height={250}
               width={250}
             />
@@ -71,6 +79,14 @@ const PartnerMarquee = () => {
             <Image
               src={shaggys}
               alt='Shaggys'
+              height={250}
+              width={250}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
               height={250}
               width={250}
             />
@@ -101,6 +117,14 @@ const PartnerMarquee = () => {
           </div>
           <div class={styles.imageBox}>
             <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={250}
+              width={250}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
               src={skiyodl}
               alt='Ski Yodl'
               height={250}
@@ -122,7 +146,15 @@ const PartnerMarquee = () => {
               height={250}
               width={250}
             />
-          </div>       
+          </div>    
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={250}
+              width={250}
+            />
+          </div>    
           <div class={styles.imageBox}>
             <Image
               src={erna}
@@ -141,6 +173,14 @@ const PartnerMarquee = () => {
           </div> 
           <div class={styles.imageBox}>
             <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={250}
+              width={250}
+            />
+          </div>  
+          <div class={styles.imageBox}>
+            <Image
               src={ellis}
               alt='Ellis Brigham'
               height={250}
@@ -155,6 +195,14 @@ const PartnerMarquee = () => {
               width={250}
             />
           </div> 
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={250}
+              width={250}
+            />
+          </div>  
           <div class={styles.imageBox}>
             <Image
               src={facefreeze}
@@ -183,7 +231,15 @@ const PartnerMarquee = () => {
               height={150}
               width={150}
             />
-          </div>        
+          </div>  
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={150}
+              width={150}
+            />
+          </div>      
           <div class={styles.imageBox}>
             <Image
               src={faction}
@@ -207,7 +263,15 @@ const PartnerMarquee = () => {
               height={150}
               width={150}
             />
-          </div>       
+          </div>   
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={150}
+              width={150}
+            />
+          </div>     
           <div class={styles.imageBox}>
             <Image
               src={shred}
@@ -234,6 +298,14 @@ const PartnerMarquee = () => {
           </div>
           <div class={styles.imageBox}>
             <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={150}
+              width={150}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
               src={skiyodl}
               alt='Ski Yodl'
               height={150}
@@ -255,7 +327,15 @@ const PartnerMarquee = () => {
               height={150}
               width={150}
             />
-          </div>       
+          </div>   
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={150}
+              width={150}
+            />
+          </div>     
           <div class={styles.imageBox}>
             <Image
               src={erna}
@@ -274,6 +354,14 @@ const PartnerMarquee = () => {
           </div> 
           <div class={styles.imageBox}>
             <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={150}
+              width={150}
+            />
+          </div>  
+          <div class={styles.imageBox}>
+            <Image
               src={ellis}
               alt='Ellis Brigham'
               height={150}
@@ -284,6 +372,14 @@ const PartnerMarquee = () => {
             <Image
               src={gilson}
               alt='Gilson'
+              height={150}
+              width={150}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
               height={150}
               width={150}
             />
@@ -319,6 +415,14 @@ const PartnerMarquee = () => {
           </div>        
           <div class={styles.imageBox}>
             <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={350}
+              width={350}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
               src={faction}
               alt='Faction'
               height={350}
@@ -340,7 +444,15 @@ const PartnerMarquee = () => {
               height={350}
               width={350}
             />
-          </div>       
+          </div>    
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={350}
+              width={350}
+            />
+          </div>    
           <div class={styles.imageBox}>
             <Image
               src={shred}
@@ -367,6 +479,14 @@ const PartnerMarquee = () => {
           </div>
           <div class={styles.imageBox}>
             <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={350}
+              width={350}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
               src={skiyodl}
               alt='Ski Yodl'
               height={350}
@@ -388,7 +508,15 @@ const PartnerMarquee = () => {
               height={350}
               width={350}
             />
-          </div>       
+          </div>  
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={350}
+              width={350}
+            />
+          </div>      
           <div class={styles.imageBox}>
             <Image
               src={erna}
@@ -407,6 +535,14 @@ const PartnerMarquee = () => {
           </div> 
           <div class={styles.imageBox}>
             <Image
+              src={unrevealed}
+              alt='Unrevealed'
+              height={350}
+              width={350}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
               src={ellis}
               alt='Ellis Brigham'
               height={350}
@@ -417,6 +553,14 @@ const PartnerMarquee = () => {
             <Image
               src={gilson}
               alt='Gilson'
+              height={350}
+              width={350}
+            />
+          </div> 
+          <div class={styles.imageBox}>
+            <Image
+              src={unrevealed}
+              alt='Unrevealed'
               height={350}
               width={350}
             />
