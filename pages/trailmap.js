@@ -25,7 +25,7 @@ const trailmap = () => {
           >
           </Image>
         </div>
-        <a href="assets/trailmap.png" download="Trail Map">
+        <a href="https://shredding-sassy.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftrailmap.239ea497.png&w=3840&q=75" download="Trail Map">
         <p>Click To Download</p>
         </a>
       </div>
