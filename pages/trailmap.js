@@ -16,9 +16,9 @@ const trailmap = () => {
       <Navbar />
       <div class='flex flex-col justify-center items-center h-full w-full'>
         <div class='flex-col items-center text-center text-pri'>
-        <h2 class='trailMapHeader font-bold font-mont py-10 '>The Trail Map</h2>
+        <h2 class='trailMapHeader font-bold font-mont pt-20 lg:pt-14 pb-10 '>The Trail Map</h2>
         </div>
-        <div class='flex justify-center items-center pb-20 w-[60%] lg:w-[30%]'>
+        <div class='flex justify-center items-center pb-12 w-[60%] lg:w-[30%]'>
           <Image
             src={trailMap}
             alt='Trail Map'

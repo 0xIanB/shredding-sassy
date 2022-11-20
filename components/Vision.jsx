@@ -19,7 +19,7 @@ const Vision = () => {
       {/* Main Container */}
       <div class='flex flex-col lg:flex-row justify-between'>
         {/* Left Side */}
-        <div class='text-center px-28 pb-8'>
+        <div class='text-center px-16 pb-8'>
           <h1 class='text-pri font-body font-bold text-3xl w-full '>Shredding Sassy, a brand with a big vision</h1>
         </div>
         {/* Right Side */}

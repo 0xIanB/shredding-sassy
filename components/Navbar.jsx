@@ -252,7 +252,7 @@ const Navbar = () => {
                 </li>
               </Link>
               <Link href='/faq'>
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[55%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   FAQ
                 </li>
               </Link>
