@@ -7,8 +7,8 @@ import side4 from '../assets/side4.png'
 
 const styles = {
   imageContainer: 'flex flex-col items-center lg:items-end mb-8',
-  imageBox: 'px-4 lg:px-0 lg:w-[80%]',
-  infoContainer: 'flex flex-col px-4 lg:px-0 lg:w-[80%] items-center lg:items-start text-pri',
+  imageBox: 'px-4 lg:px-0 lg:w-[65%]',
+  infoContainer: 'flex flex-col px-4 lg:px-0 lg:w-[65%] items-center lg:items-start text-pri',
   infoHeader: 'text-xl lg:text-2xl font-body font-bold py-4',
   infoDescription: 'text-md lg:text-lg font-medium text-center lg:text-start pb-8'
 }
@@ -19,8 +19,8 @@ const Vision = () => {
       {/* Main Container */}
       <div class='flex flex-col lg:flex-row justify-between'>
         {/* Left Side */}
-        <div class='text-center px-16 pb-8'>
-          <h1 class='text-pri font-body font-bold text-3xl w-full '>Shredding Sassy, a brand with a big vision</h1>
+        <div class='text-center lg:text-start px-20 lg:pl-12 lg:pr-0 pb-12 pt-8 lg:pt-0 lg:w-[60%] 2xl:w-[40%]'>
+          <h1 class='visionStyle text-pri font-body font-bold  w-full '>Shredding Sassy, a brand with a big vision</h1>
         </div>
         {/* Right Side */}
         <div>

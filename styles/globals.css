@@ -32,6 +32,11 @@
     width: clamp(25px, 5vw, 50px);
   }
 
+  .discordStyle {
+    height: clamp(40px, 3vw, 75px);
+    font-size: clamp(15px, 1vw, 30px)
+  }
+
   .navLinkButtonStyle {
     font-size: clamp(20px, 1.5vw, 50px)
   }
@@ -50,6 +55,10 @@
 
   .trailMapStyle {
     font-size: clamp(20px, 1vw, 40px)
+  }
+
+  .visionStyle {
+    font-size: clamp(25px, 2.5vw, 80px)
   }
 
   .marqueeTextStyle {

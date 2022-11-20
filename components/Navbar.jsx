@@ -61,8 +61,8 @@ const Navbar = () => {
           <Image
             src={headerImg}
             alt='Shredding Sassy Logo'
-            height={100}
-            width={400}
+            height={75}
+            width={300}
           >
           </Image>
         </Link>
@@ -127,7 +127,7 @@ const Navbar = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button class='bg-[#5470C7] w-full h-[50px] 2xl:h-[100px] rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
+            <button class='discordStyle bg-[#5470C7] w-full rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
           </a>
         </div>
       </div>
@@ -142,7 +142,7 @@ const Navbar = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <FaTwitter size={50}/>
+              <FaTwitter size={40}/>
             </a>
           </div>
           {/* Medium */}
@@ -152,7 +152,7 @@ const Navbar = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              <FaMediumM size={50}/> 
+              <FaMediumM size={40}/> 
             </a>
           </div>
           {/* Instagram */}
@@ -162,7 +162,7 @@ const Navbar = () => {
               target='_blank'  
               rel='noopener noreferrer'
             >
-              <FaInstagram size={50} />
+              <FaInstagram size={40} />
             </a>
           </div>
         </div>
@@ -173,7 +173,7 @@ const Navbar = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button class='bg-[#5470C7] w-full h-[50px] 2xl:h-[100px] text-3xl rounded-sm text-white font-semibold py-2 px-10 hover:bg-hov'>Join Our Discord</button>  
+            <button class='bg-[#5470C7] w-full discordStyle rounded-sm text-white font-semibold py-2 px-10 hover:bg-hov'>Join Our Discord</button>  
           </a>
         </div>
       </div>
