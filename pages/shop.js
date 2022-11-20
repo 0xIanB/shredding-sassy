@@ -12,8 +12,8 @@ const shop = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div className='flex flex-col space-y-8 items-center text-center justify-center p-40'>
-        <p className='font-bold font-mont text-pri text-lg md:text-2xl 2xl:text-6xl pt-4 2xl:py-60 pb-2 '>...COMING SOON</p>
+      <div className='flex flex-col items-center text-center justify-center h-screen'>
+        <p className='shopStyle font-bold font-mont text-pri pt-4 pb-2 '>...COMING SOON</p>
       </div>
       <Footer />
     </div>

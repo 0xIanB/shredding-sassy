@@ -82,7 +82,7 @@ const Navbar = () => {
           <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Shop</button>
         </Link>
         <Link href='/faw'>
-          <button class={`buttonStyle ${styles.linkAnimate}`}>FAQ</button>
+          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>FAQ</button>
         </Link>
       </div>
       {/* Socials Links */}

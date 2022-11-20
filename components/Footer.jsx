@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { FaTwitter, FaMediumM, FaInstagram, FaDiscord } from 'react-icons/fa'
 
 const styles = {
-  container: 'flex flex-col space-y-8 lg:flex-row justify-between items-center p-8 z-20',
+  container: 'flex flex-col space-y-8 lg:flex-row justify-between items-center p-8 2xl:p-16 z-20',
   socialLinks: 'flex items-center cursor-pointer',
   leftside: 'flex flex-col items-center justify-center space-x-4 lg:-ml-4',
   socialIcons: 'flex items-center text-[#5470C7] hover:text-hov'
@@ -22,7 +22,7 @@ const Footer = () => {
           </iframe>
         </div>
         {/* Social Icons */}
-        <div className='flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14'>
+        <div className='flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14 2xl:hidden'>
           {/* Discord */}
           <div className={styles.socialIcons}>
             <a
@@ -64,9 +64,52 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        {/* Social Icons Wide*/}
+        <div className='hidden 2xl:flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14'>
+          {/* Discord */}
+          <div className={styles.socialIcons}>
+            <a
+              href='https://twitter.com/ShreddingSassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaDiscord size={50}/>
+            </a>
+          </div>
+          {/* Twitter */}
+          <div className={styles.socialIcons}>
+            <a
+              href='https://twitter.com/ShreddingSassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaTwitter size={50}/>
+            </a>
+          </div>
+          {/* Medium */}
+          <div className={styles.socialIcons}> 
+            <a 
+              href='https://medium.com/@shreddingsassy'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              <FaMediumM size={50}/> 
+            </a>
+          </div>
+          {/* Instagram */}
+          <div className={styles.socialIcons}> 
+            <a 
+              href='https://www.instagram.com/shreddingsassy/' 
+              target='_blank'  
+              rel='noopener noreferrer'
+            >
+              <FaInstagram size={50} />
+            </a>
+          </div>
+        </div>
       </div>   
       {/* Middle */}
-      <div className='cursor-pointer hidden lg:inline-flex'>
+      <div className='cursor-pointer hidden lg:inline-flex 2xl:hidden'>
         <Link href='/'>
           <Image
             src={footerImg}
@@ -88,13 +131,24 @@ const Footer = () => {
           </Image>
         </Link>
       </div>
+      <div className='cursor-pointer ml-4 hidden 2xl:flex'>
+        <Link href='/'>
+          <Image
+            src={footerImg}
+            alt='Shredding Sassy Logo'
+            height={164}
+            width={700}
+          >
+          </Image>
+        </Link>
+      </div>
       {/* Right Side */}
       <div className='flex flex-col items-center lg:items-end text-lg font-mont text-pri'>
         <div className='flex flex-col items-center lg:items-end font-medium'>
-          <p>© 2022 Shredding Sassy</p>
-          <p>Bold by nature</p>
+          <p class='footerTextStyle'>© 2022 Shredding Sassy</p>
+          <p class='footerTextStyle'>Bold by nature</p>
         </div>
-        <div className='flex lg:py-2 font-semibold cursor-pointer'>
+        <div className='footerTextStyle flex lg:py-2 2xl:py-6 font-semibold cursor-pointer'>
           <Link href='/terms'
           >
           <p>Terms & Conditions</p>  
