@@ -68,7 +68,7 @@ const Navbar = () => {
         <Link href='/shop'>
           <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Shop</button>
         </Link>
-        <Link href='/faw'>
+        <Link href='/faq'>
           <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>FAQ</button>
         </Link>
       </div>

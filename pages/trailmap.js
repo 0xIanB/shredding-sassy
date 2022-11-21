@@ -2,7 +2,6 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import trailMap from '../assets/trailmap.png'
-import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
 const trailmap = () => {
@@ -16,7 +15,7 @@ const trailmap = () => {
       <Navbar />
       <div class='flex flex-col justify-center items-center h-full w-full'>
         <div class='flex-col items-center text-center text-pri'>
-        <h2 class='trailMapHeader font-bold font-mont pt-20 lg:pt-14 pb-10 '>The Trail Map</h2>
+        <h2 class='trailMapHeader font-bold font-mont text-pri pt-20 lg:pt-14 pb-10 '>The Trail Map</h2>
         </div>
         <div class='flex justify-center items-center pb-12 w-[60%] lg:w-[30%]'>
           <Image

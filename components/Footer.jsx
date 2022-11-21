@@ -109,35 +109,12 @@ const Footer = () => {
         </div>
       </div>   
       {/* Middle */}
-      <div className='cursor-pointer hidden lg:inline-flex 2xl:hidden'>
+      <div className='footerLogoStyle cursor-pointer pt-2'>
         <Link href='/'>
           <Image
             src={footerImg}
             alt='Shredding Sassy Logo'
-            height={86}
-            width={350}
-          >
-          </Image>
-        </Link>
-      </div>
-      <div className='cursor-pointer ml-4 lg:hidden'>
-        <Link href='/'>
-          <Image
-            src={footerImg}
-            alt='Shredding Sassy Logo'
-            height={65}
-            width={250}
-          >
-          </Image>
-        </Link>
-      </div>
-      <div className='cursor-pointer ml-4 hidden 2xl:flex'>
-        <Link href='/'>
-          <Image
-            src={footerImg}
-            alt='Shredding Sassy Logo'
-            height={164}
-            width={700}
+            objectFit='fill'
           >
           </Image>
         </Link>
