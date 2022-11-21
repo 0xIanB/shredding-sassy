@@ -1040,9 +1040,9 @@ const team = () => {
           </div>
         </div>
         {/* Partners */}
-        <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start'>
+        <div className='flex flex-col items-center lg:items-start'>
         {/* Title */}
-        <div className='flex flex-col text-center sm:text-start mb-8'>
+        <div className='flex flex-col mx-20 mt-8 lg:ml-24 text-center sm:text-start mb-8'>
           <h1 className='font-bold text-3xl text-pri '>Partners</h1>
         </div> 
           {/* Partner Cards */}

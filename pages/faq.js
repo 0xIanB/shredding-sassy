@@ -55,7 +55,7 @@ const faq = () => {
         </div>
           </div>
         {/* Accordion */}
-        <div class='faqItemWidth px-8'>
+        <div class='faqItemWidth px-8 w-full lg:w-[60%] mb-10'>
         <h2 class='faqHeaderStyle font-mont text-pri font-extrabold mb-12 hidden lg:flex'>FAQ</h2>
         <Accordion defaultIndex={[11]} allowMultiple>
           <AccordionItem className='mb-2 w-full'>

@@ -21,7 +21,7 @@ import erna from '../assets/erna.png'
 
 const styles = {
   container: 'flex flex-col items-center w-full z-10 cursor-pointer',
-  marqueecontainer: 'scroll-hidden',
+  marqueecontainer: 'scroll-hidden w-full',
   marquee:'hidden lg:flex 2xl:hidden pb-20',
   marqueeMobile:'overflow-hidden pb-20 lg:hidden',
   marqueeWide:'hidden 2xl:flex overflow-hidden pb-20',
@@ -34,7 +34,7 @@ const PartnerMarquee = () => {
     <div className={styles.marqueecontainer}>
       {/* Desktop */}
       <div className={styles.marquee}>
-        <Marquee gradientWidth='0' speed={50} pauseOnHover={true}>
+        <Marquee gradientWidth='0' speed={20} pauseOnHover={true}>
           <div class={styles.imageBox}>
             <Image
               src={absolute}
