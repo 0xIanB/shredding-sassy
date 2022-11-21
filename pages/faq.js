@@ -1,6 +1,13 @@
 import React from 'react'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
+import {
+  Accordion,
+  AccordionItem,
+  AccordionButton,
+  AccordionPanel,
+  AccordionIcon,
+} from '@chakra-ui/react'
 
 const faq = () => {
   return (
@@ -11,8 +18,13 @@ const faq = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <div class='flex flex-col items-center text-center justify-center py-56'>
-        <p class='shopStyle font-bold font-mont text-pri pt-4 pb-2 '>...COMING SOON</p>
+      <div className='flex h-screen w-full'>
+        {/* Header */}
+        <div class='flex justify-center'>
+          <h2 class='font-mont text-pri font-bold'>FAQ</h2>
+          
+        </div>
+
       </div>
     </div>
   )
