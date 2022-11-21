@@ -102,6 +102,11 @@
     width: clamp(200px, 20vw, 320px);
   }
 
+  .partnerStyle {
+    height: clamp(150px, 15vw, 400px);
+    width: clamp(150px, 15vw, 400px);
+  }
+
   .faqItemWidth {
     width: clamp(500px, 90vw, 900px);
   }
