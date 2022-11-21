@@ -38,13 +38,14 @@ const styles = {
   bodyText:'font-medium text-pri',
   sectionHeader:'font-bold text-pri',
   coreCard: 'flex flex-col md:mr-8 2xl:mr-20 mb-32 xl:mb-44 2xl:mb-52 shrink-0',
-  proCard: 'flex flex-col lg:mb-10 md:mr-8 2xl:mr-20 shrink-0',
+  proCard: 'flex flex-col mb-10 xl:mb-20 md:mr-8 2xl:mr-20 shrink-0',
   coreHeader: 'uppercase font-bold text-pri',
   proHeader: 'uppercase font-bold text-pri',
   infoContainer: 'flex flex-row items-center justify-between py-4',
-  coreSubHeader: 'uppercase font-bold',
+  coreSubHeader: 'uppercase font-bold 2xl:pl-1',
   twitterLogo: 'flex pb-8 cursor-pointer items-center pt-1',
-  cardReveal: 'cardImageStyle invisible lg:visible absolute z-0 hover:z-20'
+  cardReveal: 'cardImageStyle invisible lg:visible absolute z-0 hover:z-20',
+  igBlock: 'h-full flex flex-col items-start cursor-pointer pt-2'
 }
 
 const team = () => {
@@ -257,7 +258,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>
+                <div className={`proIGStyle ${styles.igBlock}`}>
                   <a
                     href='https://www.instagram.com/olliemx131'
                     rel='noreferrer'
@@ -661,7 +662,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>ben tudhope</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>ben</h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>tudhope</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -669,7 +673,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-5 cursor-pointer items-center'>
+                <div className={`proIGStyle  ${styles.igBlock}`}>
                   <a
                     href='https://www.instagram.com/bentudhope'
                     rel='noreferrer'
@@ -686,7 +690,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className={`proCardStyle ${styles.proCard}`}> 
+            <div className={`proCardStyle  ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -702,7 +706,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>garrett geros</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>garrett</h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>geros</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -710,7 +717,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>               
                 <a
                     href='https://www.instagram.com/garrettgeros22'
                     rel='noreferrer'
@@ -727,7 +734,7 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className={`proCardStyle ${styles.proCard}`}>  
+            <div className={`proCardStyle  ${styles.proCard}`}>  
               {/* Image */}
               <div>
                 <Image
@@ -754,7 +761,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-[100px] 2xl:pb-[165px] cursor-pointer'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>                
                 <a
                     href='https://www.instagram.com/stubbergram'
                     rel='noreferrer'
@@ -787,7 +794,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>jonjoe boulter</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>jonjoe</h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>boulter</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -795,7 +805,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>               
                 <a
                     href='https://www.instagram.com/jonjoeboulter'
                     rel='noreferrer'
@@ -828,7 +838,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>karel van goor</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>karel</h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>van goor</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -836,7 +849,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>               
                 <a
                     href='https://www.instagram.com/karelvangoor'
                     rel='noreferrer'
@@ -869,7 +882,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                  <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>keith gabel</h1>
+                  <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>keith</h1>
+                  </div>
+                  <div>
+                  <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>gabel</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -877,7 +893,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>               
                 <a
                     href='https://www.instagram.com/grizzlygabel'
                     rel='noreferrer'
@@ -910,7 +926,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>noah elliot</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>noah </h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>elliot</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -918,7 +937,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>                
                 <a
                     href='https://www.instagram.com/elliott_sendy'
                     rel='noreferrer'
@@ -951,7 +970,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>tyler burdick</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>tyler</h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>burdick</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -959,7 +981,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>              
                 <a
                     href='https://www.instagram.com/doctburdick'
                     rel='noreferrer'
@@ -992,7 +1014,10 @@ const team = () => {
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>zach miller</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>zach</h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>miller</h1>
                   </div>
                   {/* Title */}
                   <div>
@@ -1000,7 +1025,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <div className={`proIGStyle  ${styles.igBlock}`}>                 
                 <a
                     href='https://www.instagram.com/themountainmiller'
                     rel='noreferrer'

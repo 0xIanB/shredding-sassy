@@ -73,7 +73,7 @@
   }
 
   .proCardStyle {
-    height: clamp(450px, 25vw, 800px);
+    height: clamp(450px, 30vw, 800px);
     width: clamp(280px, 18vw, 600px);
   }
 
@@ -119,7 +119,7 @@
   }
 
   .proSubHeaderStyle {
-    font-size: clamp(25px, 1.7vw, 105px)
+    font-size: clamp(30px, 2vw, 105px)
   }
 
   .coreSubSubHeaderStyle {
