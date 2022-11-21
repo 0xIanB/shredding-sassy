@@ -47,7 +47,7 @@ const CarouselHolder = () => {
       {/* Carousel */}
       <div className="flex w-full">
       <div className='mt-4 overflow-hidden w-[100%]' ref={viewportRef}>
-        <div className="flex ml-16 sm:ml-8 md:ml-8 lg:ml-12 cursor-grab">
+        <div className="flex ml-16 sm:ml-8 md:ml-8 lg:ml-6 2xl:ml-10 cursor-grab">
           <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image1}
