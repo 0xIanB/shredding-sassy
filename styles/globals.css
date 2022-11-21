@@ -37,6 +37,21 @@
     width: clamp(200px, 15vw, 420px);
   }
 
+  .heroImageStyle {
+    height: clamp(700px, 50vw, 1400px);
+    width: clamp(1250px, 80vw, 2500px);
+  }
+
+  .sassyFloatingStyle {
+    height: clamp(200px, 22.5vw, 500px);
+    width: clamp(200px, 22.5vw, 500px);
+  }
+
+  .sassyWelcomeStyle {
+    height: clamp(500px, 40vw, 1200px);
+    width: clamp(500px, 40vw, 1200px);
+  }
+
   .footerLogoStyle {
     height: clamp(75px, 5vw, 150px);
     width: clamp(225px, 15vw, 550px);
@@ -54,6 +69,14 @@
 
   .faqItemWidth {
     width: clamp(500px, 90vw, 900px);
+  }
+
+  .mainBodyHeaderStyle {
+    font-size: clamp(30px, 2.5vw, 105px)
+  }
+
+  .mainBodyTextStyle {
+    font-size: clamp(18px, 1vw, 40px)
   }
 
   .shortboxStyle {

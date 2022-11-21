@@ -4,9 +4,9 @@ import ramp from '../assets/ramp.png'
 
 const Future = () => {
   return (
-    <div className='flex flex-col lg:flex-row'>
+    <div class='flex flex-col lg:flex-row'>
       {/* Image */}
-      <div className='flex items-center justify-center px-8 md:px-16 lg:px-0'>
+      <div class='flex items-center justify-center px-8 md:px-24 lg:px-0'>
         <Image
           src={ramp}
           alt='Sassy Ramp'
@@ -16,9 +16,9 @@ const Future = () => {
         </Image>
       </div>
       {/* Text */}
-      <div className='flex flex-col text-pri items-center lg:items-end justify-center'>
-          <h1 className='font-bold font-body text-2xl md:text-3xl lg:text-4xl lg:w-1/2 text-center lg:text-right lg:pr-24 py-8'>The future is decentralized</h1>
-          <p className='text-md xl:text-lg font-medium text-center lg:text-end w-full md:w-[70%] items-center justify-center lg:justify-end lg:items-end lg:pr-24 px-8 lg:px-4'>{"We are building the world's first decentralised extreme sports brand. We believe in communities over corporations and envision a future where ownership and profit are not limited to a select few."}</p>
+      <div class='flex flex-col text-pri items-center lg:items-end justify-center px-8 md:px-20 '>
+          <h1 class='mainBodyHeaderStyle font-bold font-body  text-center lg:text-right py-8 md:py-8'>The future is decentralized</h1>
+          <p class='mainBodyTextStyle font-medium text-center lg:text-end w-full items-center justify-center lg:justify-end lg:items-end md:w-[90%] xl:w-[75%] 2xl:w-[60%]'>{"We are building the world's first decentralised extreme sports brand. We believe in communities over corporations and envision a future where ownership and profit are not limited to a select few."}</p>
       </div>
     </div>
   )

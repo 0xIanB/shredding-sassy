@@ -8,103 +8,31 @@ const Welcome = () => {
   const parallax1 = useParallax({
     speed: 15,
   });
-  const parallax2 = useParallax({
-    speed: 15,
-  });
-  const parallax3 = useParallax({
-    speed: 15,
-  });
-  const parallax4 = useParallax({
-    speed: 15,
-  });
 
   return (
-    <div id='welcome' className='flex flex-col-reverse mb-20 mt-32 md:mt-16 lg:mt-[25px] lg:mb-40 lg:flex-row'>
+    <div id='welcome' class='flex flex-col-reverse mb-20 lg:flex-row'>
       {/* Text */}
-      <div className='flex flex-col text-pri items-center lg:items-start justify-center shrink'>
-          <h1 className='font-bold font-body text-2xl md:text-3xl lg:text-4xl xxl:text-6xl lg:w-[45%] xxl:pr-0 text-center lg:text-left lg:pl-24 py-8 px-2'>Welcome to Meta Mountain</h1>
-          <p className='text-md xl:text-lg xxl:text-2xl font-medium text-center lg:text-start md:w-[90%] lg:w-[60%] xxl:w-[40%] items-center justify-center lg:justify-start lg:items-start lg:pl-24 px-8 lg:px-4 -mt-4'>{"Sassy's are a bunch of fun loving, adrenaline fueled Sasquatches that reside on Meta Mountain. A mysterious mountain with endless terrain and some of the gnarliest features in the world."}</p>
+      <div class='flex flex-col text-pri items-center lg:items-start justify-center shrink'>
+          <h1 class='mainBodyHeaderStyle font-bold font-body lg:w-[75%] 2xl:w-[42%] xxl:pr-0 text-center lg:text-left lg:pl-24 mt-4 sm:mt-8'>Welcome to</h1>
+          <h1 class='mainBodyHeaderStyle font-bold font-body lg:w-[75%] 2xl:w-[50%] xxl:pr-0 text-center lg:text-left lg:pl-24 pb-8'>Meta Mountain</h1>
+          <p class='mainBodyTextStyle font-medium text-center lg:text-start md:w-[90%] lg:w-[60%] xxl:w-[40%] items-center justify-center lg:justify-start lg:items-start lg:pl-24 px-8 lg:px-4 -mt-4'>{"Sassy's are a bunch of fun loving, adrenaline fueled Sasquatches that reside on Meta Mountain. A mysterious mountain with endless terrain and some of the gnarliest features in the world."}</p>
       </div>
       {/* Desktop Image */}
-      <div className='hidden lg:flex xxl:hidden flex-row items-center justify-center p-8 lg:p-0'>
-        <div ref={parallax1.ref} className='flex absolute z-20 lg:-ml-[600px] shadow-2xl'>
+      <div class='flex flex-row items-center justify-center mx-4 md:mr-12 lg:mx-0 mt-20 md:mt-24 w-full'>
+        <div ref={parallax1.ref} class='sassyFloatingStyle flex z-20 -mr-[100px] md:-mr-[100px] lg:-mr-[160px] 2xl:-mr-[250px] shadow-2xl'>
             <Image
               src={welcomesassy}
               alt='Sassy'
-              width={300}
-              height={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className='flex items-center -mr-6 lg:-mr-0 justify-center'>
+          <div class='sassyWelcomeStyle flex items-center justify-center'>
             <Image
               src={welcome}
               alt='Sassy Welcome'
               width={1200}
               height={1200}
-            >
-            </Image>
-          </div>
-      </div>
-      {/* Tablet Image */}
-      <div className='hidden md:flex lg:hidden flex-row items-center justify-center lg:p-0'>
-        <div ref={parallax2.ref} className='flex absolute z-20 -ml-[370px] shadow-2xl'>
-            <Image
-              src={welcomesassy}
-              alt='Sassy'
-              width={300}
-              height={300}
-            >
-            </Image>
-          </div>
-          <div className='flex items-center -mr-6 lg:-mr-0 justify-center shrink-0'>
-            <Image
-              src={welcome}
-              alt='Sassy Welcome'
-              width={600}
-              height={650}
-            >
-            </Image>
-          </div>
-      </div>
-      {/* Mobile Image */}
-      <div className='flex flex-row md:hidden items-center justify-center lg:p-0 lg:ml-14 ml-6'>
-        <div ref={parallax3.ref} className='flex absolute z-20 -ml-[210px] shadow-2xl'>
-            <Image
-              src={welcomesassy}
-              alt='Sassy'
-              width={150}
-              height={150}
-            >
-            </Image>
-          </div>
-          <div className='flex items-center lg:-mr-0 justify-center shrink-0'>
-            <Image
-              src={welcome}
-              alt='Sassy Welcome'
-              width={300}
-              height={350}
-            >
-            </Image>
-          </div>
-      </div>
-      {/* Widscreen */}
-      <div className='hidden xxl:flex flex-row items-center justify-center p-8 lg:p-0'>
-        <div ref={parallax4.ref} className='flex absolute z-20 lg:-ml-[1300px] shadow-2xl'>
-            <Image
-              src={welcomesassy}
-              alt='Sassy'
-              width={600}
-              height={600}
-            >
-            </Image>
-          </div>
-          <div className='flex items-center -mr-6 lg:-mr-0 justify-center'>
-            <Image
-              src={welcome}
-              alt='Sassy Welcome'
-              width={1300}
-              height={1300}
             >
             </Image>
           </div>

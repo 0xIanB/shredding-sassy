@@ -2,7 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Navbar from '../components/Navbar'
 import Image from 'next/image'
-import rightSassy from '../assets/rightsassy.png'
+import faqsassy from '../assets/faqsassy.png'
 import {
   Accordion,
   AccordionItem,
@@ -38,7 +38,7 @@ const faq = () => {
         {/* Mobile Sassy */}
         <div class='flex lg:hidden justify-center'>
           <Image
-            src={rightSassy}
+            src={faqsassy}
             alt='Right Sassy'
             width={150}
             height={250}
@@ -47,8 +47,8 @@ const faq = () => {
         {/* Large Sassy */}
         <div class='hidden lg:flex items-start justify-start h-[60%] mr-30 2xl:mr-64 mt-10 shrink-0'>
           <Image
-            src={rightSassy}
-            alt='Right Sassy'
+            src={faqsassy}
+            alt='Faq Sassy'
             width={280}
             height={450}
           />

@@ -7,7 +7,7 @@ import { ImArrowDown } from 'react-icons/im'
 
 const Hero = () => {
   return (
-    <div class='flex justify-center'>
+    <div class='flex justify-center w-full h-full'>
       {/* Mobile Hero */}
       <div class='flex flex-col w-full sm:hidden'>
         <div class='flex flex-col'>
@@ -48,25 +48,12 @@ const Hero = () => {
       </div>
 
         {/* Hero Desktop */}
-        <div class='hidden sm:flex 2xl:hidden lg:-mt-8'>
+        <div class='heroImageStyle hidden sm:flex justify-center  -mb-64  lg:mb-0'>
           <div>
             <Image
               src={hero}
               alt='Shredding'
-              width={1250}
-              height={700}
-            >
-            </Image>
-          </div>
-      </div>
-        {/* Hero Widescreen */}
-        <div class='hidden 2xl:flex lg:-mt-8'>
-          <div>
-            <Image
-              src={hero}
-              alt='Shredding'
-              width={2500}
-              height={1400}
+              objectFit='fill'
             >
             </Image>
           </div>

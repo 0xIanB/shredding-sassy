@@ -61,7 +61,7 @@ const sssc = () => {
         <div className='hidden xl:inline-flex items-center md:-mb-[150px] lg:mr-40'>
           <Image
             src={ssscsassy}
-            alt='Left Sassy'
+            alt='SSSC Sassy'
             height={500}
             width={500}
           >
