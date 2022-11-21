@@ -30,11 +30,11 @@ const CarouselHolder = () => {
     <div className='flex items-center flex-col justify-start px-8 mt-20 lg:mt-40 lg:mb-40 py-20 bg-gray-200'>
       {/* Title */}
       <div className='flex items-center justify-center'>
-        <h1 className='font-bold text-pri text-2xl lg:text-4xl text-center p-2 md:w-[70%]'>Digital collectible avatars living on the Ethereum blockchain</h1>
+        <h1 className='mainBodyHeaderStyle font-bold text-pri  text-center p-2 md:w-[70%]'>Digital collectible avatars living on the Ethereum blockchain</h1>
       </div>
       {/* Description */}
       <div className='flex items-start justify-center w-full lg:w-3/5'>
-        <p className='text-md text-center text-pri font-medium p-2'>
+        <p className='mainBodyTextStyle text-md text-center text-pri font-medium p-2'>
         Our Sassy NFTs are contrived from over 140 unique, hand drawn traits with varying rarity.  Each one represents a DAO vote and membership to the {" "}
           <span className='underline font-semibold'> 
           <Link 
@@ -46,149 +46,133 @@ const CarouselHolder = () => {
       </div>
       {/* Carousel */}
       <div className="flex w-full">
-      <div className='mt-10 overflow-hidden w-[100%]' ref={viewportRef}>
-        <div className="flex ml-14 sm:ml-8 md:ml-8 lg:ml-12 cursor-grab">
-          <div className="flex items-end shrink-0 pr-14">
+      <div className='mt-4 overflow-hidden w-[100%]' ref={viewportRef}>
+        <div className="flex ml-16 sm:ml-8 md:ml-8 lg:ml-12 cursor-grab">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image1}
               alt='Image 1'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image2}
               alt='Image 2'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image3}
               alt='Image 3'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image4}
               alt='Image 4'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image5}
               alt='Image 5'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image6}
               alt='Image 6'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image7}
               alt='Image 7'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image8}
               alt='Image 8'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image9}
               alt='Image 9'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image10}
               alt='Image 10'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image11}
               alt='Image 11'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image12}
               alt='Image 12'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image13}
               alt='Image 13'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image14}
               alt='Image 14'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image15}
               alt='Image 15'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
-          <div className="flex items-end shrink-0 pr-14">
+          <div className="sassyCarouselStyle flex items-end pr-14 shrink-0">
             <Image
               src={image16}
               alt='Image 16'
-              height={300}
-              width={300}
+              objectFit='fill'
             >
             </Image>
           </div>
@@ -196,7 +180,7 @@ const CarouselHolder = () => {
       </div>
     </div>
     <div className='flex mt-10'>
-      <h1 className='text-pri uppercase font-mont text-lg font-bold mr-4'>Swipe For More Sassys</h1>
+      <h1 className='mainBodyTextStyle text-pri uppercase font-mont font-bold mr-4'>Swipe For More Sassys</h1>
       <div className='animate-pulse'>
         <Image 
           src={arrows}

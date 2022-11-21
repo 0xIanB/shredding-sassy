@@ -57,6 +57,11 @@
     width: clamp(225px, 15vw, 550px);
   }
 
+  .sassyCarouselStyle {
+    height: clamp(360px, 15vw, 500px);
+    width: clamp(360px, 15vw, 500px);
+  }
+
   .longboxStyle {
     height: clamp(120px, 10vw, 250px);
     width: clamp(450px, 35vw, 900px);
