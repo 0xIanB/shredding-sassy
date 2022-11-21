@@ -83,6 +83,10 @@
   .mainBodyTextStyle {
     font-size: clamp(18px, 1vw, 40px)
   }
+  
+  .visionHeaderStyle {
+    font-size: clamp(20px, 2vw, 105px)
+  }
 
   .shortboxStyle {
     height: clamp(120px, 10vw, 250px);
