@@ -25,6 +25,10 @@ import miniSassy8 from '../assets/miniSassy8.png'
 import miniSassy9 from '../assets/miniSassy9.png'
 import miniSassy10 from '../assets/miniSassy10.png'
 
+const styles = {
+    bodyText: 'font-medium text-pri 2xl:w-[75%] pb-8',
+}
+
 const sssc = () => {
   return (
     <div className='flex flex-col'>
@@ -36,24 +40,33 @@ const sssc = () => {
     <Navbar />
       
       {/* Header */}
-      <div className='flex flex-col xl:flex-row px-4 mt-20 justify-center items-center xl:justify-between mb-10 lg:mb-6 shrink-0'>
+      <div className='flex flex-col xl:flex-row px-4 mt-20 justify-center items-center xl:justify-between mb-10 lg:mb-6'>
         {/* Left Side */}
-        <div className='flex flex-col w-[90%] md:w-3/4 space-y-8'>
+        <div className='flex flex-col justify-center items-center  xl:items-start space-y-8'>
           {/* Title */}
-            <div className='flex w-full justify-center xl:justify-start '>
+            <div className='flex 2xl:hidden justify-center xl:justify-start shrink-0'>
               <Image
                 src={brownstroke}
                 alt='Team Shredders'
-                height={100}
                 width={700}
+                height={80}
+              >
+              </Image>
+            </div>
+            <div className='hidden 2xl:flex justify-center xl:justify-start shrink-0'>
+              <Image
+                src={brownstroke}
+                alt='Team Shredders'
+                width={900}
+                height={100}
               >
               </Image>
             </div>
           {/* Info */}
-          <div className='flex flex-col space-y-8 text-center xl:text-start lg:ml-20 justify-center w-full p-2 lg:w-[75%]'>
-            <p className='text-md xl:text-lg font-medium text-pri'>By holding a Shredding Sassy NFT you will become a fully fledged member of the Shredding Sassy Social Club. </p>
-            <p className='text-md xl:text-lg font-medium text-pri'>This is our community. Where like minded individuals will be part of a collective, where we feel included and welcome. Sharing stories, photos and videos. Discussing ideas, arranging meetups and planning trips. </p>
-            <p className='text-md lg:text-lg font-medium text-pri'>Being a member of the SSSC comes with many perks and benefits. </p>
+          <div className='flex px-2 xl:px-0 flex-col text-center xl:text-start xl:ml-20 justify-center md:w-[70%] lg:w-[60%] 2xl:w-['>
+            <p className={`mainBodyTextStyle ${styles.bodyText}`}>By holding a Shredding Sassy NFT you will become a fully fledged member of the Shredding Sassy Social Club. </p>
+            <p className={`mainBodyTextStyle ${styles.bodyText}`}>This is our community. Where like minded individuals will be part of a collective, where we feel included and welcome. Sharing stories, photos and videos. Discussing ideas, arranging meetups and planning trips. </p>
+            <p className={`mainBodyTextStyle ${styles.bodyText}`}>Being a member of the SSSC comes with many perks and benefits. </p>
           </div>
         </div>
 

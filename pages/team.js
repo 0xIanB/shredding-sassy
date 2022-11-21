@@ -34,9 +34,22 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import PartnerMarquee from '../components/PartnerMarquee'
 
+const styles = {
+  bodyText:'font-medium text-pri',
+  sectionHeader:'font-bold text-pri',
+  coreCard: 'flex flex-col md:mr-8 2xl:mr-20 mb-32 xl:mb-44 2xl:mb-52 shrink-0',
+  proCard: 'flex flex-col lg:mb-10 md:mr-8 2xl:mr-20 shrink-0',
+  coreHeader: 'uppercase font-bold text-pri',
+  proHeader: 'uppercase font-bold text-pri',
+  infoContainer: 'flex flex-row items-center justify-between py-4',
+  coreSubHeader: 'uppercase font-bold',
+  twitterLogo: 'flex pb-8 cursor-pointer items-center pt-1',
+  cardReveal: 'cardImageStyle invisible lg:visible absolute z-0 hover:z-20'
+}
+
 const team = () => {
   return (
-    <div className='flex flex-col text-pri font-body'>
+    <div class='flex flex-col text-pri font-body'>
       <Head>
         <title>Shredding Sassy | Team</title>        
         <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />
@@ -45,11 +58,11 @@ const team = () => {
       <Navbar />
         
         {/* Header */}
-        <div className='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'> 
+        <div class='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'> 
           {/* Left Side */}
-          <div className='flex flex-col lg:w-1/2 space-y-8'>
+          <div class='flex flex-col xl:w-1/2 space-y-8'>
             {/* Title */}
-              <div className='flex justify-center lg:justify-start shrink-0'>
+              <div class='flex 2xl:hidden justify-center xl:justify-start shrink-0'>
                 <Image
                   src={shredders}
                   alt='Team Shredders'
@@ -58,31 +71,38 @@ const team = () => {
                 >
                 </Image>
               </div>
+              <div class='hidden 2xl:flex justify-center xl:justify-start shrink-0'>
+                <Image
+                  src={shredders}
+                  alt='Team Shredders'
+                  width={1050}
+                  height={150}
+                >
+                </Image>
+              </div>
             {/* Info */}
-            <div className='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center lg:text-left'>
-              <p className='text-md md:text-lg font-medium text-pri '>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
-              <p className='text-md md:text-lg font-medium text-darkpurple2'>Pioneering a new kind of brand that we build together.</p>
+            <div class='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center xl:text-left'>
+              <p class={`mainBodyTextStyle ${styles.bodyText}`}>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
+              <p class={`mainBodyTextStyle ${styles.bodyText}`}>Pioneering a new kind of brand that we build together.</p>
             </div>
           </div>
           {/* Right Side */}
-          <div className='hidden lg:inline-flex mr-20 items-center mt-18 -mb-20'>
+          <div class='hidden xl:inline-flex mr-20 2xl:mr-72 items-center mt-18 -mb-20'>
             {/* Sassy 1 */}
-            <div className='-mr-[130px]'>
+            <div className='teamTopSassyStyle -mr-[130px]'>
               <Image
                 src={leftsassy}
                 alt='Left Sassy'
-                height={400}
-                width={400}
+                objectFit='fill'
               >
               </Image>
             </div>
             {/* Sassy 2 */}
-            <div>
+            <div class='teamTopSassyStyle'>
               <Image
                 src={rightsassy}
                 alt='Right Sassy'
-                height={400}
-                width={400}
+                objectFit='fill'
               >
               </Image>
             </div>
@@ -90,49 +110,47 @@ const team = () => {
         </div>
         
         {/* Core Team */}
-        <div className='flex flex-col flex-4 mx-20 mt-8 lg:ml-24 items-center lg:items-start text-pri'>
+        <div class='flex flex-col mx-20 mt-8 xl:ml-24 items-center xl:items-start text-pri'>
         {/* Title */}
-        <div className='flex flex-col text-center sm:text-start mb-8'>
-          <h1 className='font-bold text-3xl text-darkpurple2 '>Core Team</h1>
+        <div class='flex flex-col text-center sm:text-start mb-8'>
+          <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Core Team</h1>
         </div> 
           {/* Team Cards */}
-          <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
+          <div class='flex flex-row flex-wrap sm:ml-8 lg:ml-0 justify-center xl:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}>
               {/* Image */}
-              <div className='z-10 hover:z-[-100]'>
+              <div class='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
                   src={joshsassy}
                   alt='Josh Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
-              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+              <div className={styles.cardReveal}>
                 <Image
                   src={josh}
                   alt='Josh'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>josh</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>josh</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>co-founder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>
                   <a
                     href='https://twitter.com/_odyssey6'
                     rel='noreferrer'
@@ -141,8 +159,7 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -150,47 +167,44 @@ const team = () => {
 
               </div>
               {/* Description */}
-              <div className='flex'>
+              <div class='flex'>
                 <p>Father, passionate Skier and Mountain Biker. Josh has a digital marketing, branding and ecommerce background. Over the last 12 years he has launched, successfully ran and sold a number of online businesses. </p>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}>
               {/* Image */}
-              <div className='z-10 hover:z-[-100]'>
+              <div className='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
                   src={jakesassy}
                   alt='Jake Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
-              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+              <div className={styles.cardReveal}>
                 <Image
                   src={jake}
                   alt='Jake'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>jake</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>jake</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>co-founder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  <a
                     href='https://twitter.com/PepePeddler'
                     rel='noreferrer'
                     target='_blank'
@@ -198,8 +212,7 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -212,41 +225,39 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>              
+            <div class={`cardStyle ${styles.coreCard}`}>              
             {/* Image */}
-              <div className='z-10 hover:z-[-100]'>
+              <div className='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
                   src={olliesassy}
                   alt='Ollie Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
-              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+              <div className={styles.cardReveal}>
                 <Image
                   src={ollie}
                   alt='Ollie'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>ollie</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>ollie</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>co-founder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>
                   <a
                     href='https://www.instagram.com/olliemx131'
                     rel='noreferrer'
@@ -255,8 +266,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={30}
-                      width={30}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -269,42 +279,40 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>             
+            <div class={`cardStyle ${styles.coreCard}`}>             
              {/* Image */}
-              <div className='z-10 hover:z-[-100]'>
+              <div className='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
                   src={raabsassy}
                   alt='Raab Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
-              <div className='invisible lg:visible absolute z-0 hover:z-20'>
+              <div className={styles.cardReveal}>
                 <Image
                   src={raab}
                   alt='Raab'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>raab</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>raab</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>co-founder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <a
                     href='https://twitter.com/Raabsk1'
                     rel='noreferrer'
                     target='_blank'
@@ -312,13 +320,11 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
                 </div>
-
               </div>
               {/* Description */}
               <div className='flex'>
@@ -326,33 +332,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={franksassy}
                   alt='Frank Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>frank</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>frank</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>lead illustrator</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>lead illustrator</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <a
                     href='https://twitter.com/hellomstrfrnk'
                     rel='noreferrer'
                     target='_blank'
@@ -360,8 +365,7 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -374,33 +378,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={jaysassy}
                   alt='Jay Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>jay</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>jay</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>marketing</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>marketing</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <a
                     href='https://twitter.com/jaybird_nft'
                     rel='noreferrer'
                     target='_blank'
@@ -408,8 +411,7 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -422,33 +424,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={tylersassy}
                   alt='Tyler Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>tyler</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>tyler</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>web design</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>web design</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <a
                     href='https://twitter.com/t_gal11'
                     rel='noreferrer'
                     target='_blank'
@@ -456,8 +457,7 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -470,33 +470,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={iansassy}
                   alt='Ian Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>IΛN</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>IΛN</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>developer</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>developer</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <a
                     href='https://twitter.com/0xIanB'
                     rel='noreferrer'
                     target='_blank'
@@ -505,8 +504,7 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -515,37 +513,36 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>{"Ethereum Virtual Machine (EVM) devleopment. Focus on smart contracts, digital identity, digitial assets, and cyber security."} </p>
+                <p>{"Hacker // Smart Contracts // Cybersecurity // Frontend"} </p>
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={natesassy}
                   alt='Nate Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>nate</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>nate</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>storytelling</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>storytelling</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <a
                     href='https://twitter.com/n8amis1'
                     rel='noreferrer'
                     target='_blank'
@@ -554,8 +551,7 @@ const team = () => {
                     <Image
                       src={twitter}
                       alt='Twitter Logo'
-                      height={20}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -568,33 +564,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={toondsassy}
                   alt='Toond Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>toond</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>toond</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>concept artist</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>concept artist</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  {/* Future Link Here */}
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                {/* Future Link Here */}
                 </div>
 
               </div>
@@ -604,33 +599,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div class={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={ragensassy}
                   alt='Ragen Sassy'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>ragen</h1>
+                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>ragen</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>animator</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>animator</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-8 cursor-pointer'>
-                  {/* Future Link Here */}
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                {/* Future Link Here */}
                 </div>
 
               </div>
@@ -646,37 +640,36 @@ const team = () => {
         <div className='flex flex-col mx-20 mt-8 lg:ml-24 items-center lg:items-start'>
         {/* Title */}
         <div className='flex flex-col text-center sm:text-start mb-8'>
-          <h1 className='font-bold text-3xl text-darkpurple2 '>Pros & Ambassadors</h1>
+          <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Pros & Ambassadors</h1>
         </div> 
           {/* Pro Cards */}
           <div className='flex flex-row flex-wrap justify-center lg:justify-start'>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={ben}
                   alt='Ben'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>ben tudhope</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>ben tudhope</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-7 cursor-pointer'>
+                <div className='proIGStyle flex pb-5 cursor-pointer items-center'>
                   <a
                     href='https://www.instagram.com/bentudhope'
                     rel='noreferrer'
@@ -685,8 +678,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -694,33 +686,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={garrett}
                   alt='Garrett'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>garrett geros</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>garrett geros</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-7 cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <a
                     href='https://www.instagram.com/garrettgeros22'
                     rel='noreferrer'
                     target='_blank'
@@ -728,8 +719,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -737,33 +727,35 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}>  
               {/* Image */}
               <div>
                 <Image
                   src={james}
                   alt='James'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2 w-75%'>james barnes-miller</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>james</h1>
+                  </div>
+                  <div>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>barnes-miller</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-[65px] cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-[100px] 2xl:pb-[165px] cursor-pointer'>                  
+                <a
                     href='https://www.instagram.com/stubbergram'
                     rel='noreferrer'
                     target='_blank'
@@ -771,8 +763,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -780,33 +771,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={jonjoe}
                   alt='JonJoe'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>jonjoe boulter</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>jonjoe boulter</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-7 cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <a
                     href='https://www.instagram.com/jonjoeboulter'
                     rel='noreferrer'
                     target='_blank'
@@ -814,8 +804,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -823,33 +812,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={karel}
                   alt='Karel'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2 w-3/4'>karel van goor</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>karel van goor</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-[65px] cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <a
                     href='https://www.instagram.com/karelvangoor'
                     rel='noreferrer'
                     target='_blank'
@@ -857,8 +845,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -866,33 +853,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={keith}
                   alt='Keith'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>keith gabel</h1>
+                  <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>keith gabel</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-7 cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <a
                     href='https://www.instagram.com/grizzlygabel'
                     rel='noreferrer'
                     target='_blank'
@@ -900,8 +886,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -909,33 +894,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={noah}
                   alt='Noah'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>noah elliot</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>noah elliot</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-7 cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <a
                     href='https://www.instagram.com/elliott_sendy'
                     rel='noreferrer'
                     target='_blank'
@@ -943,8 +927,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -952,33 +935,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={tyler}
                   alt='Tyler'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>tyler burdick</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>tyler burdick</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-7 cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <a
                     href='https://www.instagram.com/doctburdick'
                     rel='noreferrer'
                     target='_blank'
@@ -986,8 +968,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -995,33 +976,32 @@ const team = () => {
               </div>
             </div>
             {/* Card */}
-            <div className='flex flex-col w-[280px] sm:mr-8 mb-10 shrink-0'>
+            <div className={`proCardStyle ${styles.proCard}`}> 
               {/* Image */}
               <div>
                 <Image
                   src={zach}
                   alt='Zach'
-                  height={280}
-                  width={280}
+                  objectFit='fill'
                 >
                 </Image>
               </div>
               {/* Info */}
-              <div className='flex flex-row items-center justify-between py-4'>
+              <div class={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 className='uppercase text-3xl font-bold text-darkpurple2'>zach miller</h1>
+                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>zach miller</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className='uppercase text-xl font-bold text-brown'>snowboarder</h1>
+                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className='flex pb-7 cursor-pointer'>
-                  <a
+                <div className='proIGStyle flex pb-6 cursor-pointer items-center'>                  
+                <a
                     href='https://www.instagram.com/themountainmiller'
                     rel='noreferrer'
                     target='_blank'
@@ -1029,8 +1009,7 @@ const team = () => {
                     <Image
                       src={instagram}
                       alt='Instagram Logo'
-                      height={25}
-                      width={25}
+                      objectFit='fill'
                     >
                     </Image>
                   </a>
@@ -1043,7 +1022,7 @@ const team = () => {
         <div className='flex flex-col items-center lg:items-start'>
         {/* Title */}
         <div className='flex flex-col mx-20 mt-8 lg:ml-24 text-center sm:text-start mb-8'>
-          <h1 className='font-bold text-3xl text-pri '>Partners</h1>
+          <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Partners</h1>
         </div> 
           {/* Partner Cards */}
           <PartnerMarquee />
