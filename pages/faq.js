@@ -35,17 +35,8 @@ const faq = () => {
         <div class='flex justify-start'>
           <h2 class='faqHeaderStyle font-mont text-pri font-extrabold mb-12 px-8 lg:hidden'>FAQ</h2>
         </div>
-        {/* Mobile Sassy */}
-        <div class='flex lg:hidden justify-center'>
-          <Image
-            src={faqsassy}
-            alt='Faq Sassy'
-            width={150}
-            height={250}
-          />
-        </div>
         {/* Large Sassy */}
-        <div class='hidden lg:flex items-start justify-start h-[60%] mr-30 2xl:mr-64 mt-10 shrink-0'>
+        <div class='hidden lg:flex items-start justify-start h-[60%] mr-30 2xl:mr-36 mt-64 shrink-0'>
           <Image
             src={faqsassy}
             alt='Faq Sassy'

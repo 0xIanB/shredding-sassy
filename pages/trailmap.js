@@ -2,6 +2,7 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
 import trailMapFramed from '../assets/trailmapframed.png'
+import trailMap from '../assets/trailmap.png'
 import Navbar from '../components/Navbar'
 
 const trailmap = () => {
@@ -18,15 +19,24 @@ const trailmap = () => {
         <h2 class='trailMapHeader font-bold font-mont text-pri pt-20 lg:pt-14 pb-10 '>The Trail Map</h2>
         </div>
         <div class='flex justify-center items-center pb-12 w-[60%] lg:w-[30%]'>
+        <a href='/assets/trailmap.png' target="_blank" rel='noreferrer'>
           <Image
             src={trailMapFramed}
             alt='Trail Map'
           >
           </Image>
+        </a>
         </div>
         <a href='https://ik.imagekit.io/shreddingsassy/trailmap.png' target="_blank" rel='noreferrer'>
         <p class='trailMapStyle text-pri font-mont animate-bounce font-medium'>Click To Explore Meta Mountain</p>
         </a>
+      </div>
+      <div>
+        <Image
+          src={trailMap}
+          alt='Trail Map'
+          >
+        </Image>
       </div>
     </div>
   )

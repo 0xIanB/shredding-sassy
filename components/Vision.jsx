@@ -51,7 +51,7 @@ const Vision = () => {
             {/* Text */}
             <div class={styles.infoContainer}>
               <h1 class={`visionHeaderStyle ${styles.infoHeader}`}>{`Building a sustainable business`}</h1>
-              <p class={`mainBodyTextStyle ${styles.infoDescription}`}>{`We're a business and understand we can't just rely on royalties to fund our vision. We're already working on multiple revenue streams, both physical and digital to ensure the growth ofthe brand is sustainable.`}</p>
+              <p class={`mainBodyTextStyle ${styles.infoDescription}`}>{`We're a business and understand we can't just rely on royalties to fund our vision. We're already working on multiple revenue streams, both physical and digital to ensure the growth of the brand is sustainable.`}</p>
             </div>
           </div>
           {/* Image 3 */}

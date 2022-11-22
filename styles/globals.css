@@ -38,13 +38,13 @@
   }
 
   .coreTwitterStyle {
-    height: clamp(20px, 1.5vw, 40px);
-    width: clamp(25px, 1.5vw, 100px);
+    height: clamp(17px, 1.5vw, 40px);
+    width: clamp(17px, 1.5vw, 100px);
   }
 
   .proIGStyle {
-    height: clamp(25px, 2vw, 50px);
-    width: clamp(25px, 2vw, 100px);
+    height: clamp(17px, 2vw, 50px);
+    width: clamp(17px, 2vw, 100px);
   }
 
   .teamTopSassyStyle {
@@ -73,8 +73,8 @@
   }
 
   .cardStyle {
-    height: clamp(500px, 32vw, 1150px);
-    width: clamp(280px, 18vw, 600px);
+    height: clamp(450px, 35vw, 1150px);
+    width: clamp(155px, 18vw, 600px);
   }
 
   .proCardStyle {
@@ -83,8 +83,8 @@
   }
 
   .cardImageStyle {
-    height: clamp(280px, 18vw, 600px);
-    width: clamp(280px, 18vw, 600px);
+    height: clamp(1500px, 18vw, 600px);
+    width: clamp(150px, 18vw, 600px);
   }
 
   .footerLogoStyle {
@@ -117,7 +117,11 @@
   }
 
   .AccStyle {
-    width: clamp(520px, 41vw, 1000px);
+    width: clamp(520px, 42vw, 1200px);
+  }
+
+  .wideAccStyle {
+    width: clamp(520px, 43vw, 1575px);
   }
 
   .faqItemWidth {
@@ -141,19 +145,28 @@
   }
 
   .coreSubHeaderStyle {
-    font-size: clamp(30px, 2vw, 105px)
+    font-size: clamp(24px, 2vw, 105px)
   }
+
+  .coreSubSubHeaderStyle {
+    font-size: clamp(15px, 1vw, 80px)
+  }
+
+  .coreDescriptionStyle {
+    font-size: clamp(13px, 1vw, 50px)
+  }
+  
 
   .proSubHeaderStyle {
     font-size: clamp(30px, 2vw, 105px)
   }
 
-  .coreSubSubHeaderStyle {
-    font-size: clamp(20px, 1vw, 80px)
-  }
-
   .mainBodyTextStyle {
     font-size: clamp(17px, 1vw, 40px)
+  }
+
+  .teamMobileTextStyle {
+    font-size: clamp(12px, 1vw, 40px)
   }
   
   .visionHeaderStyle {
@@ -179,11 +192,11 @@
   }
   
   .faqItemHeaderStyle {
-    font-size: clamp(15px, 1.2vw, 20px)
+    font-size: clamp(17px, 1.2vw, 25px)
   }
   
   .faqItemDescriptionStyle {
-    font-size: clamp(14px, 0.7vw, 15px)
+    font-size: clamp(17px, 0.7vw, 20px)
   }
 
   .socialLinkStyle {
