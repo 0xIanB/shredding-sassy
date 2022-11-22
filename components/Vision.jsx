@@ -7,10 +7,10 @@ import side4 from '../assets/side4.png'
 
 const styles = {
   imageContainer: 'flex flex-col items-center lg:items-end mb-8',
-  imageBox: 'px-4 lg:px-0 lg:w-[70%]',
-  infoContainer: 'flex flex-col px-4 lg:px-0 lg:w-[70%] items-center lg:items-start text-pri',
+  imageBox: 'px-4 lg:px-0 lg:w-[80%]',
+  infoContainer: 'flex flex-col px-4 lg:px-0 lg:w-[80%] items-center lg:items-start text-pri',
   infoHeader: 'font-body font-bold py-4',
-  infoDescription: 'font-medium text-center lg:text-start pb-8'
+  infoDescription: 'font-medium text-center lg:text-start pb-8 pr-4'
 }
 
 const Vision = () => {
