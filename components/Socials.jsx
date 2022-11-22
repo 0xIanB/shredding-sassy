@@ -43,18 +43,18 @@ const Socials = () => {
             </div>
           </div>
         </a>
-        {/* Discord */}
+        {/* Shred Paper */}
         <a 
           target='_blank'
-          href='https://discord.gg/sassy' 
+          href='https://shreddingsassy.gitbook.io/shredpaper/' 
           rel='noopener noreferrer'
         >
           <div class={`longboxStyle ${styles.longBox}`}>
-          <h2 class='socialLinkStyle'>Discord</h2>
-            <div class='sassyHeadStyle flex items-center'>
+          <h2 class='socialLinkStyle'>Shred Paper</h2>
+            <div class='sassyHeadStyle flex items-center mt-4'>
               <Image
-                  src={discordSassy}
-                  alt='Discord Sassy'
+                  src={manifestoSassy}
+                  alt='Shred Sassy'
                   objectFit='fill'
                 >
                 </Image>
@@ -97,18 +97,18 @@ const Socials = () => {
             </div>
           </div>
         </Link>
-        {/* Manifesto */}
+        {/* Discord */}
         <a 
-          href='https://medium.com/@shreddingsassy' 
+          href='https://discord.gg/sassy' 
           rel='noopener noreferrer'
           target='_blank'
         >
           <div class={`shortboxStyle ${styles.shortBox}`}>
-          <h2 class='socialLinkStyle'>Medium</h2>
-            <div class='sassyHeadStyle flex items-center mt-4'>
+          <h2 class='socialLinkStyle'>Discord</h2>
+            <div class='sassyHeadStyle flex items-center'>
             <Image
-                src={manifestoSassy}
-                alt='Medium Sassy'
+                src={discordSassy}
+                alt='Discord Sassy'
                 objectFit='fill'
               >
               </Image>
@@ -116,16 +116,16 @@ const Socials = () => {
           </div>
         </a>
         <a 
-          href='https://medium.com/@shreddingsassy' 
+          href='https://discord.gg/sassy' 
           rel='noopener noreferrer'
           target='_blank'
         >
           <div class={`longboxStyle ${styles.longBoxModified}`}>
-          <h2 class='socialLinkStyle'>Medium</h2>
-            <div class='sassyHeadStyle flex items-center mt-4'>
+          <h2 class='socialLinkStyle'>Discord</h2>
+            <div class='sassyHeadStyle flex items-center'>
             <Image
-                src={manifestoSassy}
-                alt='Medium Sassy'
+                src={discordSassy}
+                alt='Discord Sassy'
                 objectFit='fill'
               >
               </Image>
@@ -171,20 +171,20 @@ const Socials = () => {
       {/* Manifesto */}
       <div class={styles.bottomSetMobile}>
         <a 
-          href='https://medium.com/@shreddingsassy' 
+          href='https://twitter.com/ShreddingSassy' 
           rel='noopener noreferrer'
           target='_blank'
         >
           <div class={styles.squareBox}>
           <div class='mt-1'>
-              Medium
+              Twitter
             </div>
-            <div class='flex items-center'>
+            <div class='flex items-center mt-1'>
             <Image
-                src={manifestoSassy}
-                alt='Manifesto Sassy'
-                height={110}
-                width={110}
+                src={twitterSassy}
+                alt='Twitter Sassy'
+                height={115}
+                width={115}
               >
               </Image>
             </div>
@@ -199,7 +199,7 @@ const Socials = () => {
             <div class='mt-1'>
               Trail Map
             </div>
-            <div class='flex items-center'>
+            <div class='flex items-center mt-1'>
               <Image
                 src={trailSassy}
                 alt='Twitter Sassy'
@@ -215,19 +215,19 @@ const Socials = () => {
         {/* Twitter */}
         <a 
           target='_blank'
-          href='https://twitter.com/ShreddingSassy' 
+          href='https://shreddingsassy.gitbook.io/shredpaper/' 
           rel='noopener noreferrer'
         >
           <div class={styles.longBoxMobile}>
             <div class='2xl:text-5xl'>
-              Twitter
+              Shred Paper
             </div>
             <div class='flex items-center mt-2'>
               <Image
-                src={twitterSassy}
-                alt='Twitter Sassy'
-                height={110}
-                width={110}
+                src={manifestoSassy}
+                alt='Manifesto Sassy'
+                height={95}
+                width={95}
               >
               </Image>
             </div>
