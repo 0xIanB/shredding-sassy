@@ -50,7 +50,7 @@ const styles = {
 
 const team = () => {
   return (
-    <div class='flex flex-col text-pri font-body'>
+    <div class='flex flex-col text-pri font-body justify-center'>
       <Head>
         <title>Shredding Sassy | Team</title>        
         <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />
@@ -111,7 +111,7 @@ const team = () => {
         </div>
         
         {/* Core Team */}
-        <div class='flex flex-col mx-20 mt-8 xl:ml-24 items-center xl:items-start text-pri'>
+        <div class='flex flex-col mx-20 mt-8 items-center xl:items-start text-pri'>
         {/* Title */}
         <div class='flex flex-col text-center sm:text-start mb-8'>
           <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Core Team</h1>
