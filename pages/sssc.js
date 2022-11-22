@@ -534,7 +534,7 @@ const sssc = () => {
       </Accordion>
       
       {/* Main Container */}
-      <Accordion allowMultiple className='hidden xl:flex flex-row flex-wrap justify-evenly mx-4 mb-20 mt-16'>
+      <Accordion allowMultiple className='hidden xl:flex flex-row flex-wrap justify-evenly mx-4 2xl:mx-24 mb-20 mt-16'>
         {/* Item 1 */}
         <div className='flex flex-col -mt-8'>
         <AccordionItem className='AccStyle mb-10'>
