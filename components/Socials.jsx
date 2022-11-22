@@ -46,7 +46,7 @@ const Socials = () => {
         {/* Discord */}
         <a 
           target='_blank'
-          href='#' 
+          href='https://discord.gg/sassy' 
           rel='noopener noreferrer'
         >
           <div class={`longboxStyle ${styles.longBox}`}>
