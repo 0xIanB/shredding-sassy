@@ -39,7 +39,7 @@ const faq = () => {
         <div class='flex lg:hidden justify-center'>
           <Image
             src={faqsassy}
-            alt='Right Sassy'
+            alt='Faq Sassy'
             width={150}
             height={250}
           />
@@ -53,7 +53,7 @@ const faq = () => {
             height={450}
           />
         </div>
-          </div>
+      </div>
         {/* Accordion */}
         <div class='faqItemWidth px-8 w-full lg:w-[60%] mb-10'>
         <h2 class='faqHeaderStyle font-mont text-pri font-extrabold mb-12 hidden lg:flex'>FAQ</h2>

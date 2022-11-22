@@ -62,6 +62,11 @@
     width: clamp(200px, 22.5vw, 500px);
   }
 
+  .miniSassyStyle {
+    height: clamp(80px, 1vw, 80px);
+    width: clamp(80px, 1vw, 80px);
+  }
+
   .sassyWelcomeStyle {
     height: clamp(400px, 40vw, 1200px);
     width: clamp(400px, 40vw, 1200px);
@@ -107,12 +112,28 @@
     width: clamp(150px, 15vw, 400px);
   }
 
+  .mobileAccStyle {
+    width: clamp(340px, 55vw, 650px);
+  }
+
+  .AccStyle {
+    width: clamp(520px, 41vw, 1000px);
+  }
+
   .faqItemWidth {
     width: clamp(500px, 90vw, 900px);
   }
 
   .mainBodyHeaderStyle {
     font-size: clamp(30px, 2.5vw, 105px)
+  }
+
+  .ssscSubHeaderMobileStyle {
+    font-size: clamp(17px, 2.5vw, 20px)
+  }
+
+  .ssscSubHeaderStyle {
+    font-size: clamp(17px, 1.2vw, 35px)
   }
 
   .mainBodySubHeaderStyle {
@@ -132,7 +153,7 @@
   }
 
   .mainBodyTextStyle {
-    font-size: clamp(18px, 1vw, 40px)
+    font-size: clamp(17px, 1vw, 40px)
   }
   
   .visionHeaderStyle {
