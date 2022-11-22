@@ -533,7 +533,7 @@ const sssc = () => {
         </div>
       </Accordion>
       {/* Main Container */}
-      <Accordion allowMultiple className='hidden xl:flex flex-row flex-wrap justify-evenly mx-4 mb-20'>
+      <Accordion allowMultiple className='hidden xl:flex flex-row flex-wrap justify-evenly mx-4 mb-20 mt-16'>
         {/* Item 1 */}
         <div className='flex flex-col -mt-8'>
         <AccordionItem className='AccStyle mb-10'>
@@ -573,6 +573,16 @@ const sssc = () => {
         </div>            
         {/* Item 2 */}
         <div className='flex flex-col -mt-8'>
+          
+        <div className='flex justify-end -mb-8 -mt-[468px]'>
+          <Image
+            src={ssscsassy}
+            alt='SSSC Sassy'
+            height={500}
+            width={500}
+          >
+          </Image>
+        </div>
         <AccordionItem className='AccStyle mb-10'>
           {({ isExpanded }) => (
             <>
