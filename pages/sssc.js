@@ -542,11 +542,11 @@ const sssc = () => {
               <h2 className='ssscSubHeaderStyle text-pri font-bold '>
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       1
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       1
                     </div>
                   )}
@@ -589,11 +589,11 @@ const sssc = () => {
               <h2 className='ssscSubHeaderStyle text-pri font-bold'>
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       2
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       2
                     </div>
                   )}
@@ -635,11 +635,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       3
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       3
                     </div>
                   )}
@@ -681,11 +681,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       4
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       4
                     </div>
                   )}
@@ -727,11 +727,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       5
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       5
                     </div>
                   )}
@@ -766,6 +766,14 @@ const sssc = () => {
               width={80}
             />           
           </div>
+          <div className='flex justify-center -mb-2'>
+            <Image 
+              src={miniSassy2}
+              alt='Mini Sassy 2'
+              height={80}
+              width={80}
+            />           
+          </div>
           <AccordionItem className='AccStyle mb-10'>
           {({ isExpanded }) => (
             <>
@@ -773,11 +781,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       6
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       6
                     </div>
                   )}
@@ -804,12 +812,20 @@ const sssc = () => {
         </div>
         {/* Item 7 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-start lg:justify-end -mb-2'>
+          <div className='flex 2xl:hidden justify-start lg:justify-end -mb-2'>
             <Image 
               src={miniSassy3}
               alt='Mini Sassy 3'
               height={80}
               width={80}
+            />           
+          </div>
+          <div className='hidden 2xl:flex justify-start lg:justify-end -mb-2'>
+            <Image 
+              src={miniSassy3}
+              alt='Mini Sassy 3'
+              height={100}
+              width={100}
             />           
           </div>
           <AccordionItem className='AccStyle mb-10'>
@@ -819,11 +835,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       7
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       7
                     </div>
                   )}
@@ -850,12 +866,20 @@ const sssc = () => {
         </div>
         {/* Item 8 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-end lg:justify-start -mb-2'>
+          <div className='flex 2xl:hidden justify-end lg:justify-start -mb-2'>
             <Image 
               src={miniSassy4}
               alt='Mini Sassy 4'
               height={80}
               width={80}
+            />           
+          </div>
+          <div className='hidden 2xl:flex justify-end lg:justify-start -mb-2'>
+            <Image 
+              src={miniSassy4}
+              alt='Mini Sassy 4'
+              height={100}
+              width={100}
             />           
           </div>
           <AccordionItem className='AccStyle mb-10'>
@@ -865,11 +889,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       8
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       8
                     </div>
                   )}
@@ -896,12 +920,20 @@ const sssc = () => {
         </div>
         {/* Item 9 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-start -mb-2 ml-40'>
+          <div className='flex 2xl:hidden justify-start -mb-2 ml-40'>
             <Image 
               src={miniSassy5}
               alt='Mini Sassy 5'
               height={80}
               width={80}
+            />           
+          </div>
+          <div className='hidden 2xl:flex justify-start -mb-2 ml-40'>
+            <Image 
+              src={miniSassy5}
+              alt='Mini Sassy 5'
+              height={100}
+              width={100}
             />           
           </div>
           <AccordionItem className='AccStyle mb-10'>
@@ -911,11 +943,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-4 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 bg-white border-white text-pri rounded-full'>
                       9
                     </div>
                   ) : (
-                    <div className='px-4 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-4 py-2 2xl:px-6 border-4 border-pri rounded-full'>
                       9
                     </div>
                   )}
@@ -942,12 +974,20 @@ const sssc = () => {
         </div>
         {/* Item 10 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-end -mb-2 mr-20 '>
+          <div className='flex 2xl:hidden justify-end -mb-2 mr-20 '>
             <Image 
               src={miniSassy6}
               alt='Mini Sassy6'
               height={80}
               width={80}
+            />           
+          </div>
+          <div className='hidden 2xl:flex justify-end -mb-2 mr-20 '>
+            <Image 
+              src={miniSassy6}
+              alt='Mini Sassy6'
+              height={100}
+              width={100}
             />           
           </div>
           <AccordionItem className='AccStyle mb-10'>
@@ -957,11 +997,11 @@ const sssc = () => {
 
                 <AccordionButton _expanded={{ bg: '#230A43', color: 'white' }} className='flex flex-row border-4 border-pri p-6'>
                 {isExpanded ? (
-                    <div className='px-3 py-2 border-4 bg-white border-white text-pri rounded-full'>
+                    <div className='px-3 py-2 2xl:px-4 border-4 bg-white border-white text-pri rounded-full'>
                       10
                     </div>
                   ) : (
-                    <div className='px-3 py-2 border-4 border-pri rounded-full'>
+                    <div className='px-3 py-2 2xl:px-4 border-4 border-pri rounded-full'>
                       10
                     </div>
                   )}
