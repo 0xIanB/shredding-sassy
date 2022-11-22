@@ -18,8 +18,8 @@ const Welcome = () => {
           <p class='mainBodyTextStyle font-medium text-center lg:text-start md:w-[90%] lg:w-[60%] xxl:w-[40%] items-center justify-center lg:justify-start lg:items-start lg:pl-24 px-8 lg:px-4 -mt-4'>{"Sassy's are a bunch of fun loving, adrenaline fueled Sasquatches that reside on Meta Mountain. A mysterious mountain with endless terrain and some of the gnarliest features in the world."}</p>
       </div>
       {/* Desktop Image */}
-      <div class='flex flex-row items-center justify-center mx-4 md:mr-12 lg:mx-0 mt-24 mb-10 lg:mt-14'>
-        <div ref={parallax1.ref} class='sassyFloatingStyle flex z-20 -mr-[180px] md:-mr-[100px] lg:-mr-[160px] 2xl:-mr-[250px] shadow-2xl shrink-0'>
+      <div class='flex flex-row items-center justify-center mx-6 md:mr-12 lg:mx-0 mt-24 mb-10 lg:mt-14'>
+        <div ref={parallax1.ref} class='sassyFloatingStyle flex z-20 -mr-[170px] md:-mr-[100px] lg:-mr-[160px] 2xl:-mr-[250px] shadow-2xl shrink-0'>
             <Image
               src={welcomesassy}
               alt='Sassy'

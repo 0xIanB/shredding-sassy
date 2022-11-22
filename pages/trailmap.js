@@ -24,7 +24,7 @@ const trailmap = () => {
           >
           </Image>
         </div>
-        <a href="https://shredding-sassy.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftrailmap.140331ea.png&w=3840&q=75" download="Trail Map">
+        <a href="https://shredding-sassy.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftrailmap.140331ea.png&w=3840&q=75">
         <p class='trailMapStyle text-pri font-mont animate-bounce font-medium'>Click To Explore Meta Mountain</p>
         </a>
       </div>

@@ -125,7 +125,7 @@
   }
 
   .mainBodyHeaderStyle {
-    font-size: clamp(30px, 2.5vw, 105px)
+    font-size: clamp(27px, 2.5vw, 105px)
   }
 
   .ssscSubHeaderMobileStyle {
@@ -207,7 +207,7 @@
   }
 
   .visionStyle {
-    font-size: clamp(25px, 2.5vw, 80px)
+    font-size: clamp(27px, 2.5vw, 105px)
   }
 
   .marqueeTextStyle {
