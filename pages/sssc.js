@@ -532,6 +532,7 @@ const sssc = () => {
         </AccordionItem>
         </div>
       </Accordion>
+      
       {/* Main Container */}
       <Accordion allowMultiple className='hidden xl:flex flex-row flex-wrap justify-evenly mx-4 mb-20 mt-16'>
         {/* Item 1 */}
@@ -620,12 +621,20 @@ const sssc = () => {
         </div>
         {/* Item 3 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-end -mb-2 mr-24'>
+          <div className='flex 2xl:hidden justify-end -mb-2 mr-24'>
             <Image 
               src={miniSassy1}
               alt='Mini Sassy 1'
               height={80}
               width={80}
+            />           
+          </div>
+          <div className='hidden 2xl:flex justify-end -mb-2 mr-24'>
+            <Image 
+              src={miniSassy1}
+              alt='Mini Sassy 1'
+              height={100}
+              width={100}
             />           
           </div>
           <AccordionItem className='AccStyle mb-10'>
@@ -666,12 +675,20 @@ const sssc = () => {
         </div>            
         {/* Item 4 */}
         <div className='flex flex-col -mt-8'>
-        <div className='flex justify-end -mb-2 mr-10 '>
+        <div className='flex 2xl:hidden justify-end -mb-2 mr-10 '>
             <Image 
               src={miniSassy9}
               alt='Mini Sassy 9'
               height={80}
               width={80}
+            />           
+          </div>
+        <div className='hidden 2xl:flex justify-end -mb-2 mr-10 '>
+            <Image 
+              src={miniSassy9}
+              alt='Mini Sassy 9'
+              height={100}
+              width={100}
             />           
           </div>
         <AccordionItem className='AccStyle mb-10'>
@@ -712,12 +729,20 @@ const sssc = () => {
         </div>
         {/* Item 5 */}
         <div className='flex flex-col -mt-8'>
-        <div className='flex justify-start -mb-2 mr-20 '>
+        <div className='flex 2xl:hidden justify-start -mb-2 mr-20 '>
             <Image 
               src={miniSassy8}
               alt='Mini Sassy 8'
               height={80}
               width={80}
+            />           
+          </div>
+        <div className='hidden 2xl:flex justify-start -mb-2 mr-20 '>
+            <Image 
+              src={miniSassy8}
+              alt='Mini Sassy 8'
+              height={100}
+              width={100}
             />           
           </div>
         <AccordionItem className='AccStyle mb-10'>
@@ -758,7 +783,7 @@ const sssc = () => {
         </div>
         {/* Item 6 */}
         <div className='flex flex-col -mt-8'>
-          <div className='flex justify-center -mb-2'>
+          <div className='flex 2xl:hidden justify-center -mb-2'>
             <Image 
               src={miniSassy2}
               alt='Mini Sassy 2'
@@ -766,12 +791,12 @@ const sssc = () => {
               width={80}
             />           
           </div>
-          <div className='flex justify-center -mb-2'>
+          <div className='hidden 2xl:flex justify-center -mb-2'>
             <Image 
               src={miniSassy2}
               alt='Mini Sassy 2'
-              height={80}
-              width={80}
+              height={100}
+              width={100}
             />           
           </div>
           <AccordionItem className='AccStyle mb-10'>

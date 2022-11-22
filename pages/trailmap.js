@@ -1,6 +1,7 @@
 import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image'
+import trailMapFramed from '../assets/trailmapframed.png'
 import trailMap from '../assets/trailmap.png'
 import Navbar from '../components/Navbar'
 
@@ -19,14 +20,21 @@ const trailmap = () => {
         </div>
         <div class='flex justify-center items-center pb-12 w-[60%] lg:w-[30%]'>
           <Image
-            src={trailMap}
+            src={trailMapFramed}
             alt='Trail Map'
           >
           </Image>
         </div>
-        <a href="https://shredding-sassy.vercel.app/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftrailmap.140331ea.png&w=3840&q=75" target="_blank" rel='noreferrer'>
+        <a href="/assets/trailmap.png" target="_blank" rel='noreferrer'>
         <p class='trailMapStyle text-pri font-mont animate-bounce font-medium'>Click To Explore Meta Mountain</p>
         </a>
+      </div>
+      <div>
+      <Image
+            src={trailMap}
+            alt='Trail Map'
+          >
+          </Image>
       </div>
     </div>
   )
