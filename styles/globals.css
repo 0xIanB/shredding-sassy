@@ -38,8 +38,8 @@
   }
 
   .coreTwitterStyle {
-    height: clamp(17px, 1.5vw, 40px);
-    width: clamp(17px, 1.5vw, 100px);
+    height: clamp(20px, 2vw, 40px);
+    width: clamp(20px, 2vw, 100px);
   }
 
   .proIGStyle {

@@ -41,9 +41,9 @@ const styles = {
   proCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-2 lg:mb-20 shrink-0',
   coreHeader: 'uppercase font-bold text-pri',
   proHeader: 'uppercase font-bold text-pri',
-  infoContainer: 'flex flex-row items-center justify-between py-4',
+  infoContainer: 'flex flex-row items-start py-2 justify-between',
   coreSubHeader: 'uppercase font-bold 2xl:pl-1',
-  twitterLogo: 'flex pb-8 cursor-pointer items-center pt-1',
+  twitterLogo: 'flex cursor-pointer pt-2 lg:pt-4 3xl:pt-8',
   cardReveal: 'invisible lg:visible absolute z-0 hover:z-20',
   igBlock: 'h-full flex flex-col items-start cursor-pointer pt-1 lg:pt-4'
 }
@@ -162,7 +162,6 @@ const team = () => {
                     </Image>
                   </a>
                 </div>
-
               </div>
               {/* Description */}
               <div class='flex'>
