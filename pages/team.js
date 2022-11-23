@@ -37,7 +37,7 @@ import PartnerMarquee from '../components/PartnerMarquee'
 const styles = {
   bodyText:'font-medium text-pri',
   sectionHeader:'font-bold text-pri',
-  coreCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-56 lg:mb-40 shrink-0',
+  coreCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-56 lg:mb-72 2xl:mb-[500px] 3xl:mb-[700px] shrink-0',
   proCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-2 lg:mb-20 shrink-0',
   coreHeader: 'uppercase font-bold text-pri',
   proHeader: 'uppercase font-bold text-pri',
@@ -111,7 +111,7 @@ const team = () => {
           </div>
         </div>
         {/* Core Team */}
-        <div class='flex flex-col mx-2 mt-8 text-pri'>
+        <div class='flex flex-col mx-2 md:mx-4 lg:mx-2 mt-8 text-pri lg:pb-10'>
         {/* Title */}
         <div class='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-2'>
           <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Core Team</h1>
@@ -144,9 +144,6 @@ const team = () => {
                   {/* Name */}
                   <div>
                     <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>josh</h1>
-                  </div>
-                  {/* Title */}
-                  <div>
                     <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
@@ -638,7 +635,7 @@ const team = () => {
         </div>
 
         {/* Pros & Ambassadors */}
-        <div className='flex flex-col mx-2 mt-8 text-pri mb-20'>
+        <div className='flex flex-col md:mx-4 lg:mx-2 mt-8 text-pri mb-20'>
         {/* Title */}
         <div className='flex flex-col items-center text-center lg:items-start mx-20 mb-8 lg:pl-2'>
           <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Pros & Ambassadors</h1>

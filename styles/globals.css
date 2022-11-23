@@ -73,7 +73,7 @@
   }
 
   .cardStyle {
-    height: clamp(300px, 35vw, 1150px);
+    height: clamp(300px, 20vw, 1150px);
     width: clamp(155px, 18vw, 600px);
   }
 
