@@ -37,27 +37,28 @@ import PartnerMarquee from '../components/PartnerMarquee'
 const styles = {
   bodyText:'font-medium text-pri',
   sectionHeader:'font-bold text-pri',
-  coreCard: 'flex flex-col md:mr-8 2xl:mr-20 mb-32 xl:mb-44 2xl:mb-52 shrink-0',
+  coreCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-56 lg:mb-40 shrink-0',
   proCard: 'flex flex-col mb-10 xl:mb-20 md:mr-8 2xl:mr-20 shrink-0',
   coreHeader: 'uppercase font-bold text-pri',
   proHeader: 'uppercase font-bold text-pri',
   infoContainer: 'flex flex-row items-center justify-between py-4',
   coreSubHeader: 'uppercase font-bold 2xl:pl-1',
   twitterLogo: 'flex pb-8 cursor-pointer items-center pt-1',
-  cardReveal: 'cardImageStyle invisible lg:visible absolute z-0 hover:z-20',
+  cardReveal: 'invisible lg:visible absolute z-0 hover:z-20',
   igBlock: 'h-full flex flex-col items-start cursor-pointer pt-2'
 }
 
 const team = () => {
   return (
-    <div class='flex flex-col text-pri font-body justify-center'>
+    <div class='flex flex-col text-pri font-body'>
       <Head>
         <title>Shredding Sassy | Team</title>        
         <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-        
+        <div class='flex flex-col justify-center xl:ml-12 2xl:ml-48'>
+
         {/* Header */}
         <div class='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'> 
           {/* Left Side */}
@@ -109,15 +110,14 @@ const team = () => {
             </div>
           </div>
         </div>
-        
         {/* Core Team */}
-        <div class='flex flex-col mx-20 mt-8 items-center xl:items-start text-pri'>
+        <div class='flex flex-col mx-2 mt-8 text-pri'>
         {/* Title */}
-        <div class='flex flex-col text-center sm:text-start mb-8'>
+        <div class='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-2'>
           <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Core Team</h1>
         </div> 
           {/* Team Cards */}
-          <div class='flex flex-row flex-wrap sm:ml-8 lg:ml-0 justify-center xl:justify-start'>
+          <div class='flex flex-row flex-wrap justify-center lg:justify-start lg:mx-20'>
             {/* Card */}
             <div class={`cardStyle ${styles.coreCard}`}>
               {/* Image */}
@@ -129,7 +129,7 @@ const team = () => {
                 >
                 </Image>
               </div>
-              <div className={styles.cardReveal}>
+              <div className={`cardImageStyle ${styles.cardReveal}`}>
                 <Image
                   src={josh}
                   alt='Josh'
@@ -169,7 +169,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div class='flex'>
-                <p>Father, passionate Skier and Mountain Biker. Josh has a digital marketing, branding and ecommerce background. Over the last 12 years he has launched, successfully ran and sold a number of online businesses. </p>
+                <p class='teamTextStyle'>Father, passionate Skier and Mountain Biker. Josh has a digital marketing, branding and ecommerce background. Over the last 12 years he has launched, successfully ran and sold a number of online businesses. </p>
               </div>
             </div>
             {/* Card */}
@@ -183,7 +183,7 @@ const team = () => {
                 >
                 </Image>
               </div>
-              <div className={styles.cardReveal}>
+              <div className={`cardImageStyle ${styles.cardReveal}`}>
                 <Image
                   src={jake}
                   alt='Jake'
@@ -222,7 +222,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>A lifelong recreational skier with over 10 years experience in design, marketing and branding ecommerce businesses. In the crypto space since 2017 and and has been involved with community NFT art collections as both a creator and builder. </p>
+                <p class='teamTextStyle'>A lifelong recreational skier with over 10 years experience in design, marketing and branding ecommerce businesses. In the crypto space since 2017 and and has been involved with community NFT art collections as both a creator and builder. </p>
               </div>
             </div>
             {/* Card */}
@@ -236,7 +236,7 @@ const team = () => {
                 >
                 </Image>
               </div>
-              <div className={styles.cardReveal}>
+              <div className={`cardImageStyle ${styles.cardReveal}`}>
                 <Image
                   src={ollie}
                   alt='Ollie'
@@ -276,7 +276,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>{"Ollie is a Paralympic Snowboarder and extreme sports junkie. He joined Team GB after losing his leg in December 2018 and at the Beijing 2022 Paralympic winter games won Britain's first medal in snowboarding with a Bronze medal in Banked Slalom. "}</p>
+                <p class='teamTextStyle'>{"Ollie is a Paralympic Snowboarder and extreme sports junkie. He joined Team GB after losing his leg in December 2018 and at the Beijing 2022 Paralympic winter games won Britain's first medal in snowboarding with a Bronze medal in Banked Slalom. "}</p>
               </div>
             </div>
             {/* Card */}
@@ -290,7 +290,7 @@ const team = () => {
                 >
                 </Image>
               </div>
-              <div className={styles.cardReveal}>
+              <div className={`cardImageStyle ${styles.cardReveal}`}>
                 <Image
                   src={raab}
                   alt='Raab'
@@ -329,7 +329,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>Professional Ski Guide, Crypto enthusiast & GastroPub owner. Over 14 years guiding throughout Europe. He owns a ski school, travel agency and a Michelin GastroPub. With 6 years experience in the crypto & NFT space. </p>
+                <p class='teamTextStyle'>Professional Ski Guide, Crypto enthusiast & GastroPub owner. Over 14 years guiding throughout Europe. He owns a ski school, travel agency and a Michelin GastroPub. With 6 years experience in the crypto & NFT space. </p>
               </div>
             </div>
             {/* Card */}
@@ -375,7 +375,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>Frank runs a multidisciplinary creative studio focused on illustration & animation, located in Cape Town, South Africa. He has worked with large brands such as Nike, Reebok and Kelloggs and uses this experience to bring the Sassys to life.</p>
+                <p class='teamTextStyle'>Frank runs a multidisciplinary creative studio focused on illustration & animation, located in Cape Town, South Africa. He has worked with large brands such as Nike, Reebok and Kelloggs and uses this experience to bring the Sassys to life.</p>
               </div>
             </div>
             {/* Card */}
@@ -421,7 +421,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>{"Find Jay making a friend on the chairlift or shredding fresh pow in Whistler, Canada. Or find him down the NFT rabbit hole as the co-host of the Web3 Academy podcast. Over 20 years working across disciplines - from branding, customer acquisition, tech, and strategy - he's guided digital products to scale to a global audience."}</p>
+                <p class='teamTextStyle'>{"Find Jay making a friend on the chairlift or shredding fresh pow in Whistler, Canada. Or find him down the NFT rabbit hole as the co-host of the Web3 Academy podcast. Over 20 years working across disciplines - from branding, customer acquisition, tech, and strategy - he's guided digital products to scale to a global audience."}</p>
               </div>
             </div>
             {/* Card */}
@@ -467,7 +467,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>{"Tyler is a 'has been' snowboarder but now enjoys surfing, photography and a good beer every now and then. He's a web designer at ImpactDM specializing in web3 projects and has over 5 years of creative experience with building websites, graphic design and video editing. He's been involved in the crypto space since 2020."}</p>
+                <p class='teamTextStyle'>{"Tyler is a 'has been' snowboarder but now enjoys surfing, photography and a good beer every now and then. He's a web designer at ImpactDM specializing in web3 projects and has over 5 years of creative experience with building websites, graphic design and video editing. He's been involved in the crypto space since 2020."}</p>
               </div>
             </div>
             {/* Card */}
@@ -514,7 +514,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>{"Hacker // Smart Contracts // Cybersecurity // Frontend"} </p>
+                <p class='teamTextStyle'>{"Hacker // Smart Contracts // Cybersecurity // Frontend"} </p>
               </div>
             </div>
             {/* Card */}
@@ -561,7 +561,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>Nate’s primary interests lie in utilizing his background in journalism and copywriting to explore NFTs as a vehicle for world-building and harnessing Web3 technology to redefine how we tell stories. His passions include his family, canyoneering, and rock climbing in the American West.</p>
+                <p class='teamTextStyle'>Nate’s primary interests lie in utilizing his background in journalism and copywriting to explore NFTs as a vehicle for world-building and harnessing Web3 technology to redefine how we tell stories. His passions include his family, canyoneering, and rock climbing in the American West.</p>
               </div>
             </div>
             {/* Card */}
@@ -596,7 +596,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>Toond is an experienced illustrator and specialist in digital drawing, he enjoys creating characters and has a passion for comic books and manga. </p>
+                <p class='teamTextStyle'>Toond is an experienced illustrator and specialist in digital drawing, he enjoys creating characters and has a passion for comic books and manga. </p>
               </div>
             </div>
             {/* Card */}
@@ -631,7 +631,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p>With over 10 years experience in illustration and animation Ragen is passionate and loves his craft. He has worked with a number of leading brands to deliver stunning animated characters and videos.</p>
+                <p class='teamTextStyle'>With over 10 years experience in illustration and animation Ragen is passionate and loves his craft. He has worked with a number of leading brands to deliver stunning animated characters and videos.</p>
               </div>
             </div>
           </div>
@@ -1045,13 +1045,14 @@ const team = () => {
         </div>
         {/* Partners */}
         <div className='flex flex-col items-center lg:items-start'>
-        {/* Title */}
-        <div className='flex flex-col mx-20 mt-8 lg:ml-24 text-center sm:text-start mb-8'>
-          <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Partners</h1>
-        </div> 
-          {/* Partner Cards */}
-          <PartnerMarquee />
+          {/* Title */}
+          <div className='flex flex-col mx-20 mt-8 lg:ml-24 text-center sm:text-start mb-8'>
+            <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Partners</h1>
+          </div> 
         </div>
+      </div>
+      {/* Partner Cards */}
+      <PartnerMarquee />
       <Footer />
     </div>
   )
