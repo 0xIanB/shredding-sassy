@@ -83,8 +83,8 @@
   }
 
   .cardImageStyle {
-    height: clamp(1500px, 18vw, 600px);
-    width: clamp(150px, 18vw, 600px);
+    height: clamp(160px, 18vw, 600px);
+    width: clamp(160px, 18vw, 600px);
   }
 
   .footerLogoStyle {
