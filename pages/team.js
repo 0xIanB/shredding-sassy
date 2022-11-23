@@ -111,7 +111,7 @@ const team = () => {
           </div>
         </div>
         {/* Core Team */}
-        <div class='flex flex-col mx-2 md:mx-4 lg:mx-2 mt-8 text-pri lg:pb-10'>
+        <div class='flex flex-col mx-2 md:mx-4 lg:mx-2 mt-20 lg:mt-8 text-pri lg:pb-10'>
         {/* Title */}
         <div class='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-2'>
           <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Core Team</h1>
@@ -635,7 +635,7 @@ const team = () => {
         </div>
 
         {/* Pros & Ambassadors */}
-        <div className='flex flex-col md:mx-4 lg:mx-2 mt-8 text-pri mb-20'>
+        <div className='flex flex-col md:mx-4 lg:mx-2 mt-4 text-pri'>
         {/* Title */}
         <div className='flex flex-col items-center text-center lg:items-start mx-20 mb-8 lg:pl-2'>
           <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Pros & Ambassadors</h1>
@@ -1041,9 +1041,9 @@ const team = () => {
           </div>
         </div>
         {/* Partners */}
-        <div className='flex flex-col items-center lg:items-start'>
+        <div className='flex flex-col items-center lg:items-start mt-8'>
           {/* Title */}
-          <div className='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-2'>
+          <div className='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-3'>
             <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Partners</h1>
           </div> 
         </div>
