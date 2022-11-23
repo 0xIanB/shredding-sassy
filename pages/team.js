@@ -37,7 +37,7 @@ import PartnerMarquee from '../components/PartnerMarquee'
 const styles = {
   bodyText:'font-medium text-pri',
   sectionHeader:'font-bold text-pri',
-  coreCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-56 lg:mb-72 2xl:mb-[500px] 3xl:mb-[700px] shrink-0',
+  coreCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-56 lg:mb-[350px] 2xl:mb-[500px] 3xl:mb-[700px] shrink-0',
   proCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-2 lg:mb-20 shrink-0',
   coreHeader: 'uppercase font-bold text-pri',
   proHeader: 'uppercase font-bold text-pri',
