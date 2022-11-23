@@ -43,7 +43,7 @@ const styles = {
   proHeader: 'uppercase font-bold text-pri',
   infoContainer: 'flex flex-row items-start py-2 justify-between',
   coreSubHeader: 'uppercase font-bold 2xl:pl-1',
-  twitterLogo: 'flex cursor-pointer pt-2 lg:pt-4 3xl:pt-8',
+  twitterLogo: 'flex cursor-pointer pt-2 lg:pt-3 2xl:pt-4 3xl:pt-6',
   cardReveal: 'invisible lg:visible absolute z-0 hover:z-20',
   igBlock: 'h-full flex flex-col items-start cursor-pointer pt-1 lg:pt-4'
 }
