@@ -43,8 +43,8 @@
   }
 
   .proIGStyle {
-    height: clamp(17px, 2vw, 50px);
-    width: clamp(17px, 2vw, 100px);
+    height: clamp(20px, 2vw, 80px);
+    width: clamp(20px, 2vw, 80px);
   }
 
   .teamTopSassyStyle {
@@ -152,13 +152,17 @@
     font-size: clamp(15px, 1vw, 80px)
   }
 
+  .proSubSubHeaderStyle {
+    font-size: clamp(13px, 1vw, 80px)
+  }
+
   .coreDescriptionStyle {
     font-size: clamp(13px, 1vw, 50px)
   }
   
 
   .proSubHeaderStyle {
-    font-size: clamp(17px, 2vw, 105px)
+    font-size: clamp(18px, 2vw, 105px)
   }
 
   .mainBodyTextStyle {

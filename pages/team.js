@@ -45,7 +45,8 @@ const styles = {
   coreSubHeader: 'uppercase font-bold 2xl:pl-1',
   twitterLogo: 'flex cursor-pointer pt-2 lg:pt-3 2xl:pt-4 3xl:pt-6',
   cardReveal: 'invisible lg:visible absolute z-0 hover:z-20',
-  igBlock: 'h-full flex flex-col items-start cursor-pointer pt-1 lg:pt-4'
+  igBlock: 'flex cursor-pointer pt-1 lg:pt-2 2xl:pt-4',
+  proIGBlock: 'flex cursor-pointer pt-2 lg:pt-2 2xl:pt-4',
 }
 
 const team = () => {
@@ -201,7 +202,8 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  <a
+                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <a
                     href='https://twitter.com/PepePeddler'
                     rel='noreferrer'
                     target='_blank'
@@ -254,7 +256,7 @@ const team = () => {
                   </div>
                 </div>
                 {/* Right Side */}
-                <div className={`proIGStyle ${styles.igBlock}`}>
+                <div className={`proIGStyle ${styles.proIGBlock}`}>
                   <a
                     href='https://www.instagram.com/olliemx131'
                     rel='noreferrer'
@@ -665,7 +667,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -709,7 +711,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -753,7 +755,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -797,7 +799,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -841,7 +843,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -885,7 +887,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -929,7 +931,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -973,7 +975,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -1017,7 +1019,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
