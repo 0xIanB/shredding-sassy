@@ -16,14 +16,15 @@ const trailmap = () => {
       <Navbar />
       <div className='flex flex-col justify-center items-center h-full w-full'>
         <div className='flex-col items-center text-center text-pri'>
-        <h2 className='trailMapHeader font-bold font-mont text-pri pt-20 lg:pt-14 pb-10 '>The Trail Map</h2>
+        <h2 className='trailMapHeader font-bold font-mont text-pri pt-20 lg:pt-14'>The Trail Map</h2>
         </div>
-        <div className='flex justify-center items-center pb-12 w-[60%] lg:w-[30%] 2xl:2[50%]'>
+          <div className='trailFramedMapStyle flex justify-center items-center'>
         <a href='https://www.shreddingsassy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftrailmap.239ea497.png&w=3840&q=75' target="_blank" rel='noreferrer'>
           <Image
             src={trailMapFramed}
             alt='Trail Map'
             priority={true}
+            objectFit='fill'
           >
           </Image>
         </a>

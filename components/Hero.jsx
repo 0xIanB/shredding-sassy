@@ -54,6 +54,7 @@ const Hero = () => {
               src={hero}
               alt='Shredding'
               objectFit='fill'
+              priority={true}
             >
             </Image>
           </div>

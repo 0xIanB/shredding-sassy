@@ -48,8 +48,13 @@
   }
 
   .teamTopSassyStyle {
-    height: clamp(300px, 25vw, 800px);
-    width: clamp(300px, 25vw, 800px);
+    height: clamp(300px, 25vw, 600px);
+    width: clamp(300px, 25vw, 600px);
+  }
+
+  .teamFaqSassyStyle {
+    height: clamp(300px, 30vw, 600px);
+    width: clamp(300px, 30vw, 600px);
   }
 
   .heroImageStyle {
@@ -185,6 +190,11 @@
   .sassyHeadStyle {
     height: clamp(130px, 10vw, 260px);
     width: clamp(130px, 10vw, 260px);
+  }
+
+  .trailFramedMapStyle {
+    height: clamp(400px, 30vw, 800px);
+    width: clamp(400px, 30vw, 800px);
   }
 
   .navLinkButtonStyle {

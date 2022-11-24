@@ -36,12 +36,11 @@ const faq = () => {
           <h2 className='faqHeaderStyle font-mont text-pri font-extrabold mb-12 px-8 lg:hidden'>FAQ</h2>
         </div>
         {/* Large Sassy */}
-        <div className='hidden lg:flex items-start justify-start h-[60%] mr-30 2xl:mr-36 mt-64 shrink-0'>
+        <div className='hidden teamFaqSassyStyle lg:flex items-start justify-start h-[60%] mr-30 2xl:mr-36 mt-64 shrink-0'>
           <Image
             src={faqsassy}
             alt='Faq Sassy'
-            width={280}
-            height={450}
+objectFit='fill'
           />
         </div>
       </div>
