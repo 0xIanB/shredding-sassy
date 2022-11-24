@@ -18,11 +18,12 @@ const trailmap = () => {
         <div class='flex-col items-center text-center text-pri'>
         <h2 class='trailMapHeader font-bold font-mont text-pri pt-20 lg:pt-14 pb-10 '>The Trail Map</h2>
         </div>
-        <div class='flex justify-center items-center pb-12 w-[60%] lg:w-[30%]'>
+        <div class='flex justify-center items-center pb-12 w-[60%] lg:w-[30%] 2xl:2[50%]'>
         <a href='https://www.shreddingsassy.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ftrailmap.239ea497.png&w=3840&q=75' target="_blank" rel='noreferrer'>
           <Image
             src={trailMapFramed}
             alt='Trail Map'
+            priority={true}
           >
           </Image>
         </a>

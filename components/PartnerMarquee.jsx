@@ -8,7 +8,7 @@ import panda from '../assets/panda.png'
 import shaggys from '../assets/shaggys.png'
 import shred from '../assets/shred.png'
 import skibro from '../assets/skibro.png'
-import snowrock from '../assets/snowrock.png'
+import planks from '../assets/planks.png'
 import ellis from '../assets/ellis.png'
 import facefreeze from '../assets/facefreeze.png'
 import fatmap from '../assets/fatmap.png'
@@ -98,8 +98,8 @@ const PartnerMarquee = () => {
           </div>       
           <div class={`partnerStyle ${styles.imageBox}`}>
             <Image
-              src={snowrock}
-              alt='Snowrock'
+              src={planks}
+              alt='Planks'
               objectFit='fill'
             />
           </div>

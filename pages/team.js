@@ -37,7 +37,7 @@ import PartnerMarquee from '../components/PartnerMarquee'
 const styles = {
   bodyText:'font-medium text-pri',
   sectionHeader:'font-bold text-pri',
-  coreCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-56 lg:mb-[350px] 2xl:mb-[500px] 3xl:mb-[700px] shrink-0',
+  coreCard: 'flex flex-col mr-2 lg:mr-3 xl:mr-4 ml-2 mb-56 lg:mb-[200px] xl:mb-[300px] 2xl:mb-[500px] 3xl:mb-[700px] shrink-0',
   proCard: 'flex flex-col mr-2 lg:mr-4 xl:mr-8 ml-2 mb-2 lg:mb-20 shrink-0',
   coreHeader: 'uppercase font-bold text-pri',
   proHeader: 'uppercase font-bold text-pri',
@@ -65,7 +65,7 @@ const team = () => {
           {/* Left Side */}
           <div class='flex flex-col xl:w-1/2 space-y-8'>
             {/* Title */}
-              <div class='flex 2xl:hidden justify-center xl:justify-start shrink-0'>
+              <div class='flex 2xl:hidden justify-center lg:justify-start shrink-0'>
                 <Image
                   src={shredders}
                   alt='Team Shredders'
@@ -74,7 +74,7 @@ const team = () => {
                 >
                 </Image>
               </div>
-              <div class='hidden 2xl:flex justify-center xl:justify-start shrink-0'>
+              <div class='hidden 2xl:flex justify-center lg:justify-start shrink-0'>
                 <Image
                   src={shredders}
                   alt='Team Shredders'
@@ -84,15 +84,15 @@ const team = () => {
                 </Image>
               </div>
             {/* Info */}
-            <div class='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center xl:text-left'>
+            <div class='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center lg:text-left'>
               <p class={`mainBodyTextStyle ${styles.bodyText}`}>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
               <p class={`mainBodyTextStyle ${styles.bodyText}`}>Pioneering a new kind of brand that we build together.</p>
             </div>
           </div>
           {/* Right Side */}
-          <div class='hidden xl:inline-flex mr-20 2xl:mr-64 items-center mt-18 -mb-20'>
+          <div class='hidden lg:inline-flex mr-20 2xl:mr-64 items-center mt-18 -mb-20'>
             {/* Sassy 1 */}
-            <div className='teamTopSassyStyle -mr-[130px]'>
+            <div className='teamTopSassyStyle -mr-[110px] xl:-mr-[130px] 2xl:-mr-[150px]'>
               <Image
                 src={leftsassy}
                 alt='Left Sassy'
