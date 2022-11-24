@@ -51,21 +51,21 @@ const styles = {
 
 const team = () => {
   return (
-    <div class='flex flex-col text-pri font-body'>
+    <div className='flex flex-col text-pri font-body'>
       <Head>
         <title>Shredding Sassy | Team</title>        
         <meta name="description" content="Bringing extreme sports to web3. A new kind of brand that we build together, creating unforgettable digital & physical experiences whilst onboarding new users to web3 via sought-after utility." />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-        <div class='flex flex-col justify-center xl:ml-12 2xl:ml-44'>
+        <div className='flex flex-col justify-center xl:ml-12 2xl:ml-44'>
 
         {/* Header */}
-        <div class='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'> 
+        <div className='flex flex-col md:flex-row px-4 mt-20 justify-between text-pri'> 
           {/* Left Side */}
-          <div class='flex flex-col xl:w-1/2 space-y-8'>
+          <div className='flex flex-col xl:w-1/2 space-y-8'>
             {/* Title */}
-              <div class='flex 2xl:hidden justify-center lg:justify-start shrink-0'>
+              <div className='flex 2xl:hidden justify-center lg:justify-start shrink-0'>
                 <Image
                   src={shredders}
                   alt='Team Shredders'
@@ -74,7 +74,7 @@ const team = () => {
                 >
                 </Image>
               </div>
-              <div class='hidden 2xl:flex justify-center lg:justify-start shrink-0'>
+              <div className='hidden 2xl:flex justify-center lg:justify-start shrink-0'>
                 <Image
                   src={shredders}
                   alt='Team Shredders'
@@ -84,13 +84,13 @@ const team = () => {
                 </Image>
               </div>
             {/* Info */}
-            <div class='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center lg:text-left'>
-              <p class={`mainBodyTextStyle ${styles.bodyText}`}>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
-              <p class={`mainBodyTextStyle ${styles.bodyText}`}>Pioneering a new kind of brand that we build together.</p>
+            <div className='flex flex-col mx-6 md:ml-[65px] lg:ml-20 space-y-8 lg:mr-20 text-center lg:text-left'>
+              <p className={`mainBodyTextStyle ${styles.bodyText}`}>The core team is based in Europe - a bunch of adrenaline junkies with backgrounds in project management, marketing, branding, e-commerce and crypto.</p>
+              <p className={`mainBodyTextStyle ${styles.bodyText}`}>Pioneering a new kind of brand that we build together.</p>
             </div>
           </div>
           {/* Right Side */}
-          <div class='hidden lg:inline-flex mr-20 2xl:mr-64 items-center mt-18 -mb-20'>
+          <div className='hidden lg:inline-flex mr-20 2xl:mr-64 items-center mt-18 -mb-20'>
             {/* Sassy 1 */}
             <div className='teamTopSassyStyle -mr-[110px] xl:-mr-[130px] 2xl:-mr-[150px]'>
               <Image
@@ -101,7 +101,7 @@ const team = () => {
               </Image>
             </div>
             {/* Sassy 2 */}
-            <div class='teamTopSassyStyle'>
+            <div className='teamTopSassyStyle'>
               <Image
                 src={rightsassy}
                 alt='Right Sassy'
@@ -112,17 +112,17 @@ const team = () => {
           </div>
         </div>
         {/* Core Team */}
-        <div class='flex flex-col mx-2 md:mx-4 lg:mx-2 mt-20 lg:mt-8 text-pri lg:pb-10'>
+        <div className='flex flex-col mx-2 md:mx-4 lg:mx-2 mt-20 lg:mt-8 text-pri lg:pb-10'>
         {/* Title */}
-        <div class='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-2'>
-          <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Core Team</h1>
+        <div className='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-2'>
+          <h1 className={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Core Team</h1>
         </div> 
           {/* Team Cards */}
-          <div class='flex flex-row flex-wrap justify-center lg:justify-start lg:mx-20'>
+          <div className='flex flex-row flex-wrap justify-center lg:justify-start lg:mx-20'>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}>
+            <div className={`cardStyle ${styles.coreCard}`}>
               {/* Image */}
-              <div class='cardImageStyle z-10 hover:z-[-100]'>
+              <div className='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
                   src={joshsassy}
                   alt='Josh Sassy'
@@ -139,17 +139,17 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>josh</h1>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>josh</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>
                   <a
                     href='https://twitter.com/_odyssey6'
                     rel='noreferrer'
@@ -165,12 +165,12 @@ const team = () => {
                 </div>
               </div>
               {/* Description */}
-              <div class='flex'>
-                <p class='teamTextStyle'>Father, passionate Skier and Mountain Biker. Josh has a digital marketing, branding and ecommerce background. Over the last 12 years he has launched, successfully ran and sold a number of online businesses. </p>
+              <div className='flex'>
+                <p className='teamTextStyle'>Father, passionate Skier and Mountain Biker. Josh has a digital marketing, branding and ecommerce background. Over the last 12 years he has launched, successfully ran and sold a number of online businesses. </p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}>
+            <div className={`cardStyle ${styles.coreCard}`}>
               {/* Image */}
               <div className='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
@@ -189,20 +189,20 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>jake</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>jake</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 <a
                     href='https://twitter.com/PepePeddler'
                     rel='noreferrer'
@@ -220,11 +220,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>A lifelong recreational skier with over 10 years experience in design, marketing and branding ecommerce businesses. In the crypto space since 2017 and and has been involved with community NFT art collections as both a creator and builder. </p>
+                <p className='teamTextStyle'>A lifelong recreational skier with over 10 years experience in design, marketing and branding ecommerce businesses. In the crypto space since 2017 and and has been involved with community NFT art collections as both a creator and builder. </p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}>              
+            <div className={`cardStyle ${styles.coreCard}`}>              
             {/* Image */}
               <div className='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
@@ -243,16 +243,16 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>ollie</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>ollie</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -274,11 +274,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>{"Ollie is a Paralympic Snowboarder and extreme sports junkie. He joined Team GB after losing his leg in December 2018 and at the Beijing 2022 Paralympic winter games won Britain's first medal in snowboarding with a Bronze medal in Banked Slalom. "}</p>
+                <p className='teamTextStyle'>{"Ollie is a Paralympic Snowboarder and extreme sports junkie. He joined Team GB after losing his leg in December 2018 and at the Beijing 2022 Paralympic winter games won Britain's first medal in snowboarding with a Bronze medal in Banked Slalom. "}</p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}>             
+            <div className={`cardStyle ${styles.coreCard}`}>             
              {/* Image */}
               <div className='cardImageStyle z-10 hover:z-[-100]'>
                 <Image
@@ -297,20 +297,20 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>raab</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>raab</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>co-founder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 <a
                     href='https://twitter.com/Raabsk1'
                     rel='noreferrer'
@@ -327,11 +327,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>Professional Ski Guide, Crypto enthusiast & GastroPub owner. Over 14 years guiding throughout Europe. He owns a ski school, travel agency and a Michelin GastroPub. With 6 years experience in the crypto & NFT space. </p>
+                <p className='teamTextStyle'>Professional Ski Guide, Crypto enthusiast & GastroPub owner. Over 14 years guiding throughout Europe. He owns a ski school, travel agency and a Michelin GastroPub. With 6 years experience in the crypto & NFT space. </p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}> 
+            <div className={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -342,20 +342,20 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>frank</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>frank</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>lead illustrator</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>lead illustrator</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 <a
                     href='https://twitter.com/hellomstrfrnk'
                     rel='noreferrer'
@@ -373,11 +373,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>Frank runs a multidisciplinary creative studio focused on illustration & animation, located in Cape Town, South Africa. He has worked with large brands such as Nike, Reebok and Kelloggs and uses this experience to bring the Sassys to life.</p>
+                <p className='teamTextStyle'>Frank runs a multidisciplinary creative studio focused on illustration & animation, located in Cape Town, South Africa. He has worked with large brands such as Nike, Reebok and Kelloggs and uses this experience to bring the Sassys to life.</p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}> 
+            <div className={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -388,20 +388,20 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>jay</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>jay</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>marketing</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>marketing</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 <a
                     href='https://twitter.com/jaybird_nft'
                     rel='noreferrer'
@@ -419,11 +419,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>{"Find Jay making a friend on the chairlift or shredding fresh pow in Whistler, Canada. Or find him down the NFT rabbit hole as the co-host of the Web3 Academy podcast. Over 20 years working across disciplines - from branding, customer acquisition, tech, and strategy - he's guided digital products to scale to a global audience."}</p>
+                <p className='teamTextStyle'>{"Find Jay making a friend on the chairlift or shredding fresh pow in Whistler, Canada. Or find him down the NFT rabbit hole as the co-host of the Web3 Academy podcast. Over 20 years working across disciplines - from branding, customer acquisition, tech, and strategy - he's guided digital products to scale to a global audience."}</p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}> 
+            <div className={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -434,20 +434,20 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>tyler</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>tyler</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>web design</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>web design</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 <a
                     href='https://twitter.com/t_gal11'
                     rel='noreferrer'
@@ -465,11 +465,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>{"Tyler is a 'has been' snowboarder but now enjoys surfing, photography and a good beer every now and then. He's a web designer at ImpactDM specializing in web3 projects and has over 5 years of creative experience with building websites, graphic design and video editing. He's been involved in the crypto space since 2020."}</p>
+                <p className='teamTextStyle'>{"Tyler is a 'has been' snowboarder but now enjoys surfing, photography and a good beer every now and then. He's a web designer at ImpactDM specializing in web3 projects and has over 5 years of creative experience with building websites, graphic design and video editing. He's been involved in the crypto space since 2020."}</p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}> 
+            <div className={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -480,20 +480,20 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>IΛN</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>IΛN</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>developer</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>developer</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 <a
                     href='https://twitter.com/0xIanB'
                     rel='noreferrer'
@@ -512,11 +512,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>{"Hacker // Smart Contracts // Cybersecurity // Frontend"} </p>
+                <p className='teamTextStyle'>{"Hacker // Smart Contracts // Cybersecurity // Frontend"} </p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}> 
+            <div className={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -527,20 +527,20 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>nate</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>nate</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>storytelling</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>storytelling</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 <a
                     href='https://twitter.com/n8amis1'
                     rel='noreferrer'
@@ -559,11 +559,11 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>Nate’s primary interests lie in utilizing his background in journalism and copywriting to explore NFTs as a vehicle for world-building and harnessing Web3 technology to redefine how we tell stories. His passions include his family, canyoneering, and rock climbing in the American West.</p>
+                <p className='teamTextStyle'>Nate’s primary interests lie in utilizing his background in journalism and copywriting to explore NFTs as a vehicle for world-building and harnessing Web3 technology to redefine how we tell stories. His passions include his family, canyoneering, and rock climbing in the American West.</p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}> 
+            <div className={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -574,31 +574,31 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>toond</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>toond</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>concept artist</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>concept artist</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 {/* Future Link Here */}
                 </div>
 
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>Toond is an experienced illustrator and specialist in digital drawing, he enjoys creating characters and has a passion for comic books and manga. </p>
+                <p className='teamTextStyle'>Toond is an experienced illustrator and specialist in digital drawing, he enjoys creating characters and has a passion for comic books and manga. </p>
               </div>
             </div>
             {/* Card */}
-            <div class={`cardStyle ${styles.coreCard}`}> 
+            <div className={`cardStyle ${styles.coreCard}`}> 
               {/* Image */}
               <div>
                 <Image
@@ -609,27 +609,27 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`coreSubHeaderStyle ${styles.coreHeader}`}>ragen</h1>
+                    <h1 className={`coreSubHeaderStyle ${styles.coreHeader}`}>ragen</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>animator</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>animator</h1>
                   </div>
                 </div>
                 {/* Right Side */}
-                <div class={`coreTwitterStyle ${styles.twitterLogo}`}>                  
+                <div className={`coreTwitterStyle ${styles.twitterLogo}`}>                  
                 {/* Future Link Here */}
                 </div>
 
               </div>
               {/* Description */}
               <div className='flex'>
-                <p class='teamTextStyle'>With over 10 years experience in illustration and animation Ragen is passionate and loves his craft. He has worked with a number of leading brands to deliver stunning animated characters and videos.</p>
+                <p className='teamTextStyle'>With over 10 years experience in illustration and animation Ragen is passionate and loves his craft. He has worked with a number of leading brands to deliver stunning animated characters and videos.</p>
               </div>
             </div>
           </div>
@@ -639,7 +639,7 @@ const team = () => {
         <div className='flex flex-col md:mx-4 lg:mx-2 mt-4 text-pri'>
         {/* Title */}
         <div className='flex flex-col items-center text-center lg:items-start mx-20 mb-8 lg:pl-2'>
-          <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Pros & Ambassadors</h1>
+          <h1 className={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Pros & Ambassadors</h1>
         </div> 
           {/* Pro Cards */}
           <div className='flex flex-row flex-wrap justify-center lg:justify-start lg:mx-20'>
@@ -655,19 +655,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>ben</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>ben</h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>tudhope</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>tudhope</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -699,19 +699,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>garrett</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>garrett</h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>geros</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>geros</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -743,19 +743,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>james</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>james</h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>barnes-miller</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>barnes-miller</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -787,19 +787,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>jonjoe</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>jonjoe</h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>boulter</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>boulter</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -831,19 +831,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>karel</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>karel</h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>van goor</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>van goor</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -875,19 +875,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                  <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>keith</h1>
+                  <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>keith</h1>
                   </div>
                   <div>
-                  <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>gabel</h1>
+                  <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>gabel</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -919,19 +919,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>noah </h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>noah </h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>elliot</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>elliot</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -963,19 +963,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>tyler</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>tyler</h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>burdick</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>burdick</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -1007,19 +1007,19 @@ const team = () => {
                 </Image>
               </div>
               {/* Info */}
-              <div class={styles.infoContainer}>
+              <div className={styles.infoContainer}>
                 {/* Left Side */}
                 <div>
                   {/* Name */}
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>zach</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>zach</h1>
                   </div>
                   <div>
-                    <h1 class={`proSubHeaderStyle ${styles.proHeader}`}>miller</h1>
+                    <h1 className={`proSubHeaderStyle ${styles.proHeader}`}>miller</h1>
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 class={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
+                    <h1 className={`proSubSubHeaderStyle ${styles.coreSubHeader}`}>snowboarder</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -1045,7 +1045,7 @@ const team = () => {
         <div className='flex flex-col items-center lg:items-start mt-8'>
           {/* Title */}
           <div className='flex flex-col items-center lg:items-start mx-20 mb-8 lg:pl-3'>
-            <h1 class={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Partners</h1>
+            <h1 className={`mainBodySubHeaderStyle ${styles.sectionHeader}`}>Partners</h1>
           </div> 
         </div>
       </div>

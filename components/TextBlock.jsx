@@ -10,12 +10,12 @@ const styles = {
 const TextBlock = () => {
   return (
     <div>
-      <div class={styles.textcontainer}>
-        <div class={styles.textbox} id='response'>
-          <p class={`blockStyle ${styles.textline}`}><span class={styles.spantext}>Web3</span> has the ability to unify a </p>
-          <p class={`blockStyle ${styles.textline}`}><span class={styles.spantext}>global community</span> 🌍 driven by a </p>
-          <p class={`blockStyle ${styles.textline}`}>passion ❤️ for <span class={styles.spantext}> extreme sports</span> 💀 </p>
-          <p class={`blockStyle ${styles.textline}`}>and <span class={styles.spantext}> good times</span>. 🤙</p>
+      <div className={styles.textcontainer}>
+        <div className={styles.textbox} id='response'>
+          <p className={`blockStyle ${styles.textline}`}><span className={styles.spantext}>Web3</span> has the ability to unify a </p>
+          <p className={`blockStyle ${styles.textline}`}><span className={styles.spantext}>global community</span> 🌍 driven by a </p>
+          <p className={`blockStyle ${styles.textline}`}>passion ❤️ for <span className={styles.spantext}> extreme sports</span> 💀 </p>
+          <p className={`blockStyle ${styles.textline}`}>and <span className={styles.spantext}> good times</span>. 🤙</p>
         </div>
       </div>
     </div>

@@ -22,18 +22,18 @@ const styles = {
 
 const Socials = () => {
   return (
-    <div class={styles.container}>
+    <div className={styles.container}>
       {/* Top */}
-      <div class={styles.topSet}>
+      <div className={styles.topSet}>
         {/* Twitter */}
         <a 
           target='_blank'
           href='https://twitter.com/ShreddingSassy' 
           rel='noopener noreferrer'
         >
-          <div class={`longboxStyle ${styles.longBox}`}>
-            <h2 class='socialLinkStyle'>Twitter</h2>
-            <div class='sassyHeadStyle flex items-center mt-2'>
+          <div className={`longboxStyle ${styles.longBox}`}>
+            <h2 className='socialLinkStyle'>Twitter</h2>
+            <div className='sassyHeadStyle flex items-center mt-2'>
               <Image
                 src={twitterSassy}
                 alt='Twitter Sassy'
@@ -49,9 +49,9 @@ const Socials = () => {
           href='https://shreddingsassy.gitbook.io/shredpaper/' 
           rel='noopener noreferrer'
         >
-          <div class={`longboxStyle ${styles.longBox}`}>
-          <h2 class='socialLinkStyle'>Shred Paper</h2>
-            <div class='sassyHeadStyle flex items-center mt-4'>
+          <div className={`longboxStyle ${styles.longBox}`}>
+          <h2 className='socialLinkStyle'>Shred Paper</h2>
+            <div className='sassyHeadStyle flex items-center mt-4'>
               <Image
                   src={manifestoSassy}
                   alt='Shred Sassy'
@@ -63,15 +63,15 @@ const Socials = () => {
         </a>
       </div>
       {/* Bottom */}
-      <div class={styles.topSet}>
+      <div className={styles.topSet}>
         {/* Shop */}
         <Link 
           href='/shop' 
           rel='noopener noreferrer'
         >
-          <div class={`shortboxStyle ${styles.shortBox}`}>
-          <h2 class='socialLinkStyle'>Shop</h2>
-            <div class='sassyHeadStyle flex items-center mt-4'>
+          <div className={`shortboxStyle ${styles.shortBox}`}>
+          <h2 className='socialLinkStyle'>Shop</h2>
+            <div className='sassyHeadStyle flex items-center mt-4'>
               <Image
                 src={shopSassy}
                 alt='Shop Sassy'
@@ -85,9 +85,9 @@ const Socials = () => {
           href='/shop' 
           rel='noopener noreferrer'
         >
-          <div class={`longboxStyle ${styles.longBoxModified}`}>
-          <h2 class='socialLinkStyle'>Shop</h2>
-            <div class='sassyHeadStyle flex items-center mt-4'>
+          <div className={`longboxStyle ${styles.longBoxModified}`}>
+          <h2 className='socialLinkStyle'>Shop</h2>
+            <div className='sassyHeadStyle flex items-center mt-4'>
               <Image
                 src={shopSassy}
                 alt='Shop Sassy'
@@ -103,9 +103,9 @@ const Socials = () => {
           rel='noopener noreferrer'
           target='_blank'
         >
-          <div class={`shortboxStyle ${styles.shortBox}`}>
-          <h2 class='socialLinkStyle'>Discord</h2>
-            <div class='sassyHeadStyle flex items-center'>
+          <div className={`shortboxStyle ${styles.shortBox}`}>
+          <h2 className='socialLinkStyle'>Discord</h2>
+            <div className='sassyHeadStyle flex items-center'>
             <Image
                 src={discordSassy}
                 alt='Discord Sassy'
@@ -120,9 +120,9 @@ const Socials = () => {
           rel='noopener noreferrer'
           target='_blank'
         >
-          <div class={`longboxStyle ${styles.longBoxModified}`}>
-          <h2 class='socialLinkStyle'>Discord</h2>
-            <div class='sassyHeadStyle flex items-center'>
+          <div className={`longboxStyle ${styles.longBoxModified}`}>
+          <h2 className='socialLinkStyle'>Discord</h2>
+            <div className='sassyHeadStyle flex items-center'>
             <Image
                 src={discordSassy}
                 alt='Discord Sassy'
@@ -137,9 +137,9 @@ const Socials = () => {
           href='/trailmap' 
           rel='noopener noreferrer'
         >
-          <div class={`shortboxStyle ${styles.shortBox}`}>
-          <h2 class='socialLinkStyle'>Trail Map</h2>
-            <div class='sassyHeadStyle flex items-center mt-4'>
+          <div className={`shortboxStyle ${styles.shortBox}`}>
+          <h2 className='socialLinkStyle'>Trail Map</h2>
+            <div className='sassyHeadStyle flex items-center mt-4'>
               <Image
                 src={trailSassy}
                 alt='Trail Map Sassy'
@@ -153,9 +153,9 @@ const Socials = () => {
           href='/trailmap' 
           rel='noopener noreferrer'
         >
-          <div class={`longboxStyle ${styles.longBoxModified}`}>
-          <h2 class='socialLinkStyle'>Trail Map</h2>
-            <div class='sassyHeadStyle flex items-center mt-4'>
+          <div className={`longboxStyle ${styles.longBoxModified}`}>
+          <h2 className='socialLinkStyle'>Trail Map</h2>
+            <div className='sassyHeadStyle flex items-center mt-4'>
               <Image
                 src={trailSassy}
                 alt='Trail Map Sassy'
@@ -169,17 +169,17 @@ const Socials = () => {
         
       {/* Top Mobile */}
       {/* Manifesto */}
-      <div class={styles.bottomSetMobile}>
+      <div className={styles.bottomSetMobile}>
         <a 
           href='https://twitter.com/ShreddingSassy' 
           rel='noopener noreferrer'
           target='_blank'
         >
-          <div class={styles.squareBox}>
-          <div class='mt-1'>
+          <div className={styles.squareBox}>
+          <div className='mt-1'>
               Twitter
             </div>
-            <div class='flex items-center mt-1'>
+            <div className='flex items-center mt-1'>
             <Image
                 src={twitterSassy}
                 alt='Twitter Sassy'
@@ -195,11 +195,11 @@ const Socials = () => {
           href='/trailmap' 
           rel='noopener noreferrer'
         >
-          <div class={styles.squareBox}>
-            <div class='mt-1'>
+          <div className={styles.squareBox}>
+            <div className='mt-1'>
               Trail Map
             </div>
-            <div class='flex items-center mt-1'>
+            <div className='flex items-center mt-1'>
               <Image
                 src={trailSassy}
                 alt='Twitter Sassy'
@@ -211,18 +211,18 @@ const Socials = () => {
           </div>
         </Link>
       </div>
-      <div class={styles.topSetMobile}>
+      <div className={styles.topSetMobile}>
         {/* Twitter */}
         <a 
           target='_blank'
           href='https://shreddingsassy.gitbook.io/shredpaper/' 
           rel='noopener noreferrer'
         >
-          <div class={styles.longBoxMobile}>
-            <div class='2xl:text-5xl'>
+          <div className={styles.longBoxMobile}>
+            <div className='2xl:text-5xl'>
               Shred Paper
             </div>
-            <div class='flex items-center mt-2'>
+            <div className='flex items-center mt-2'>
               <Image
                 src={manifestoSassy}
                 alt='Manifesto Sassy'
@@ -234,18 +234,18 @@ const Socials = () => {
           </div>
         </a>
       </div>
-      <div class={styles.bottomSetMobile}>
+      <div className={styles.bottomSetMobile}>
          {/* Discord */}
           <a 
           target='_blank'
           href='#' 
           rel='noopener noreferrer'
           >
-          <div class={styles.squareBox}>
-            <div class=''>
+          <div className={styles.squareBox}>
+            <div className=''>
               Discord
             </div>
-            <div class='flex items-center -mt-2'>
+            <div className='flex items-center -mt-2'>
               <Image
                   src={discordSassy}
                   alt='Discord Sassy'
@@ -261,11 +261,11 @@ const Socials = () => {
           href='/shop' 
           rel='noopener noreferrer'
         >
-          <div class={styles.squareBox}>
-            <div class='mt-1'>
+          <div className={styles.squareBox}>
+            <div className='mt-1'>
               Shop
             </div>
-            <div class='flex items-center'>
+            <div className='flex items-center'>
               <Image
                 src={shopSassy}
                 alt='Shop Sassy'

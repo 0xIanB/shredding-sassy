@@ -10,23 +10,23 @@ const styles = {
 
 const Marq = () => {
   return (
-    <div class={styles.container}>
-      <div class={styles.marqueecontainer}>
-        <div class={styles.marquee}>
+    <div className={styles.container}>
+      <div className={styles.marqueecontainer}>
+        <div className={styles.marquee}>
           <Marquee gradientWidth='0' speed={15}>
-            <h1 class={`marqueeTextStyle ${styles.marqueetext}`}>
+            <h1 className={`marqueeTextStyle ${styles.marqueetext}`}>
               {" PUSH YOUR LIMITS ◦ READY FOR THAT ADRENALINE ◦ MOUNTAINS ARE CALLING ◦ GET STOKED ◦ GRAVITY GETS ME DOWN ◦ STAY SASSY ◦ JUST SEND IT ◦ HYPE FROM FRIENDS EQUALS BIGGER SENDS ◦ GO BIG OR GO HOME ◦ SHRED TOGETHER ◦ "}</h1>
           </Marquee>
         </div>
-        <div class={styles.marquee}>   
+        <div className={styles.marquee}>   
           <Marquee gradientWidth='0' direction='right' speed={15}>
-            <h1 class={`marqueeTextStyle ${styles.marqueetext}`}>
+            <h1 className={`marqueeTextStyle ${styles.marqueetext}`}>
               {" STAY SASSY ◦ SHRED TOGETHER ◦ READY FOR THAT ADRENALINE ◦ GO BIG OR GO HOME ◦ PUSH YOUR LIMITS ◦ HYPE FROM FRIENDS EQUALS BIGGER SENDS ◦ MOUNTAINS ARE CALLING ◦ JUST SEND IT ◦ GRAVITY GETS ME DOWN ◦ GET STOKED ◦ "}</h1>
           </Marquee>
         </div>
-        <div class={styles.marquee}>
+        <div className={styles.marquee}>
           <Marquee gradientWidth='0' speed={15}>
-            <h1 class={`marqueeTextStyle ${styles.marqueetext}`}>
+            <h1 className={`marqueeTextStyle ${styles.marqueetext}`}>
               {" SHRED TOGETHER ◦ PUSH YOUR LIMITS ◦ GO BIG OR GO HOME ◦ READY FOR THAT ADRENALINE ◦ HYPE FROM FRIENDS EQUALS BIGGER SENDS ◦ MOUNTAINS ARE CALLING ◦ JUST SEND IT ◦ GET STOKED ◦ STAY SASSY ◦ GRAVITY GETS ME DOWN ◦ "}</h1>
           </Marquee>
         </div>

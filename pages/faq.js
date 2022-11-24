@@ -28,15 +28,15 @@ const faq = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-    <div class='flex w-full justify-center mt-16'>
-      <div class='container flex flex-col lg:flex-row-reverse justify-evenly text-pri'>
-        <div class='flex flex-col-reverse justify-between '>
+    <div className='flex w-full justify-center mt-16'>
+      <div className='container flex flex-col lg:flex-row-reverse justify-evenly text-pri'>
+        <div className='flex flex-col-reverse justify-between '>
         {/* Header */}
-        <div class='flex justify-start'>
-          <h2 class='faqHeaderStyle font-mont text-pri font-extrabold mb-12 px-8 lg:hidden'>FAQ</h2>
+        <div className='flex justify-start'>
+          <h2 className='faqHeaderStyle font-mont text-pri font-extrabold mb-12 px-8 lg:hidden'>FAQ</h2>
         </div>
         {/* Large Sassy */}
-        <div class='hidden lg:flex items-start justify-start h-[60%] mr-30 2xl:mr-36 mt-64 shrink-0'>
+        <div className='hidden lg:flex items-start justify-start h-[60%] mr-30 2xl:mr-36 mt-64 shrink-0'>
           <Image
             src={faqsassy}
             alt='Faq Sassy'
@@ -46,14 +46,14 @@ const faq = () => {
         </div>
       </div>
         {/* Accordion */}
-        <div class='faqItemWidth px-8 w-full lg:w-[60%] mb-10'>
-        <h2 class='faqHeaderStyle font-mont text-pri font-extrabold mb-12 hidden lg:flex'>FAQ</h2>
+        <div className='faqItemWidth px-8 w-full lg:w-[60%] mb-10'>
+        <h2 className='faqHeaderStyle font-mont text-pri font-extrabold mb-12 hidden lg:flex'>FAQ</h2>
         <Accordion defaultIndex={[11]} allowMultiple>
           <AccordionItem className='mb-2 w-full'>
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is Shredding Sassy?
@@ -62,7 +62,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is Shredding Sassy?
@@ -72,7 +72,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>A digital collection of 6,200 adrenaline fuelled Sasquatches that reside on Meta Mountain. Shredding Sassy is an extreme sports brand and social club. Using NFTs and web3 technology to pioneer a new kind of brand we build together.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>A digital collection of 6,200 adrenaline fuelled Sasquatches that reside on Meta Mountain. Shredding Sassy is an extreme sports brand and social club. Using NFTs and web3 technology to pioneer a new kind of brand we build together.</p> 
               </AccordionPanel>
             </>
           )}
@@ -81,7 +81,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is Shredding Sassy’s mission?
@@ -90,7 +90,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is Shredding Sassy’s mission?
@@ -100,7 +100,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>Shredding Sassy is interfusing extreme sports and web3. Think – a decentralized red bull without the energy drink. We are looking to redefine the tangible benefits of NFT ownership and seamlessly onboard a wave of new users to web3.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>Shredding Sassy is interfusing extreme sports and web3. Think – a decentralized red bull without the energy drink. We are looking to redefine the tangible benefits of NFT ownership and seamlessly onboard a wave of new users to web3.</p> 
               </AccordionPanel>
             </>
           )}
@@ -109,7 +109,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         Which extreme sports?
@@ -118,7 +118,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         Which extreme sports?
@@ -128,7 +128,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>Our initial focus is the Ski & Snowboard market worth a cool 189 billion per year with over 132 million people. However, this is just the start, we will be expanding into a number of extreme sports.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>Our initial focus is the Ski & Snowboard market worth a cool 189 billion per year with over 132 million people. However, this is just the start, we will be expanding into a number of extreme sports.</p> 
               </AccordionPanel>
             </>
           )}
@@ -137,7 +137,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is the utility of Shredding Sassy?
@@ -146,7 +146,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is the utility of Shredding Sassy?
@@ -156,7 +156,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>Holding a Shredding Sassy NFT will unlock membership to the Shredding Sassy Social Club. An exclusive club with discounts from leading brands, access to pro athletes, loyalty rewards, digital experiences, community trips & more.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>Holding a Shredding Sassy NFT will unlock membership to the Shredding Sassy Social Club. An exclusive club with discounts from leading brands, access to pro athletes, loyalty rewards, digital experiences, community trips & more.</p> 
               </AccordionPanel>
             </>
           )}
@@ -165,7 +165,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What are the mint proceeds being used for?
@@ -174,7 +174,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What are the mint proceeds being used for?
@@ -184,7 +184,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>The founders will not be taking any compensation from the mint. All funds will be used to grow the brand. This includes: building products & utility, developing software, sponsoring athletes, organizing events and marketing the SSSC.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>The founders will not be taking any compensation from the mint. All funds will be used to grow the brand. This includes: building products & utility, developing software, sponsoring athletes, organizing events and marketing the SSSC.</p> 
               </AccordionPanel>
             </>
           )}
@@ -193,7 +193,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         Is this just for Skiers & Snowboarders?
@@ -202,7 +202,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         Is this just for Skiers & Snowboarders?
@@ -212,7 +212,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>No. We are growing a community of people that align with Shredding Sassy’s vision. We believe the on-ramp for mass adoption into web3 is providing tangible, real world benefits and utility.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>No. We are growing a community of people that align with Shredding Sassy’s vision. We believe the on-ramp for mass adoption into web3 is providing tangible, real world benefits and utility.</p> 
               </AccordionPanel>
             </>
           )}
@@ -221,7 +221,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         When is the mint?
@@ -230,7 +230,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         When is the mint?
@@ -240,7 +240,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>We are looking to mint in mid December. The mint date will be announced closer to the time on our official Twitter and Discord server.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>We are looking to mint in mid December. The mint date will be announced closer to the time on our official Twitter and Discord server.</p> 
               </AccordionPanel>
             </>
           )}
@@ -249,7 +249,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is the mint price?
@@ -258,7 +258,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is the mint price?
@@ -268,7 +268,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>TBC</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>TBC</p> 
               </AccordionPanel>
             </>
           )}
@@ -277,7 +277,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is the Mountain List?
@@ -286,7 +286,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         What is the Mountain List?
@@ -296,7 +296,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>The Mountain-List is our whitelist / allowlist for the NFT mint. Getting on this list entitles you to 1 discounted mint.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>The Mountain-List is our whitelist / allowlist for the NFT mint. Getting on this list entitles you to 1 discounted mint.</p> 
               </AccordionPanel>
             </>
           )}
@@ -305,7 +305,7 @@ const faq = () => {
           {({ isExpanded }) => (
             <>
               {isExpanded ? (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeaderExpanded} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         Will there be rare ones?
@@ -314,7 +314,7 @@ const faq = () => {
                     </AccordionButton>
                   </h2>
                   ) : (
-                  <h2 class={`faqItemHeaderStyle ${styles.itemHeader} `}>
+                  <h2 className={`faqItemHeaderStyle ${styles.itemHeader} `}>
                     <AccordionButton>
                       <Box flex='1' textAlign='left'>
                         Will there be rare ones?
@@ -324,7 +324,7 @@ const faq = () => {
                 </h2>
                   )}
               <AccordionPanel pb={4}>
-                <p class={`faqItemDescriptionStyle ${styles.itemDescription}`}>You bet.</p> 
+                <p className={`faqItemDescriptionStyle ${styles.itemDescription}`}>You bet.</p> 
               </AccordionPanel>
             </>
           )}

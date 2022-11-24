@@ -13,18 +13,18 @@ const styles = {
 
 const Footer = () => {
   return (
-    <div class={styles.container}>
+    <div className={styles.container}>
       {/* Left Side */}
-      <div class={styles.leftside}>
+      <div className={styles.leftside}>
         {/* Offset Carbon Button */}
-        <div class='flex items-center justify-center ml-6'>
+        <div className='flex items-center justify-center ml-6'>
           <iframe src="https://www.aerial.is/nft/embed?address=0x3e88721fa41d5e102d54b4a04e550222efdd234d">
           </iframe>
         </div>
         {/* Social Icons */}
-        <div class='flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14 2xl:hidden'>
+        <div className='flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14 2xl:hidden'>
           {/* Discord */}
-          <div class={styles.socialIcons}>
+          <div className={styles.socialIcons}>
             <a
               href='https://discord.gg/sassy'
               target='_blank'
@@ -34,7 +34,7 @@ const Footer = () => {
             </a>
           </div>
           {/* Twitter */}
-          <div class={styles.socialIcons}>
+          <div className={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
@@ -44,7 +44,7 @@ const Footer = () => {
             </a>
           </div>
           {/* Medium */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
@@ -54,7 +54,7 @@ const Footer = () => {
             </a>
           </div>
           {/* Instagram */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
@@ -65,9 +65,9 @@ const Footer = () => {
           </div>
         </div>
         {/* Social Icons Wide*/}
-        <div class='hidden 2xl:flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14'>
+        <div className='hidden 2xl:flex flex-row -mt-8 justify-center items-center space-x-8 pr-4 lg:pr-4 lg:-mt-14'>
           {/* Discord */}
-          <div class={styles.socialIcons}>
+          <div className={styles.socialIcons}>
             <a
               href='https://discord.gg/sassy'
               target='_blank'
@@ -77,7 +77,7 @@ const Footer = () => {
             </a>
           </div>
           {/* Twitter */}
-          <div class={styles.socialIcons}>
+          <div className={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
@@ -87,7 +87,7 @@ const Footer = () => {
             </a>
           </div>
           {/* Medium */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
@@ -97,7 +97,7 @@ const Footer = () => {
             </a>
           </div>
           {/* Instagram */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
@@ -109,7 +109,7 @@ const Footer = () => {
         </div>
       </div>   
       {/* Middle */}
-      <div class='footerLogoStyle cursor-pointer pt-2'>
+      <div className='footerLogoStyle cursor-pointer pt-2'>
         <Link href='/'>
           <Image
             src={footerImg}
@@ -120,15 +120,15 @@ const Footer = () => {
         </Link>
       </div>
       {/* Right Side */}
-      <div class='flex flex-col items-center lg:items-end text-lg font-mont text-pri'>
-        <div class='flex flex-col items-center lg:items-end font-medium'>
-          <p class='footerTextStyle'>© 2022 Shredding Sassy</p>
-          <p class='footerTextStyle'>Bold by nature</p>
+      <div className='flex flex-col items-center lg:items-end text-lg font-mont text-pri'>
+        <div className='flex flex-col items-center lg:items-end font-medium'>
+          <p className='footerTextStyle'>© 2022 Shredding Sassy</p>
+          <p className='footerTextStyle'>Bold by nature</p>
         </div>
-        <div class='flex lg:py-2 2xl:py-6 font-semibold cursor-pointer'>
+        <div className='flex lg:py-2 2xl:py-6 font-semibold cursor-pointer'>
           <Link href='/terms'
           >
-          <p class='footerTextStyle'>Terms & Conditions</p>  
+          <p className='footerTextStyle'>Terms & Conditions</p>  
           </Link>
         </div>
       </div>

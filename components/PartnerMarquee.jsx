@@ -33,154 +33,154 @@ const PartnerMarquee = () => {
       {/* Desktop */}
       <div className={styles.marquee}>
         <Marquee gradientWidth='0' speed={50} pauseOnHover={true}>
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={absolute}
               alt='Absolute-Snow'
               objectFit='fill'
             />
           </div>
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={dynastar}
               alt='Dynastar'
               objectFit='fill'
             />
           </div>        
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={unrevealed}
               alt='Unrevealed'
               objectFit='fill'
             />
           </div>        
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={faction}
               alt='Faction'
               objectFit='fill'
             />
           </div>        
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={panda}
               alt='Panda'
               objectFit='fill'
             />
           </div>         
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={shaggys}
               alt='Shaggys'
               objectFit='fill'
             />
           </div> 
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={unrevealed}
               alt='Unrevealed'
               objectFit='fill'
             />
           </div>       
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={shred}
               alt='Shred'
               objectFit='fill'
             />
           </div>        
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={skibro}
               alt='Ski Bro'
               objectFit='fill'
             />
           </div>       
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={planks}
               alt='Planks'
               objectFit='fill'
             />
           </div>
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={unrevealed}
               alt='Unrevealed'
               objectFit='fill'
             />
           </div> 
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={skiyodl}
               alt='Ski Yodl'
               objectFit='fill'
             />
           </div>
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={fatmap}
               alt='Fatmap'
               objectFit='fill'
             />
           </div>
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={nuco}
               alt='Nuco'
               objectFit='fill'
             />
           </div>    
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={unrevealed}
               alt='Unrevealed'
               objectFit='fill'
             />
           </div>    
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={erna}
               alt='Erna Low'
               objectFit='fill'
             />
           </div>     
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={futureproof}
               alt='Future Proof'
               objectFit='fill'
             />
           </div> 
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={unrevealed}
               alt='Unrevealed'
               objectFit='fill'
             />
           </div>  
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={ellis}
               alt='Ellis Brigham'
               objectFit='fill'
             />
           </div> 
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={gilson}
               alt='Gilson'
               objectFit='fill'
             />
           </div> 
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={unrevealed}
               alt='Unrevealed'
               objectFit='fill'
             />
           </div>  
-          <div class={`partnerStyle ${styles.imageBox}`}>
+          <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={facefreeze}
               alt='Face Freeze'

@@ -41,10 +41,10 @@ const Navbar = () => {
   }, [scrollDirection]);
 
   return (
-    <div class={`sticky ${ scrollDirection === "down" ? "-top-24 2xl:-top-40" : "top-0"} flex flex-row justify-between h-[75px] 2xl:h-[150px] w-full z-50 items-center bg-white transition-all duration-500`}>
-      <div class='flex justify-between w-full h-full items-center'>
+    <div className={`sticky ${ scrollDirection === "down" ? "-top-24 2xl:-top-40" : "top-0"} flex flex-row justify-between h-[75px] 2xl:h-[150px] w-full z-50 items-center bg-white transition-all duration-500`}>
+      <div className='flex justify-between w-full h-full items-center'>
       {/* Sassy Logo */}
-      <div class={`navLogoStyle ${styles.logoContainer}`}>
+      <div className={`navLogoStyle ${styles.logoContainer}`}>
         <Link href='/'>    
           <Image
             src={headerImg}
@@ -55,29 +55,29 @@ const Navbar = () => {
         </Link>
       </div>
       {/* Nav Links */}
-      <div class={styles.navLinkContainer}>
+      <div className={styles.navLinkContainer}>
         <Link href='/sssc'>
-          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>SSSC</button>
+          <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>SSSC</button>
         </Link>
         <Link href='/team'>
-          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Team</button>
+          <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>Team</button>
         </Link>
         <Link href='/trailmap'>
-          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Trail Map</button>
+          <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>Trail Map</button>
         </Link>
         <Link href='/shop'>
-          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>Shop</button>
+          <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>Shop</button>
         </Link>
         <Link href='/faq'>
-          <button class={`navLinkButtonStyle ${styles.linkAnimate}`}>FAQ</button>
+          <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>FAQ</button>
         </Link>
       </div>
       {/* Socials Links */}
-      <div class='hidden lg:flex 2xl:hidden items-center p-4'>
+      <div className='hidden lg:flex 2xl:hidden items-center p-4'>
         {/* Social Icons */}
-        <div class='flex items-center px-4 cursor-pointer space-x-4'>
+        <div className='flex items-center px-4 cursor-pointer space-x-4'>
           {/* Twitter */}
-          <div class={styles.socialIcons}>
+          <div className={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
@@ -87,7 +87,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Medium */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
@@ -97,7 +97,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Instagram */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
@@ -108,22 +108,22 @@ const Navbar = () => {
           </div>
         </div>
         {/* Discord Link Button */}
-        <div class='flex shrink-0'>
+        <div className='flex shrink-0'>
           <a
             href="https://discord.gg/sassy"
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button class='discordStyle bg-[#5470C7] w-full rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
+            <button className='discordStyle bg-[#5470C7] w-full rounded-sm text-white font-semibold py-2 px-4 hover:bg-hov'>Join Our Discord</button>  
           </a>
         </div>
       </div>
       {/* Socials Links Wide */}
-      <div class='hidden 2xl:flex items-center p-4'>
+      <div className='hidden 2xl:flex items-center p-4'>
         {/* Social Icons */}
-        <div class='flex items-center px-4 cursor-pointer space-x-4'>
+        <div className='flex items-center px-4 cursor-pointer space-x-4'>
           {/* Twitter */}
-          <div class={styles.socialIcons}>
+          <div className={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
@@ -133,7 +133,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Medium */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
@@ -143,7 +143,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Instagram */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
@@ -154,13 +154,13 @@ const Navbar = () => {
           </div>
         </div>
         {/* Discord Link Button */}
-        <div class='flex shrink-0'>
+        <div className='flex shrink-0'>
           <a
             href="https://discord.gg/sassy"
             target='_blank'
             rel='noopener noreferrer'
           >
-            <button class='bg-[#5470C7] w-full discordStyle rounded-sm text-white font-semibold py-2 px-10 hover:bg-hov'>Join Our Discord</button>  
+            <button className='bg-[#5470C7] w-full discordStyle rounded-sm text-white font-semibold py-2 px-10 hover:bg-hov'>Join Our Discord</button>  
           </a>
         </div>
       </div>
@@ -169,7 +169,7 @@ const Navbar = () => {
       {/* Hamburger Icon */}
       <div
         onClick={handleNav}
-        class='lg:hidden text-pri p-4 '
+        className='lg:hidden text-pri p-4 '
       >
         <AiOutlineMenu size={25} />
       </div>
@@ -177,20 +177,20 @@ const Navbar = () => {
       {/* Mobile Menu */}
       {/* Overlay */}
       <div
-        class={
+        className={
           nav ? 'lg:hidden fixed left-0 top-0 w-full h-screen' : ''
         }
       >
         {/* Side Drawer Menu */}
         <div
-          class={
+          className={
             nav
               ? 'fixed right-0 top-0 w-full h-screen bg-pri p-4  ease-in duration-300'
               : 'fixed right-[-125%] top-0 p-4 ease-in duration-300'
           }
         >
           <div>
-            <div class='flex w-full items-center justify-between pb-4'>
+            <div className='flex w-full items-center justify-between pb-4'>
               <Link href='/'>
                 <a>
                   <Image
@@ -203,43 +203,43 @@ const Navbar = () => {
               </Link>
               <div
                 onClick={handleNav}
-                class='text-white -mt-2 cursor-pointer'
+                className='text-white -mt-2 cursor-pointer'
               >
                 <AiOutlineClose size={25}/>
               </div>
             </div>
           </div>
-          <div class='flex flex-row justify-between py-6'>
+          <div className='flex flex-row justify-between py-6'>
           {/* Mobile Links */}
-          <div class='py-4 flex flex-col'>
-            <ul class='uppercase space-y-6'>
+          <div className='py-4 flex flex-col'>
+            <ul className='uppercase space-y-6'>
               <Link href='/'>
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[70%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Home
                 </li>
               </Link>
               <Link href='/sssc'>
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[60%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[60%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   SSSC
                 </li>
               </Link>
               <Link href='/team'>
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Team
                 </li>
               </Link>
               <Link href='/trailmap'>
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[110%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Trail Map
                 </li>
               </Link>
               <Link href='/shop'>
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Shop
                 </li>
               </Link>
               <Link href='/faq'>
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[55%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[55%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   FAQ
                 </li>
               </Link>
@@ -248,14 +248,14 @@ const Navbar = () => {
                 target='_blank'
                 rel='noopener noreferrer'
               >
-                <li onClick={() => setNav(false)} class='p-1 pl-3 text-sm bg-white w-[95%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
+                <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[95%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Discord
                 </li>
               </Link>
             </ul>
           </div>
           {/* Sassy Image */}
-          <div class='-mr-24'>
+          <div className='-mr-24'>
           <Image
             src={mobileSassy}
             alt='Sassy'
@@ -265,9 +265,9 @@ const Navbar = () => {
           </div>
           </div>
         {/* Social Icons */}
-        <div class='flex items-center cursor-pointer space-x-8 p-2'>
+        <div className='flex items-center cursor-pointer space-x-8 p-2'>
           {/* Twitter */}
-          <div class={styles.socialIcons}>
+          <div className={styles.socialIcons}>
             <a
               href='https://twitter.com/ShreddingSassy'
               target='_blank'
@@ -277,7 +277,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Medium */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://medium.com/@shreddingsassy'
               target='_blank'
@@ -287,7 +287,7 @@ const Navbar = () => {
             </a>
           </div>
           {/* Instagram */}
-          <div class={styles.socialIcons}> 
+          <div className={styles.socialIcons}> 
             <a 
               href='https://www.instagram.com/shreddingsassy/' 
               target='_blank'  
