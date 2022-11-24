@@ -489,7 +489,7 @@ const team = () => {
                   </div>
                   {/* Title */}
                   <div>
-                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>developer</h1>
+                    <h1 className={`coreSubSubHeaderStyle ${styles.coreSubHeader}`}>Engineer</h1>
                   </div>
                 </div>
                 {/* Right Side */}
@@ -512,7 +512,7 @@ const team = () => {
               </div>
               {/* Description */}
               <div className='flex'>
-                <p className='teamTextStyle'>{"Hacker // Smart Contracts // Cybersecurity // Frontend"} </p>
+                <p className='teamTextStyle'>{"Fmr. Countintelligence Agent turned Hacker, focusing on Blockchain Security. Additionaly, in his spare time, he enjoys being a Full Stack EVM Dev to help build unique projects using blockchain technology."} </p>
               </div>
             </div>
             {/* Card */}
