@@ -32,7 +32,7 @@ const PartnerMarquee = () => {
     <div className={styles.marqueecontainer}>
       {/* Desktop */}
       <div className={styles.marquee}>
-        <Marquee gradientWidth='0' speed={50} pauseOnHover={true}>
+        <Marquee gradientWidth='0' speed={50}>
           <div className={`partnerStyle ${styles.imageBox}`}>
             <Image
               src={absolute}
