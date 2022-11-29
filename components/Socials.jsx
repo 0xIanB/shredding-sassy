@@ -46,7 +46,7 @@ const Socials = () => {
         {/* Shred Paper */}
         <a 
           target='_blank'
-          href='https://shreddingsassy.gitbook.io/shredpaper/' 
+          href='https://docs.shreddingsassy.com/shred-paper/' 
           rel='noopener noreferrer'
         >
           <div className={`longboxStyle ${styles.longBox}`}>
