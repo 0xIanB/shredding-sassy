@@ -65,9 +65,9 @@ const Navbar = () => {
         <Link href='/trailmap'>
           <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>Trail Map</button>
         </Link>
-        <Link href='/shop'>
+        <a href='http://shop.shreddingsassy.com/' target="_blank" rel='noopener noreferrer'>
           <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>Shop</button>
-        </Link>
+        </a>
         <Link href='/faq'>
           <button className={`navLinkButtonStyle ${styles.linkAnimate}`}>FAQ</button>
         </Link>
@@ -233,7 +233,7 @@ const Navbar = () => {
                   Trail Map
                 </li>
               </Link>
-              <Link href='/shop'>
+              <Link href='http://shop.shreddingsassy.com/'>
                 <li onClick={() => setNav(false)} className='p-1 pl-3 text-sm bg-white w-[68%] rounded-md text-pri tracking-widest font-bold hover:bg-gray-300 cursor-pointer'>
                   Shop
                 </li>
